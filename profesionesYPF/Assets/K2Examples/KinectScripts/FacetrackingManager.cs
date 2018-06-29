@@ -266,8 +266,7 @@ public class FacetrackingManager : MonoBehaviour
 			rotAngles.x = -rotAngles.x;
 			rotAngles.y = -rotAngles.y;
 		}
-		return Quaternion.Euler (Vector3.zero);
-		//pontura: return Quaternion.Euler(rotAngles);
+		return Quaternion.Euler(rotAngles);
 	}
 	
 	/// <summary>
@@ -810,11 +809,11 @@ public class FacetrackingManager : MonoBehaviour
 			mesh.triangles = avModelTriangles;
 			mesh.RecalculateNormals();
 
-//			if (moveModelMesh) 
-//			{
-//				faceModelMesh.transform.position = headPos;
-//				//faceModelMesh.transform.rotation = faceModelRot;
-//			}
+			if (moveModelMesh) 
+			{
+				faceModelMesh.transform.position = headPos;
+				//faceModelMesh.transform.rotation = faceModelRot;
+			}
 
 			SetFaceModelMeshTexture();
 		}
@@ -886,7 +885,7 @@ public class FacetrackingManager : MonoBehaviour
 
 		if(bGotModelVertices && faceModelMesh != null)
 		{
-			//Quaternion faceModelRot = faceModelMesh.transform.rotation;
+			Quaternion faceModelRot = faceModelMesh.transform.rotation;
 			//faceModelMesh.transform.rotation = Quaternion.identity;
 
 			bool bFaceMeshUpdated = false;
@@ -1086,20 +1085,20 @@ public class FacetrackingManager : MonoBehaviour
 					}
 				}
 
-				faceModelMesh.transform.position = newHeadPos; // Vector3.Lerp(faceModelMesh.transform.position, newHeadPos, 20f * Time.deltaTime);
+				//faceModelMesh.transform.position = newHeadPos; // Vector3.Lerp(faceModelMesh.transform.position, newHeadPos, 20f * Time.deltaTime);
 				//faceModelMesh.transform.rotation = faceModelRot;
 			}
 
 			// don't rotate the transform - mesh follows the head rotation
 			if (faceModelMesh.transform.rotation != Quaternion.identity) 
 			{
-				faceModelMesh.transform.rotation = Quaternion.identity;
+				//faceModelMesh.transform.rotation = Quaternion.identity;
 			}
 
 			// apply scale factor
 			if(faceModelMesh.transform.localScale.x != modelMeshScale)
 			{
-				faceModelMesh.transform.localScale = new Vector3(modelMeshScale, modelMeshScale, modelMeshScale);
+			//	faceModelMesh.transform.localScale = new Vector3(modelMeshScale, modelMeshScale, modelMeshScale);
 			}
 
 			if(!faceModelMesh.activeSelf)
