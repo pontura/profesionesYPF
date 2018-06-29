@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 3c4846ad860d8aa42be65ff0e23165d6
+timeCreated: 1530134185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: helmet_backstrap
+    100002: helmet_button
+    100004: helmet_clips
+    100006: helmet_ear_protection
+    100008: helmet_frame
+    100010: helmet_headstraps
+    100012: helmet_headstraps1
+    100014: helmet_headstraps2
+    100016: helmet_headstraps3
+    100018: helmet_helm
+    100020: helmet_knob
+    100022: helmet_leather_padding
+    100024: helmet_mount
+    100026: helmet_strap
+    100028: helmet_strapholser
+    100030: helmet_Tube
+    100032: //RootNode
+    100034: screws_screw
+    100036: screws_screw1
+    400000: helmet_backstrap
+    400002: helmet_button
+    400004: helmet_clips
+    400006: helmet_ear_protection
+    400008: helmet_frame
+    400010: helmet_headstraps
+    400012: helmet_headstraps1
+    400014: helmet_headstraps2
+    400016: helmet_headstraps3
+    400018: helmet_helm
+    400020: helmet_knob
+    400022: helmet_leather_padding
+    400024: helmet_mount
+    400026: helmet_strap
+    400028: helmet_strapholser
+    400030: helmet_Tube
+    400032: //RootNode
+    400034: screws_screw
+    400036: screws_screw1
+    2100000: helmet_backstrapMat
+    2100002: helmet_buttonMat
+    2100004: helmet_clipsMat
+    2100006: helmet_ear_protectionMat
+    2100008: helmet_frameMat
+    2100010: helmet_headstrapsMat
+    2100012: helmet_headstraps1Mat
+    2100014: helmet_headstraps2Mat
+    2100016: helmet_headstraps3Mat
+    2100018: helmet_helmMat
+    2100020: helmet_knobMat
+    2100022: helmet_leather_paddingMat
+    2100024: helmet_mountMat
+    2100026: helmet_strapMat
+    2100028: helmet_strapholserMat
+    2100030: helmet_TubeMat
+    2100032: screws_screwMat
+    2100034: screws_screw1Mat
+    2300000: helmet_backstrap
+    2300002: helmet_button
+    2300004: helmet_clips
+    2300006: helmet_ear_protection
+    2300008: helmet_frame
+    2300010: helmet_headstraps
+    2300012: helmet_headstraps1
+    2300014: helmet_headstraps2
+    2300016: helmet_headstraps3
+    2300018: helmet_helm
+    2300020: helmet_knob
+    2300022: helmet_leather_padding
+    2300024: helmet_mount
+    2300026: helmet_strap
+    2300028: helmet_strapholser
+    2300030: helmet_Tube
+    2300032: screws_screw
+    2300034: screws_screw1
+    3300000: helmet_backstrap
+    3300002: helmet_button
+    3300004: helmet_clips
+    3300006: helmet_ear_protection
+    3300008: helmet_frame
+    3300010: helmet_headstraps
+    3300012: helmet_headstraps1
+    3300014: helmet_headstraps2
+    3300016: helmet_headstraps3
+    3300018: helmet_helm
+    3300020: helmet_knob
+    3300022: helmet_leather_padding
+    3300024: helmet_mount
+    3300026: helmet_strap
+    3300028: helmet_strapholser
+    3300030: helmet_Tube
+    3300032: screws_screw
+    3300034: screws_screw1
+    4300000: helmet_backstrap
+    4300002: helmet_button
+    4300004: helmet_clips
+    4300006: helmet_ear_protection
+    4300008: helmet_frame
+    4300010: helmet_headstraps
+    4300012: helmet_headstraps1
+    4300014: helmet_headstraps2
+    4300016: helmet_headstraps3
+    4300018: helmet_helm
+    4300020: helmet_knob
+    4300022: helmet_leather_padding
+    4300024: helmet_mount
+    4300026: helmet_strap
+    4300028: helmet_strapholser
+    4300030: helmet_Tube
+    4300032: screws_screw
+    4300034: screws_screw1
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
