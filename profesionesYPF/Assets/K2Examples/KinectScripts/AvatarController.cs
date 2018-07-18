@@ -1407,7 +1407,7 @@ public class AvatarController : MonoBehaviour
 		
 		{5, HumanBodyBones.LeftUpperArm},
 		{6, HumanBodyBones.LeftLowerArm},
-	//	{7, HumanBodyBones.LeftHand},
+		{7, HumanBodyBones.LeftHand},
 		//{8, HumanBodyBones.LeftIndexProximal},
 	//	{9, HumanBodyBones.LeftIndexIntermediate},
 		{10, HumanBodyBones.LeftThumbProximal},
@@ -1419,14 +1419,14 @@ public class AvatarController : MonoBehaviour
 	//	{15, HumanBodyBones.RightIndexIntermediate},
 		{16, HumanBodyBones.RightThumbProximal},
 		
-		{17, HumanBodyBones.LeftUpperLeg},
-		{18, HumanBodyBones.LeftLowerLeg},
-		{19, HumanBodyBones.LeftFoot},
+		//	{17, HumanBodyBones.LeftUpperLeg},
+		//	{18, HumanBodyBones.LeftLowerLeg},
+		//	{19, HumanBodyBones.LeftFoot},
 	//	{20, HumanBodyBones.LeftToes},
 		
-		{21, HumanBodyBones.RightUpperLeg},
-		{22, HumanBodyBones.RightLowerLeg},
-		{23, HumanBodyBones.RightFoot},
+		//{21, HumanBodyBones.RightUpperLeg},
+		//{22, HumanBodyBones.RightLowerLeg},
+		//{23, HumanBodyBones.RightFoot},
 	//	{24, HumanBodyBones.RightToes},
 		
 		{25, HumanBodyBones.LeftShoulder},

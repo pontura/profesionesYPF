@@ -117,10 +117,6 @@ NavMeshSettings:
 Transform:
   m_PrefabParentObject: {fileID: 400062, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
   m_PrefabInternal: {fileID: 1201303012}
---- !u!4 &91948080 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400052, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
-  m_PrefabInternal: {fileID: 1201303012}
 --- !u!1 &196037490
 GameObject:
   m_ObjectHideFlags: 0
@@ -173,7 +169,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 0.99
+  orthographic size: 0.73
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -338,6 +334,10 @@ Prefab:
     - target: {fileID: 400032, guid: 3c4846ad860d8aa42be65ff0e23165d6, type: 3}
       propertyPath: m_LocalScale.z
       value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100032, guid: 3c4846ad860d8aa42be65ff0e23165d6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c4846ad860d8aa42be65ff0e23165d6, type: 3}
@@ -705,7 +705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &655360326
 Transform:
   m_ObjectHideFlags: 0
@@ -1059,10 +1059,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &973980371 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400112, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
-  m_PrefabInternal: {fileID: 1201303012}
 --- !u!4 &1026039223 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400132, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
@@ -1287,6 +1283,7 @@ GameObject:
   - component: {fileID: 1132228663}
   - component: {fileID: 1132228662}
   - component: {fileID: 1132228661}
+  - component: {fileID: 1132228664}
   m_Layer: 0
   m_Name: KinectController
   m_TagString: Untagged
@@ -1309,7 +1306,7 @@ MonoBehaviour:
   getFaceModelData: 1
   displayFaceRect: 0
   faceTrackingTolerance: 1.4
-  faceModelMesh: {fileID: 917158371}
+  faceModelMesh: {fileID: 575431503}
   pauseModelMeshUpdates: 0
   texturedModelMesh: 1
   moveModelMesh: 0
@@ -1357,7 +1354,7 @@ MonoBehaviour:
   allowedHandRotations: 0
   waitTimeBeforeRemove: 1
   avatarControllers:
-  - {fileID: 1201303015}
+  - {fileID: 1478840884}
   playerCalibrationPose: 0
   playerCommonGestures: 
   minTimeBetweenGestures: 0.7
@@ -1378,6 +1375,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1132228664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132228660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60b976a1901bb5d478901026c07729cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1163930722 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400134, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
@@ -1397,7 +1405,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1186976315
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1513,7 +1521,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100140, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
@@ -1565,13 +1573,13 @@ MonoBehaviour:
   ElbowLeft: {fileID: 262315596}
   HandLeft: {fileID: 946941991}
   FingersLeft: {fileID: 0}
-  ThumbLeft: {fileID: 91948080}
+  ThumbLeft: {fileID: 0}
   ClavicleRight: {fileID: 1289366298}
   ShoulderRight: {fileID: 410887644}
   ElbowRight: {fileID: 1121296543}
   HandRight: {fileID: 476487558}
   FingersRight: {fileID: 0}
-  ThumbRight: {fileID: 973980371}
+  ThumbRight: {fileID: 0}
   HipLeft: {fileID: 0}
   KneeLeft: {fileID: 0}
   FootLeft: {fileID: 0}
@@ -1948,7 +1956,7 @@ MonoBehaviour:
   externalHandRotations: 0
   fingerOrientations: 1
   moveRate: 1
-  smoothFactor: 20
+  smoothFactor: 5
   offsetNode: {fileID: 1797678166}
   posRelativeToCamera: {fileID: 0}
   posRelOverlayColor: 0
@@ -2097,11 +2105,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100140, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 100140, guid: b1a24165bed66f64b89533125ad8aadc, type: 3}
       propertyPath: m_Name
