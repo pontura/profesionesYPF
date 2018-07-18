@@ -29,21 +29,17 @@ public class HandObjectChecker : MonoBehaviour
 	private KinectInterop.SensorData sensorData;
 	private long lastDepthFrameTime;
 
-	public Vector2 dposNeck = Vector2.zero;
-	public Vector2 dposHandLeft = Vector2.zero;
-	public Vector2 dposHandRight = Vector2.zero;
+	private Vector2 dposHandLeft = Vector2.zero;
+	private Vector2 dposHandRight = Vector2.zero;
 
-	private Vector2 depthMinMaxNeck = Vector2.zero;
 	private Vector2 depthMinMaxHL = Vector2.zero;
 	private Vector2 depthMinMaxHR = Vector2.zero;
 
-	private Rect rectObjectNeck = new Rect();
 	private Rect rectObjectHandLeft = new Rect();
 	private Rect rectObjectHandRight = new Rect();
 
-	float fillRatioNeck = 0f;
-	float fillRatioLeftHand = 0f;
-	float fillRatioRightHand = 0f;
+	private float fillRatioLeftHand = 0f;
+	private float fillRatioRightHand = 0f;
 
 //	private Vector3 sizeObjectHandLeft = Vector3.zero;
 //	private Vector3 sizeObjectHandRight = Vector3.zero;
@@ -81,7 +77,6 @@ public class HandObjectChecker : MonoBehaviour
 			lastDepthFrameTime = sensorData.lastDepthFrameTime;
 			userBodyIndex = (byte)manager.GetBodyIndexByUserId(trackedUserId);
 
-			TrackDepthAroundJoint((int)KinectInterop.JointType.Neck, ref dposNeck, ref rectObjectNeck, ref depthMinMaxNeck, ref fillRatioNeck);
 			TrackDepthAroundJoint((int)KinectInterop.JointType.HandLeft, ref dposHandLeft, ref rectObjectHandLeft, ref depthMinMaxHL, ref fillRatioLeftHand);
 			TrackDepthAroundJoint((int)KinectInterop.JointType.HandRight, ref dposHandRight, ref rectObjectHandRight, ref depthMinMaxHR, ref fillRatioRightHand);
 
@@ -93,12 +88,6 @@ public class HandObjectChecker : MonoBehaviour
 				Texture2D texDepth = manager.GetUsersLblTex2D();
 
 				bool bRectDrawn = false;
-				if (rectObjectNeck.width != 0f && rectObjectNeck.height != 0f && dposNeck != Vector2.zero) 
-				{
-					KinectInterop.DrawRect(texDepth, rectObjectNeck, fillRatioNeck> fillThreshold ? Color.green : Color.yellow);
-					bRectDrawn = true;
-				}
-
 				if (rectObjectHandLeft.width != 0f && rectObjectHandLeft.height != 0f && dposHandLeft != Vector2.zero) 
 				{
 					KinectInterop.DrawRect(texDepth, rectObjectHandLeft, fillRatioLeftHand > fillThreshold ? Color.green : Color.yellow);

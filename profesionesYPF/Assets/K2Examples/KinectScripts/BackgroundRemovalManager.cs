@@ -161,8 +161,6 @@ public class BackgroundRemovalManager : MonoBehaviour
 			bool bNeedRestart = false;
 			bool bSuccess = sensorData.sensorInterface.IsBackgroundRemovalAvailable(ref bNeedRestart);
 
-			bSuccess = true;
-
 			if(bSuccess)
 			{
 				if(bNeedRestart)

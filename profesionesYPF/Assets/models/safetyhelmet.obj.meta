@@ -115,7 +115,97 @@ ModelImporter:
     4300030: helmet_Tube
     4300032: screws_screw
     4300034: screws_screw1
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_TubeMat
+    second: {fileID: 2100000, guid: 036b796bd5b32f047b37b387d353095c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_backstrapMat
+    second: {fileID: 2100000, guid: dbe6827a00c933344baaf5864b536044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_buttonMat
+    second: {fileID: 2100000, guid: e1bf5b212f060564ba11afd628ff7e90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_clipsMat
+    second: {fileID: 2100000, guid: 516845735a3096b4fad8ea6d935ad73c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_ear_protectionMat
+    second: {fileID: 2100000, guid: 2f1eb6b4bd4844b49af8c286e881cdff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_frameMat
+    second: {fileID: 2100000, guid: fe145ca43d252464bbf22abc006872e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_headstraps1Mat
+    second: {fileID: 2100000, guid: 63c0b63be494ee34ca4f3e090a8d1d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_headstraps2Mat
+    second: {fileID: 2100000, guid: 3af921b8a6d1a5447b436063c5ed7beb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_headstraps3Mat
+    second: {fileID: 2100000, guid: 505d7adfa371ef44dac044b481878bb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_headstrapsMat
+    second: {fileID: 2100000, guid: e3e00164d855e71459dcafdfc1055c5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_helmMat
+    second: {fileID: 2100000, guid: 5530f7e9adadfc447b874ebb0e7e3f48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_knobMat
+    second: {fileID: 2100000, guid: 6749ab964cc5e94499227848e616c6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_leather_paddingMat
+    second: {fileID: 2100000, guid: 23544821e4b11d94fadfb1dd0fcea730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_mountMat
+    second: {fileID: 2100000, guid: a2996260c7a017d4bb6c9372168fd9f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_strapMat
+    second: {fileID: 2100000, guid: c1de8d9e07aa40247a2d38a9092bf555, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: helmet_strapholserMat
+    second: {fileID: 2100000, guid: c65bda5130e56604fa31820c99c166f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screws_screw1Mat
+    second: {fileID: 2100000, guid: ed24e6be9bb98f34ba9936e5d924d403, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: screws_screwMat
+    second: {fileID: 2100000, guid: 755afa85b1a81e047b2aac1749c8a8ff, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -145,7 +235,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0.001
     meshCompression: 0
     addColliders: 0
     importVisibility: 0
@@ -170,7 +260,7 @@ ModelImporter:
     normalImportMode: 1
     tangentImportMode: 3
     normalCalculationMode: 0
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

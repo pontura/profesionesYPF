@@ -1,0 +1,1051 @@
+fileFormatVersion: 2
+guid: 60569c6ab8e313a4eb39151f4f1cd851
+timeCreated: 1531588085
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: IngQuim_W:Body
+    100002: IngQuim_W:Bottoms
+    100004: IngQuim_W:default1
+    100006: IngQuim_W:Eyewear
+    100008: IngQuim_W:Gloves
+    100010: IngQuim_W:Head
+    100012: IngQuim_W:HeadTop_End
+    100014: IngQuim_W:Hips
+    100016: IngQuim_W:LeftArm
+    100018: IngQuim_W:LeftFoot
+    100020: IngQuim_W:LeftForeArm
+    100022: IngQuim_W:LeftHand
+    100024: IngQuim_W:LeftHandIndex1
+    100026: IngQuim_W:LeftHandIndex2
+    100028: IngQuim_W:LeftHandIndex3
+    100030: IngQuim_W:LeftHandIndex4
+    100032: IngQuim_W:LeftHandMiddle1
+    100034: IngQuim_W:LeftHandMiddle2
+    100036: IngQuim_W:LeftHandMiddle3
+    100038: IngQuim_W:LeftHandMiddle4
+    100040: IngQuim_W:LeftHandPinky1
+    100042: IngQuim_W:LeftHandPinky2
+    100044: IngQuim_W:LeftHandPinky3
+    100046: IngQuim_W:LeftHandPinky4
+    100048: IngQuim_W:LeftHandRing1
+    100050: IngQuim_W:LeftHandRing2
+    100052: IngQuim_W:LeftHandRing3
+    100054: IngQuim_W:LeftHandRing4
+    100056: IngQuim_W:LeftHandThumb1
+    100058: IngQuim_W:LeftHandThumb2
+    100060: IngQuim_W:LeftHandThumb3
+    100062: IngQuim_W:LeftHandThumb4
+    100064: IngQuim_W:LeftLeg
+    100066: IngQuim_W:LeftShoulder
+    100068: IngQuim_W:LeftToe_End
+    100070: IngQuim_W:LeftToeBase
+    100072: IngQuim_W:LeftUpLeg
+    100074: IngQuim_W:Neck
+    100076: IngQuim_W:RightArm
+    100078: IngQuim_W:RightFoot
+    100080: IngQuim_W:RightForeArm
+    100082: IngQuim_W:RightHand
+    100084: IngQuim_W:RightHandIndex1
+    100086: IngQuim_W:RightHandIndex2
+    100088: IngQuim_W:RightHandIndex3
+    100090: IngQuim_W:RightHandIndex4
+    100092: IngQuim_W:RightHandMiddle1
+    100094: IngQuim_W:RightHandMiddle2
+    100096: IngQuim_W:RightHandMiddle3
+    100098: IngQuim_W:RightHandMiddle4
+    100100: IngQuim_W:RightHandPinky1
+    100102: IngQuim_W:RightHandPinky2
+    100104: IngQuim_W:RightHandPinky3
+    100106: IngQuim_W:RightHandPinky4
+    100108: IngQuim_W:RightHandRing1
+    100110: IngQuim_W:RightHandRing2
+    100112: IngQuim_W:RightHandRing3
+    100114: IngQuim_W:RightHandRing4
+    100116: IngQuim_W:RightHandThumb1
+    100118: IngQuim_W:RightHandThumb2
+    100120: IngQuim_W:RightHandThumb3
+    100122: IngQuim_W:RightHandThumb4
+    100124: IngQuim_W:RightLeg
+    100126: IngQuim_W:RightShoulder
+    100128: IngQuim_W:RightToe_End
+    100130: IngQuim_W:RightToeBase
+    100132: IngQuim_W:RightUpLeg
+    100134: IngQuim_W:Shoes
+    100136: IngQuim_W:Spine
+    100138: IngQuim_W:Spine1
+    100140: IngQuim_W:Spine2
+    100142: IngQuim_W:Tops
+    100144: //RootNode
+    400000: IngQuim_W:Body
+    400002: IngQuim_W:Bottoms
+    400004: IngQuim_W:default1
+    400006: IngQuim_W:Eyewear
+    400008: IngQuim_W:Gloves
+    400010: IngQuim_W:Head
+    400012: IngQuim_W:HeadTop_End
+    400014: IngQuim_W:Hips
+    400016: IngQuim_W:LeftArm
+    400018: IngQuim_W:LeftFoot
+    400020: IngQuim_W:LeftForeArm
+    400022: IngQuim_W:LeftHand
+    400024: IngQuim_W:LeftHandIndex1
+    400026: IngQuim_W:LeftHandIndex2
+    400028: IngQuim_W:LeftHandIndex3
+    400030: IngQuim_W:LeftHandIndex4
+    400032: IngQuim_W:LeftHandMiddle1
+    400034: IngQuim_W:LeftHandMiddle2
+    400036: IngQuim_W:LeftHandMiddle3
+    400038: IngQuim_W:LeftHandMiddle4
+    400040: IngQuim_W:LeftHandPinky1
+    400042: IngQuim_W:LeftHandPinky2
+    400044: IngQuim_W:LeftHandPinky3
+    400046: IngQuim_W:LeftHandPinky4
+    400048: IngQuim_W:LeftHandRing1
+    400050: IngQuim_W:LeftHandRing2
+    400052: IngQuim_W:LeftHandRing3
+    400054: IngQuim_W:LeftHandRing4
+    400056: IngQuim_W:LeftHandThumb1
+    400058: IngQuim_W:LeftHandThumb2
+    400060: IngQuim_W:LeftHandThumb3
+    400062: IngQuim_W:LeftHandThumb4
+    400064: IngQuim_W:LeftLeg
+    400066: IngQuim_W:LeftShoulder
+    400068: IngQuim_W:LeftToe_End
+    400070: IngQuim_W:LeftToeBase
+    400072: IngQuim_W:LeftUpLeg
+    400074: IngQuim_W:Neck
+    400076: IngQuim_W:RightArm
+    400078: IngQuim_W:RightFoot
+    400080: IngQuim_W:RightForeArm
+    400082: IngQuim_W:RightHand
+    400084: IngQuim_W:RightHandIndex1
+    400086: IngQuim_W:RightHandIndex2
+    400088: IngQuim_W:RightHandIndex3
+    400090: IngQuim_W:RightHandIndex4
+    400092: IngQuim_W:RightHandMiddle1
+    400094: IngQuim_W:RightHandMiddle2
+    400096: IngQuim_W:RightHandMiddle3
+    400098: IngQuim_W:RightHandMiddle4
+    400100: IngQuim_W:RightHandPinky1
+    400102: IngQuim_W:RightHandPinky2
+    400104: IngQuim_W:RightHandPinky3
+    400106: IngQuim_W:RightHandPinky4
+    400108: IngQuim_W:RightHandRing1
+    400110: IngQuim_W:RightHandRing2
+    400112: IngQuim_W:RightHandRing3
+    400114: IngQuim_W:RightHandRing4
+    400116: IngQuim_W:RightHandThumb1
+    400118: IngQuim_W:RightHandThumb2
+    400120: IngQuim_W:RightHandThumb3
+    400122: IngQuim_W:RightHandThumb4
+    400124: IngQuim_W:RightLeg
+    400126: IngQuim_W:RightShoulder
+    400128: IngQuim_W:RightToe_End
+    400130: IngQuim_W:RightToeBase
+    400132: IngQuim_W:RightUpLeg
+    400134: IngQuim_W:Shoes
+    400136: IngQuim_W:Spine
+    400138: IngQuim_W:Spine1
+    400140: IngQuim_W:Spine2
+    400142: IngQuim_W:Tops
+    400144: //RootNode
+    2100000: IngQuim_W_PackedMaterial1
+    2100002: phong1
+    4300000: IngQuim_W:Bottoms
+    4300002: IngQuim_W:Eyewear
+    4300004: IngQuim_W:Gloves
+    4300006: IngQuim_W:Tops
+    4300008: IngQuim_W:Shoes
+    4300010: IngQuim_W:Body
+    4300012: IngQuim_W:default1
+    9500000: //RootNode
+    13700000: IngQuim_W:Body
+    13700002: IngQuim_W:Bottoms
+    13700004: IngQuim_W:default1
+    13700006: IngQuim_W:Eyewear
+    13700008: IngQuim_W:Gloves
+    13700010: IngQuim_W:Shoes
+    13700012: IngQuim_W:Tops
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IngQuim_W_PackedMaterial1
+    second: {fileID: 2100000, guid: aa86ee4d773694c408c391f41a6cedc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: phong1
+    second: {fileID: 2100000, guid: 16ff9abf4ad0b834388a0fc8ac654c3f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IngQuim_W_Packed0_Diffuse
+    second: {fileID: 2800000, guid: 85cd3825d1493424d8db54ce5963d5e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IngQuim_W_Packed0_Specular
+    second: {fileID: 2800000, guid: 80dcac81d195ec94c8b13a8889de40f8, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: IngQuim_W:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: IngQuim_W:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PJ_IngQuim_W(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Body
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Bottoms
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:default1
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Eyewear
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Gloves
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Shoes
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Tops
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Hips
+      parentName: PJ_IngQuim_W(Clone)
+      position: {x: 0.000016555785, y: 0.9854858, z: -0.051085487}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftUpLeg
+      parentName: IngQuim_W:Hips
+      position: {x: -0.07318073, y: -0.055480957, z: 0.011847033}
+      rotation: {x: -0.0009389539, y: 0.01981234, z: 0.9986824, w: 0.04732993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftLeg
+      parentName: IngQuim_W:LeftUpLeg
+      position: {x: 7.630362e-10, y: 0.4233983, z: -1.13754534e-10}
+      rotation: {x: -0.050129186, y: -0.004314217, z: 0.085636444, w: 0.9950552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftFoot
+      parentName: IngQuim_W:LeftLeg
+      position: {x: -2.2052347e-10, y: 0.42888507, z: 3.460317e-10}
+      rotation: {x: 0.5061103, y: 0.020080626, z: -0.011787923, w: 0.86215436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftToeBase
+      parentName: IngQuim_W:LeftFoot
+      position: {x: 1.5121145e-10, y: 0.15056105, z: -0.0000000013800341}
+      rotation: {x: 0.2825785, y: -0.0010242115, z: 0.000301715, w: 0.9592436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftToe_End
+      parentName: IngQuim_W:LeftToeBase
+      position: {x: -3.6770382e-11, y: 0.063466765, z: -2.9357792e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightUpLeg
+      parentName: IngQuim_W:Hips
+      position: {x: 0.07318073, y: -0.055480957, z: 0.005897918}
+      rotation: {x: -0.0008273492, y: -0.017454369, z: 0.998726, w: -0.047340307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightLeg
+      parentName: IngQuim_W:RightUpLeg
+      position: {x: -3.273304e-10, y: 0.42332432, z: 8.159952e-10}
+      rotation: {x: 0.031703148, y: -0.0027267307, z: -0.08564844, w: 0.9958172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightFoot
+      parentName: IngQuim_W:RightLeg
+      position: {x: 2.8207195e-10, y: 0.4282697, z: 5.092499e-10}
+      rotation: {x: 0.47008964, y: -0.018786956, z: 0.010008989, w: 0.88236195}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightToeBase
+      parentName: IngQuim_W:RightFoot
+      position: {x: 3.8464903e-10, y: 0.1521093, z: 0.000000004331477}
+      rotation: {x: 0.2794351, y: 0.0031902618, z: -0.00092845963, w: 0.9601589}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightToe_End
+      parentName: IngQuim_W:RightToeBase
+      position: {x: 7.791023e-11, y: 0.064279795, z: -5.637052e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Spine
+      parentName: IngQuim_W:Hips
+      position: {x: -0, y: 0.09944275, z: -0.0017370748}
+      rotation: {x: -0.008733031, y: 0, z: -0, w: 0.99996185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Spine1
+      parentName: IngQuim_W:Spine
+      position: {x: -0, y: 0.11603439, z: 4.9982133e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Spine2
+      parentName: IngQuim_W:Spine1
+      position: {x: -0, y: 0.13261056, z: -9.551968e-12}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Neck
+      parentName: IngQuim_W:Spine2
+      position: {x: -0, y: 0.14918688, z: -0.00000000477839}
+      rotation: {x: 0.008733022, y: -0, z: -0, w: 0.99996185}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:Head
+      parentName: IngQuim_W:Neck
+      position: {x: -0, y: 0.062483825, z: 0.032151222}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:HeadTop_End
+      parentName: IngQuim_W:Head
+      position: {x: -0, y: 0.20485519, z: 0.10540875}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftShoulder
+      parentName: IngQuim_W:Spine2
+      position: {x: -0.062408295, y: 0.13030617, z: 0.0001465142}
+      rotation: {x: 0.5677803, y: -0.42184368, z: 0.56640834, w: 0.4229126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftArm
+      parentName: IngQuim_W:LeftShoulder
+      position: {x: -4.3700567e-11, y: 0.12919368, z: 7.640426e-10}
+      rotation: {x: -0.1240925, y: -0.004676879, z: 0.025789501, w: 0.99192446}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftForeArm
+      parentName: IngQuim_W:LeftArm
+      position: {x: -3.3527224e-12, y: 0.25541842, z: 4.630729e-10}
+      rotation: {x: -0.014761127, y: 0.0009837643, z: -0.066490814, w: 0.9976774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHand
+      parentName: IngQuim_W:LeftForeArm
+      position: {x: -2.660881e-10, y: 0.24361907, z: 1.3214674e-10}
+      rotation: {x: 0.05793007, y: 0.031988494, z: 0.043260068, w: 0.99686986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandRing1
+      parentName: IngQuim_W:LeftHand
+      position: {x: -0.012420748, y: 0.13691948, z: -0.003283952}
+      rotation: {x: 0.05630857, y: 0.002768758, z: 0.007881522, w: 0.99837846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandRing2
+      parentName: IngQuim_W:LeftHandRing1
+      position: {x: -0.00006494368, y: 0.027826328, z: -8.058947e-11}
+      rotation: {x: -0.042267017, y: 1.4664317e-19, z: -3.4663465e-18, w: 0.99910635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandRing3
+      parentName: IngQuim_W:LeftHandRing2
+      position: {x: 0.0000059499207, y: 0.02347615, z: -1.784619e-10}
+      rotation: {x: -0.041158497, y: -0.000013258133, z: 0.0002297257, w: 0.99915266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandRing4
+      parentName: IngQuim_W:LeftHandRing3
+      position: {x: 0.000058994203, y: 0.018876646, z: 6.0732926e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandMiddle1
+      parentName: IngQuim_W:LeftHand
+      position: {x: 0.011631203, y: 0.15067361, z: -0.0030890056}
+      rotation: {x: 0.066208355, y: 0.001960646, z: -0.014973863, w: 0.9976916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandMiddle2
+      parentName: IngQuim_W:LeftHandMiddle1
+      position: {x: -0.000108811706, y: 0.02512747, z: -5.698672e-10}
+      rotation: {x: -0.038590133, y: 0.000098719225, z: 0.0016814827, w: 0.9992537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandMiddle3
+      parentName: IngQuim_W:LeftHandMiddle2
+      position: {x: 0.000024560783, y: 0.021611426, z: 1.0928858e-10}
+      rotation: {x: -0.040188998, y: -0.00008480957, z: 0.0007680265, w: 0.9991918}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandMiddle4
+      parentName: IngQuim_W:LeftHandMiddle3
+      position: {x: 0.00008425111, y: 0.017344857, z: -4.2463737e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandIndex1
+      parentName: IngQuim_W:LeftHand
+      position: {x: 0.031330813, y: 0.14700018, z: -0.00011136295}
+      rotation: {x: 0.06269811, y: -0.009092457, z: -0.069987155, w: 0.9955341}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandIndex2
+      parentName: IngQuim_W:LeftHandIndex1
+      position: {x: 0.000028487084, y: 0.020182217, z: -3.4908396e-11}
+      rotation: {x: -0.013632758, y: 8.672812e-18, z: 1.1824533e-19, w: 0.9999071}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandIndex3
+      parentName: IngQuim_W:LeftHandIndex2
+      position: {x: -0.00001562049, y: 0.019968437, z: 9.425309e-10}
+      rotation: {x: -0.026053036, y: -3.8298276e-18, z: 1.3782688e-17, w: 0.99966055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandIndex4
+      parentName: IngQuim_W:LeftHandIndex3
+      position: {x: -0.000012866381, y: 0.016399603, z: 2.7085462e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandPinky1
+      parentName: IngQuim_W:LeftHand
+      position: {x: -0.03054127, y: 0.108529955, z: 0.002197373}
+      rotation: {x: -0.005057881, y: -0.00038545943, z: 0.044352867, w: 0.9990031}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandPinky2
+      parentName: IngQuim_W:LeftHandPinky1
+      position: {x: 0.000048639005, y: 0.031330105, z: 2.820525e-10}
+      rotation: {x: 0.030084295, y: 6.9357535e-18, z: -2.0875173e-19, w: 0.9995474}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandPinky3
+      parentName: IngQuim_W:LeftHandPinky2
+      position: {x: -0.000010524082, y: 0.02545705, z: 5.5882764e-11}
+      rotation: {x: 0.02156646, y: -0, z: -0, w: 0.9997674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandPinky4
+      parentName: IngQuim_W:LeftHandPinky3
+      position: {x: -0.000038114566, y: 0.021159368, z: -2.069018e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandThumb1
+      parentName: IngQuim_W:LeftHand
+      position: {x: 0.027372533, y: 0.039692506, z: 0.013158136}
+      rotation: {x: 0.07414943, y: -0.0074689295, z: -0.33504492, w: 0.93925023}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandThumb2
+      parentName: IngQuim_W:LeftHandThumb1
+      position: {x: 0.002257498, y: 0.03991939, z: 0.0000000010275076}
+      rotation: {x: 0.029310279, y: 0.00020572357, z: -0.018123182, w: 0.9994061}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandThumb3
+      parentName: IngQuim_W:LeftHandThumb2
+      position: {x: -0.001220693, y: 0.034767196, z: 0.0000000010121323}
+      rotation: {x: -0.017694263, y: -6.937808e-18, z: -1.2277861e-19, w: 0.9998435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:LeftHandThumb4
+      parentName: IngQuim_W:LeftHandThumb3
+      position: {x: -0.0010367994, y: 0.02797367, z: -3.0860944e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightShoulder
+      parentName: IngQuim_W:Spine2
+      position: {x: 0.062408295, y: 0.1303228, z: -0.0008058609}
+      rotation: {x: -0.5633653, y: -0.4251733, z: 0.57068694, w: -0.41971847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightArm
+      parentName: IngQuim_W:RightShoulder
+      position: {x: -1.578027e-11, y: 0.12919368, z: 7.65128e-10}
+      rotation: {x: -0.12067472, y: 0.0030747994, z: -0.025285535, w: 0.9923653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightForeArm
+      parentName: IngQuim_W:RightArm
+      position: {x: 1.3771839e-10, y: 0.25546223, z: 5.079488e-10}
+      rotation: {x: -0.017463164, y: -0.0015994246, z: 0.058935683, w: 0.9981078}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHand
+      parentName: IngQuim_W:RightForeArm
+      position: {x: 1.237309e-10, y: 0.24397127, z: -1.3134808e-11}
+      rotation: {x: 0.058752425, y: -0.033529956, z: -0.05384342, w: 0.9962554}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandRing1
+      parentName: IngQuim_W:RightHand
+      position: {x: 0.011317379, y: 0.13486913, z: -0.002552157}
+      rotation: {x: 0.040470388, y: -0.0016412584, z: -0.025651282, w: 0.99885005}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandRing2
+      parentName: IngQuim_W:RightHandRing1
+      position: {x: 0.00011299937, y: 0.028250234, z: -7.2087114e-11}
+      rotation: {x: -0.016279189, y: 0, z: -0, w: 0.9998675}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandRing3
+      parentName: IngQuim_W:RightHandRing2
+      position: {x: 0.00004226051, y: 0.024248434, z: -1.7854347e-10}
+      rotation: {x: -0.037239738, y: 0.00030828093, z: -0.0036569433, w: 0.9992997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandRing4
+      parentName: IngQuim_W:RightHandRing3
+      position: {x: -0.00015525983, y: 0.018025879, z: 3.783242e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandMiddle1
+      parentName: IngQuim_W:RightHand
+      position: {x: -0.012089397, y: 0.14560583, z: -0.0014827427}
+      rotation: {x: 0.054033812, y: -0.00063308637, z: -0.011698563, w: 0.9984704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandMiddle2
+      parentName: IngQuim_W:RightHandMiddle1
+      position: {x: 0.000055364504, y: 0.025006711, z: 5.236947e-10}
+      rotation: {x: -0.024912069, y: -8.64311e-20, z: 3.4683702e-18, w: 0.99968964}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandMiddle3
+      parentName: IngQuim_W:RightHandMiddle2
+      position: {x: 0.0000078007, y: 0.024018392, z: -8.688801e-10}
+      rotation: {x: -0.04133189, y: 0.000005322725, z: -0.00014642376, w: 0.9991455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandMiddle4
+      parentName: IngQuim_W:RightHandMiddle3
+      position: {x: -0.000063165506, y: 0.020178705, z: -3.295071e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandIndex1
+      parentName: IngQuim_W:RightHand
+      position: {x: -0.03104081, y: 0.14621499, z: -0.0011017594}
+      rotation: {x: 0.07046111, y: 0.008961014, z: 0.06831353, w: 0.99513227}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandIndex2
+      parentName: IngQuim_W:RightHandIndex1
+      position: {x: 0.000050916326, y: 0.022412697, z: -5.0051113e-10}
+      rotation: {x: -0.020141304, y: 3.7482598e-18, z: -1.38050935e-17, w: 0.99979717}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandIndex3
+      parentName: IngQuim_W:RightHandIndex2
+      position: {x: 0.000034028133, y: 0.019396909, z: -3.9656356e-10}
+      rotation: {x: -0.03501061, y: 0.00025303266, z: -0.0028664137, w: 0.99938285}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandIndex4
+      parentName: IngQuim_W:RightHandIndex3
+      position: {x: -0.00008494445, y: 0.015601913, z: -2.5534063e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandPinky1
+      parentName: IngQuim_W:RightHand
+      position: {x: 0.031812828, y: 0.115565024, z: 0.0007496916}
+      rotation: {x: 0.016205568, y: -0.001672763, z: -0.03689415, w: 0.9991864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandPinky2
+      parentName: IngQuim_W:RightHandPinky1
+      position: {x: 0.000039313436, y: 0.029840479, z: 4.2921583e-10}
+      rotation: {x: -0.015295034, y: -6.9380824e-18, z: -1.0613062e-19, w: 0.99988306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandPinky3
+      parentName: IngQuim_W:RightHandPinky2
+      position: {x: -0.0000039040283, y: 0.02265289, z: -9.944017e-11}
+      rotation: {x: -0.012201826, y: 7.1077115e-18, z: -1.3792088e-17, w: 0.99992555}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandPinky4
+      parentName: IngQuim_W:RightHandPinky3
+      position: {x: -0.00003540945, y: 0.018286044, z: 4.1905424e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandThumb1
+      parentName: IngQuim_W:RightHand
+      position: {x: -0.026517615, y: 0.03898911, z: 0.012557058}
+      rotation: {x: 0.07602633, y: 0.008538404, z: 0.3375239, w: 0.938203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandThumb2
+      parentName: IngQuim_W:RightHandThumb1
+      position: {x: -0.0019608429, y: 0.03898732, z: 0.0000000013350692}
+      rotation: {x: 0.03363253, y: -0.00029879244, z: 0.01492015, w: 0.99932283}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandThumb3
+      parentName: IngQuim_W:RightHandThumb2
+      position: {x: 0.000849618, y: 0.035535555, z: -3.94528e-10}
+      rotation: {x: -0.019645859, y: -5.452821e-19, z: 2.7750219e-17, w: 0.999807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: IngQuim_W:RightHandThumb4
+      parentName: IngQuim_W:RightHandThumb3
+      position: {x: 0.0011112288, y: 0.028895408, z: 2.3392203e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

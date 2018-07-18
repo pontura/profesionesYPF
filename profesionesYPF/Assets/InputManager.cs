@@ -23,12 +23,6 @@ public class InputManager : MonoBehaviour {
 
 	void Update () {
 
-		if (handObjectChecker.dposHandRight.y == 0 || handObjectChecker.dposHandLeft.y == 0)
-			return;
-		
-		neck = Mathf.Lerp (neck, handObjectChecker.dposNeck.y, 0.2f);
-		rightHand = Mathf.Lerp (rightHand, handObjectChecker.dposHandRight.y, 0.2f);
-		leftHand = Mathf.Lerp (leftHand, handObjectChecker.dposHandLeft.y, 0.2f);
 
 		if (rightHand > neck && leftHand > neck)
 			ChangeState( states.NONE );

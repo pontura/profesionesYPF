@@ -2980,7 +2980,7 @@ public class KinectManager : MonoBehaviour
 			}
 			else
 			{
-				if(userMapType == UserMapType.CutOutTexture || 1==1)
+				if(userMapType == UserMapType.CutOutTexture)
 				{
 					if(!sensorData.color2DepthTexture && sensorData.depth2ColorTexture && 
 					   KinectInterop.RenderDepth2ColorTex(sensorData))
@@ -3119,7 +3119,7 @@ public class KinectManager : MonoBehaviour
 				}
 				else
 				{
-					if((userMapType == UserMapType.CutOutTexture || 1==1) && sensorData.colorImage != null)
+					if(userMapType == UserMapType.CutOutTexture && sensorData.colorImage != null)
 					{
 						Vector2 vColorPos = Vector2.zero;
 

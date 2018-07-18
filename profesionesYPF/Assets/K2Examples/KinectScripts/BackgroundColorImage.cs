@@ -29,7 +29,6 @@ public class BackgroundColorImage : MonoBehaviour
 			{
 				backgroundImage.texture = manager.GetUsersClrTex();
 				backgroundImage.rectTransform.localScale = manager.GetColorImageScale();
-				print ("backgroundImage.rectTransform.localScale " + backgroundImage.rectTransform.localScale);
 				backgroundImage.color = Color.white;
 			}
 		}	
