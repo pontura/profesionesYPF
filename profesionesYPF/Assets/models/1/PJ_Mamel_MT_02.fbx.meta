@@ -1,0 +1,1026 @@
+fileFormatVersion: 2
+guid: 082f64c8323d40f47a1dbcc6348347d2
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Mamel_MT:Body
+    100002: Mamel_MT:Bottoms
+    100004: Mamel_MT:Hats
+    100006: Mamel_MT:Head
+    100008: Mamel_MT:HeadTop_End
+    100010: Mamel_MT:Hips
+    100012: Mamel_MT:LeftArm
+    100014: Mamel_MT:LeftFoot
+    100016: Mamel_MT:LeftForeArm
+    100018: Mamel_MT:LeftHand
+    100020: Mamel_MT:LeftHandIndex1
+    100022: Mamel_MT:LeftHandIndex2
+    100024: Mamel_MT:LeftHandIndex3
+    100026: Mamel_MT:LeftHandIndex4
+    100028: Mamel_MT:LeftHandMiddle1
+    100030: Mamel_MT:LeftHandMiddle2
+    100032: Mamel_MT:LeftHandMiddle3
+    100034: Mamel_MT:LeftHandMiddle4
+    100036: Mamel_MT:LeftHandPinky1
+    100038: Mamel_MT:LeftHandPinky2
+    100040: Mamel_MT:LeftHandPinky3
+    100042: Mamel_MT:LeftHandPinky4
+    100044: Mamel_MT:LeftHandRing1
+    100046: Mamel_MT:LeftHandRing2
+    100048: Mamel_MT:LeftHandRing3
+    100050: Mamel_MT:LeftHandRing4
+    100052: Mamel_MT:LeftHandThumb1
+    100054: Mamel_MT:LeftHandThumb2
+    100056: Mamel_MT:LeftHandThumb3
+    100058: Mamel_MT:LeftHandThumb4
+    100060: Mamel_MT:LeftLeg
+    100062: Mamel_MT:LeftShoulder
+    100064: Mamel_MT:LeftToe_End
+    100066: Mamel_MT:LeftToeBase
+    100068: Mamel_MT:LeftUpLeg
+    100070: Mamel_MT:Neck
+    100072: Mamel_MT:RightArm
+    100074: Mamel_MT:RightFoot
+    100076: Mamel_MT:RightForeArm
+    100078: Mamel_MT:RightHand
+    100080: Mamel_MT:RightHandIndex1
+    100082: Mamel_MT:RightHandIndex2
+    100084: Mamel_MT:RightHandIndex3
+    100086: Mamel_MT:RightHandIndex4
+    100088: Mamel_MT:RightHandMiddle1
+    100090: Mamel_MT:RightHandMiddle2
+    100092: Mamel_MT:RightHandMiddle3
+    100094: Mamel_MT:RightHandMiddle4
+    100096: Mamel_MT:RightHandPinky1
+    100098: Mamel_MT:RightHandPinky2
+    100100: Mamel_MT:RightHandPinky3
+    100102: Mamel_MT:RightHandPinky4
+    100104: Mamel_MT:RightHandRing1
+    100106: Mamel_MT:RightHandRing2
+    100108: Mamel_MT:RightHandRing3
+    100110: Mamel_MT:RightHandRing4
+    100112: Mamel_MT:RightHandThumb1
+    100114: Mamel_MT:RightHandThumb2
+    100116: Mamel_MT:RightHandThumb3
+    100118: Mamel_MT:RightHandThumb4
+    100120: Mamel_MT:RightLeg
+    100122: Mamel_MT:RightShoulder
+    100124: Mamel_MT:RightToe_End
+    100126: Mamel_MT:RightToeBase
+    100128: Mamel_MT:RightUpLeg
+    100130: Mamel_MT:Shoes
+    100132: Mamel_MT:Spine
+    100134: Mamel_MT:Spine1
+    100136: Mamel_MT:Spine2
+    100138: Mamel_MT:Tops
+    100140: //RootNode
+    400000: Mamel_MT:Body
+    400002: Mamel_MT:Bottoms
+    400004: Mamel_MT:Hats
+    400006: Mamel_MT:Head
+    400008: Mamel_MT:HeadTop_End
+    400010: Mamel_MT:Hips
+    400012: Mamel_MT:LeftArm
+    400014: Mamel_MT:LeftFoot
+    400016: Mamel_MT:LeftForeArm
+    400018: Mamel_MT:LeftHand
+    400020: Mamel_MT:LeftHandIndex1
+    400022: Mamel_MT:LeftHandIndex2
+    400024: Mamel_MT:LeftHandIndex3
+    400026: Mamel_MT:LeftHandIndex4
+    400028: Mamel_MT:LeftHandMiddle1
+    400030: Mamel_MT:LeftHandMiddle2
+    400032: Mamel_MT:LeftHandMiddle3
+    400034: Mamel_MT:LeftHandMiddle4
+    400036: Mamel_MT:LeftHandPinky1
+    400038: Mamel_MT:LeftHandPinky2
+    400040: Mamel_MT:LeftHandPinky3
+    400042: Mamel_MT:LeftHandPinky4
+    400044: Mamel_MT:LeftHandRing1
+    400046: Mamel_MT:LeftHandRing2
+    400048: Mamel_MT:LeftHandRing3
+    400050: Mamel_MT:LeftHandRing4
+    400052: Mamel_MT:LeftHandThumb1
+    400054: Mamel_MT:LeftHandThumb2
+    400056: Mamel_MT:LeftHandThumb3
+    400058: Mamel_MT:LeftHandThumb4
+    400060: Mamel_MT:LeftLeg
+    400062: Mamel_MT:LeftShoulder
+    400064: Mamel_MT:LeftToe_End
+    400066: Mamel_MT:LeftToeBase
+    400068: Mamel_MT:LeftUpLeg
+    400070: Mamel_MT:Neck
+    400072: Mamel_MT:RightArm
+    400074: Mamel_MT:RightFoot
+    400076: Mamel_MT:RightForeArm
+    400078: Mamel_MT:RightHand
+    400080: Mamel_MT:RightHandIndex1
+    400082: Mamel_MT:RightHandIndex2
+    400084: Mamel_MT:RightHandIndex3
+    400086: Mamel_MT:RightHandIndex4
+    400088: Mamel_MT:RightHandMiddle1
+    400090: Mamel_MT:RightHandMiddle2
+    400092: Mamel_MT:RightHandMiddle3
+    400094: Mamel_MT:RightHandMiddle4
+    400096: Mamel_MT:RightHandPinky1
+    400098: Mamel_MT:RightHandPinky2
+    400100: Mamel_MT:RightHandPinky3
+    400102: Mamel_MT:RightHandPinky4
+    400104: Mamel_MT:RightHandRing1
+    400106: Mamel_MT:RightHandRing2
+    400108: Mamel_MT:RightHandRing3
+    400110: Mamel_MT:RightHandRing4
+    400112: Mamel_MT:RightHandThumb1
+    400114: Mamel_MT:RightHandThumb2
+    400116: Mamel_MT:RightHandThumb3
+    400118: Mamel_MT:RightHandThumb4
+    400120: Mamel_MT:RightLeg
+    400122: Mamel_MT:RightShoulder
+    400124: Mamel_MT:RightToe_End
+    400126: Mamel_MT:RightToeBase
+    400128: Mamel_MT:RightUpLeg
+    400130: Mamel_MT:Shoes
+    400132: Mamel_MT:Spine
+    400134: Mamel_MT:Spine1
+    400136: Mamel_MT:Spine2
+    400138: Mamel_MT:Tops
+    400140: //RootNode
+    2100000: Mamel_MT_PackedMaterial1
+    4300000: Mamel_MT:Body
+    4300002: Mamel_MT:Hats
+    4300004: Mamel_MT:Shoes
+    4300006: Mamel_MT:Tops
+    4300008: Mamel_MT:Bottoms
+    9500000: //RootNode
+    13700000: Mamel_MT:Body
+    13700002: Mamel_MT:Bottoms
+    13700004: Mamel_MT:Hats
+    13700006: Mamel_MT:Shoes
+    13700008: Mamel_MT:Tops
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mamel_MT_PackedMaterial1
+    second: {fileID: 2100000, guid: 26a0d1dcf27b9ba48b58ee776510da53, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mamel_MT_Packed0_Diffuse
+    second: {fileID: 2800000, guid: e7b080e39ff99b045910204e74ceda9a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Mamel_MT_Packed0_Specular
+    second: {fileID: 2800000, guid: d603c21f6ab23774b8833a2c3d21bf72, type: 3}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Mamel_MT:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Mamel_MT:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: PJ_Mamel_MT_02(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Body
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Bottoms
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Hats
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0, y: 0, z: 0.013241024}
+      rotation: {x: -0.0986526, y: 0, z: -0, w: 0.99512196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Shoes
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Tops
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Hips
+      parentName: PJ_Mamel_MT_02(Clone)
+      position: {x: -0.000015983582, y: 0.87387043, z: 0.0042769928}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftUpLeg
+      parentName: Mamel_MT:Hips
+      position: {x: -0.06797293, y: -0.04539444, z: -0.0080440445}
+      rotation: {x: -0.00016458084, y: -0.03769871, z: 0.9992796, w: -0.0043625445}
+      scale: {x: 1.0000014, y: 1, z: 1}
+    - name: Mamel_MT:LeftLeg
+      parentName: Mamel_MT:LeftUpLeg
+      position: {x: 1.3262513e-10, y: 0.35789168, z: 0.0000000014831977}
+      rotation: {x: -0.033499826, y: 0.0006368953, z: -0.018997796, w: 0.999258}
+      scale: {x: 1.0000021, y: 1.0000025, z: 0.99999994}
+    - name: Mamel_MT:LeftFoot
+      parentName: Mamel_MT:LeftLeg
+      position: {x: -2.3092805e-10, y: 0.3729964, z: 0.000000002464747}
+      rotation: {x: 0.5512116, y: 0.008378665, z: -0.005535645, w: 0.8343051}
+      scale: {x: 1.0000017, y: 1.000001, z: 0.99999994}
+    - name: Mamel_MT:LeftToeBase
+      parentName: Mamel_MT:LeftFoot
+      position: {x: 4.998048e-11, y: 0.1513602, z: -0.0000000026152371}
+      rotation: {x: 0.27255276, y: 0.05640348, z: -0.016007578, w: 0.9603527}
+      scale: {x: 1.000001, y: 1.0000018, z: 0.9999996}
+    - name: Mamel_MT:LeftToe_End
+      parentName: Mamel_MT:LeftToeBase
+      position: {x: -6.5557025e-11, y: 0.062221885, z: -6.988265e-13}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightUpLeg
+      parentName: Mamel_MT:Hips
+      position: {x: 0.06797293, y: -0.04539444, z: -0.005665505}
+      rotation: {x: 0.00018287014, y: -0.04191626, z: 0.99911165, w: 0.0043588737}
+      scale: {x: 1.0000031, y: 1.0000048, z: 1}
+    - name: Mamel_MT:RightLeg
+      parentName: Mamel_MT:RightUpLeg
+      position: {x: -1.4619499e-10, y: 0.35813284, z: 7.317535e-10}
+      rotation: {x: -0.02752554, y: -0.00052313856, z: 0.01899492, w: 0.99944055}
+      scale: {x: 0.999999, y: 0.9999999, z: 1.0000002}
+    - name: Mamel_MT:RightFoot
+      parentName: Mamel_MT:RightLeg
+      position: {x: -4.8500404e-10, y: 0.37281066, z: -0.0000000026457008}
+      rotation: {x: 0.5555652, y: -0.008248996, z: 0.005512121, w: 0.83141387}
+      scale: {x: 1.000002, y: 1.0000014, z: 1.0000015}
+    - name: Mamel_MT:RightToeBase
+      parentName: Mamel_MT:RightFoot
+      position: {x: -1.5312186e-10, y: 0.15494132, z: -0.00000000272753}
+      rotation: {x: 0.26571563, y: -0.055695206, z: 0.015378585, w: 0.9623185}
+      scale: {x: 1.0000035, y: 1.0000027, z: 0.9999998}
+    - name: Mamel_MT:RightToe_End
+      parentName: Mamel_MT:RightToeBase
+      position: {x: -1.4356288e-10, y: 0.06447608, z: 1.2964801e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:Spine
+      parentName: Mamel_MT:Hips
+      position: {x: -0, y: 0.08144005, z: -0.007187941}
+      rotation: {x: -0.044002008, y: -0, z: -0, w: 0.9990314}
+      scale: {x: 1, y: 1.000001, z: 1.000001}
+    - name: Mamel_MT:Spine1
+      parentName: Mamel_MT:Spine
+      position: {x: -0, y: 0.095382705, z: 2.800326e-10}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000007, z: 1.0000007}
+    - name: Mamel_MT:Spine2
+      parentName: Mamel_MT:Spine1
+      position: {x: -0, y: 0.109008856, z: -8.799645e-11}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: Mamel_MT:Neck
+      parentName: Mamel_MT:Spine2
+      position: {x: -0, y: 0.12263491, z: 0.0000000017423792}
+      rotation: {x: 0.044002008, y: -0, z: -0, w: 0.9990314}
+      scale: {x: 1, y: 0.9999995, z: 0.9999995}
+    - name: Mamel_MT:Head
+      parentName: Mamel_MT:Neck
+      position: {x: -0, y: 0.04895126, z: 0.019450989}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: Mamel_MT:HeadTop_End
+      parentName: Mamel_MT:Head
+      position: {x: -0, y: 0.31359664, z: 0.12460898}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftShoulder
+      parentName: Mamel_MT:Spine2
+      position: {x: -0.06615897, y: 0.101697646, z: -0.0027643922}
+      rotation: {x: 0.55131245, y: -0.43575063, z: 0.57384336, w: 0.4205709}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000006}
+    - name: Mamel_MT:LeftArm
+      parentName: Mamel_MT:LeftShoulder
+      position: {x: 7.606434e-11, y: 0.1426009, z: -5.7604027e-10}
+      rotation: {x: -0.1309354, y: -0.00992468, z: 0.030381322, w: 0.9908756}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000004}
+    - name: Mamel_MT:LeftForeArm
+      parentName: Mamel_MT:LeftArm
+      position: {x: 4.320079e-10, y: 0.22801808, z: -7.6785224e-11}
+      rotation: {x: -0.013898343, y: 0.001835634, z: -0.079542555, w: 0.99673295}
+      scale: {x: 0.9999993, y: 1.0000005, z: 0.9999992}
+    - name: Mamel_MT:LeftHand
+      parentName: Mamel_MT:LeftForeArm
+      position: {x: -4.1786694e-10, y: 0.25304052, z: 3.5220182e-10}
+      rotation: {x: 0.05475539, y: 0.04351513, z: 0.05803886, w: 0.99586135}
+      scale: {x: 1.0000015, y: 1.0000012, z: 1.0000011}
+    - name: Mamel_MT:LeftHandPinky1
+      parentName: Mamel_MT:LeftHand
+      position: {x: -0.038176976, y: 0.122704275, z: 0.002233178}
+      rotation: {x: -0.0050313864, y: -0.00038854763, z: 0.037884627, w: 0.99926937}
+      scale: {x: 1.0000012, y: 1.0000013, z: 1.0000002}
+    - name: Mamel_MT:LeftHandPinky2
+      parentName: Mamel_MT:LeftHandPinky1
+      position: {x: 0.0001694222, y: 0.03784781, z: 2.787759e-10}
+      rotation: {x: 0.03679162, y: -0.0000000136787985, z: 0.000000028455357, w: 0.999323}
+      scale: {x: 1.0000002, y: 1.0000005, z: 0.9999999}
+    - name: Mamel_MT:LeftHandPinky3
+      parentName: Mamel_MT:LeftHandPinky2
+      position: {x: -0.00006465096, y: 0.02991807, z: 1.745269e-10}
+      rotation: {x: 0.009851367, y: -0.000000030889424, z: -0.00000003083463, w: 0.99995154}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.000001}
+    - name: Mamel_MT:LeftHandPinky4
+      parentName: Mamel_MT:LeftHandPinky3
+      position: {x: -0.000104772975, y: 0.026544891, z: 6.7083816e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftHandThumb1
+      parentName: Mamel_MT:LeftHand
+      position: {x: 0.031953864, y: 0.04053513, z: 0.017645232}
+      rotation: {x: 0.11131664, y: -0.020425903, z: -0.33176824, w: 0.9365475}
+      scale: {x: 1.0000005, y: 1.0000013, z: 1.0000007}
+    - name: Mamel_MT:LeftHandThumb2
+      parentName: Mamel_MT:LeftHandThumb1
+      position: {x: 0.0035025387, y: 0.043497756, z: 6.7511874e-10}
+      rotation: {x: 0.028741587, y: 0.00071042957, z: -0.0353746, w: 0.99896055}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000002}
+    - name: Mamel_MT:LeftHandThumb3
+      parentName: Mamel_MT:LeftHandThumb2
+      position: {x: -0.001920012, y: 0.044203598, z: -2.607385e-10}
+      rotation: {x: 0.019422024, y: -0.000000029802322, z: 0.000000014901161, w: 0.99981135}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: Mamel_MT:LeftHandThumb4
+      parentName: Mamel_MT:LeftHandThumb3
+      position: {x: -0.0015825337, y: 0.03814492, z: 4.7551396e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftHandRing1
+      parentName: Mamel_MT:LeftHand
+      position: {x: -0.013837986, y: 0.1359178, z: -0.0020949722}
+      rotation: {x: 0.0038875039, y: 0.000024858859, z: 0.006392887, w: 0.99997205}
+      scale: {x: 1.0000015, y: 1.0000019, z: 1.0000005}
+    - name: Mamel_MT:LeftHandRing2
+      parentName: Mamel_MT:LeftHandRing1
+      position: {x: 0.00029914165, y: 0.035850752, z: -2.1121592e-11}
+      rotation: {x: 0.04116747, y: 0.000023200673, z: -0.00040473556, w: 0.9991522}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+    - name: Mamel_MT:LeftHandRing3
+      parentName: Mamel_MT:LeftHandRing2
+      position: {x: 0.000032569013, y: 0.036351193, z: -1.7532159e-10}
+      rotation: {x: 0.039716855, y: -0.000182455, z: -0.0028427576, w: 0.9992069}
+      scale: {x: 1.0000006, y: 1.0000012, z: 1.0000006}
+    - name: Mamel_MT:LeftHandRing4
+      parentName: Mamel_MT:LeftHandRing3
+      position: {x: -0.00033170986, y: 0.029799636, z: -1.4447721e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftHandMiddle1
+      parentName: Mamel_MT:LeftHand
+      position: {x: 0.012445782, y: 0.13362922, z: -0.0019893546}
+      rotation: {x: 0.02796473, y: -0.0008519477, z: -0.030439649, w: 0.999145}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+    - name: Mamel_MT:LeftHandMiddle2
+      parentName: Mamel_MT:LeftHandMiddle1
+      position: {x: 0.000012663918, y: 0.04324026, z: -4.1073747e-10}
+      rotation: {x: 0.031283103, y: 0.00000004755566, z: -0.000000007068593, w: 0.99951065}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999999}
+    - name: Mamel_MT:LeftHandMiddle3
+      parentName: Mamel_MT:LeftHandMiddle2
+      position: {x: -0.0001791699, y: 0.040081624, z: -1.2547502e-10}
+      rotation: {x: -0.040482912, y: -0.0000022298677, z: 0.0015079166, w: 0.9991791}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.9999999}
+    - name: Mamel_MT:LeftHandMiddle4
+      parentName: Mamel_MT:LeftHandMiddle3
+      position: {x: 0.00016650587, y: 0.035476398, z: 1.8576059e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:LeftHandIndex1
+      parentName: Mamel_MT:LeftHand
+      position: {x: 0.03956918, y: 0.12795396, z: -0.0012720738}
+      rotation: {x: 0.073300056, y: -0.0050658244, z: -0.059307575, w: 0.99553204}
+      scale: {x: 1.0000006, y: 1.0000008, z: 1.0000002}
+    - name: Mamel_MT:LeftHandIndex2
+      parentName: Mamel_MT:LeftHandIndex1
+      position: {x: -0.000029294815, y: 0.04034963, z: 0.0000000010297969}
+      rotation: {x: -0.0050389837, y: 0.000000031664964, z: -0.00000002601882, w: 0.9999873}
+      scale: {x: 1.0000002, y: 1.0000006, z: 1.0000002}
+    - name: Mamel_MT:LeftHandIndex3
+      parentName: Mamel_MT:LeftHandIndex2
+      position: {x: -0.000024594201, y: 0.03764631, z: -3.8585085e-10}
+      rotation: {x: -0.013391515, y: -0.000000046228443, z: 0.000000049108856, w: 0.99991035}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000006}
+    - name: Mamel_MT:LeftHandIndex4
+      parentName: Mamel_MT:LeftHandIndex3
+      position: {x: 0.000053888172, y: 0.033940613, z: -6.865804e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightShoulder
+      parentName: Mamel_MT:Spine2
+      position: {x: 0.06615897, y: 0.10153712, z: -0.00094564585}
+      rotation: {x: -0.5595168, y: -0.4296082, z: 0.5668409, w: -0.4255224}
+      scale: {x: 1.0000011, y: 1.0000018, z: 1.000001}
+    - name: Mamel_MT:RightArm
+      parentName: Mamel_MT:RightShoulder
+      position: {x: -3.221135e-11, y: 0.1426009, z: -5.8014704e-10}
+      rotation: {x: -0.13269038, y: 0.016380768, z: -0.028073512, w: 0.9906244}
+      scale: {x: 1.0000001, y: 1.0000007, z: 0.9999999}
+    - name: Mamel_MT:RightForeArm
+      parentName: Mamel_MT:RightArm
+      position: {x: -0.0000000012407921, y: 0.22862224, z: 1.8103379e-10}
+      rotation: {x: 0.012898488, y: 0.0019523946, z: -0.07801694, w: -0.9968667}
+      scale: {x: 0.99999917, y: 0.9999994, z: 0.9999996}
+    - name: Mamel_MT:RightHand
+      parentName: Mamel_MT:RightForeArm
+      position: {x: -3.185865e-10, y: 0.25293708, z: -2.4568605e-10}
+      rotation: {x: 0.056229644, y: -0.04755789, z: -0.05131648, w: 0.9959634}
+      scale: {x: 1.0000015, y: 1.0000015, z: 1.000001}
+    - name: Mamel_MT:RightHandMiddle1
+      parentName: Mamel_MT:RightHand
+      position: {x: -0.012531625, y: 0.13285658, z: -0.0016199196}
+      rotation: {x: 0.016126763, y: 0.00036096937, z: 0.022371987, w: 0.9996196}
+      scale: {x: 1.0000005, y: 1.0000008, z: 1.0000004}
+    - name: Mamel_MT:RightHandMiddle2
+      parentName: Mamel_MT:RightHandMiddle1
+      position: {x: -0.00008099376, y: 0.042983435, z: -1.8968734e-10}
+      rotation: {x: -0.041192364, y: -0.000007975641, z: -0.00037074697, w: -0.9991512}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000002}
+    - name: Mamel_MT:RightHandMiddle3
+      parentName: Mamel_MT:RightHandMiddle2
+      position: {x: 0.00020938847, y: 0.040685073, z: -6.65554e-10}
+      rotation: {x: 0.04063796, y: 0.000012915357, z: 0.0012638246, w: -0.9991732}
+      scale: {x: 1, y: 1.0000001, z: 0.99999976}
+    - name: Mamel_MT:RightHandMiddle4
+      parentName: Mamel_MT:RightHandMiddle3
+      position: {x: -0.00012839506, y: 0.035824858, z: 5.482562e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightHandThumb1
+      parentName: Mamel_MT:RightHand
+      position: {x: -0.032059498, y: 0.041082356, z: 0.017744893}
+      rotation: {x: 0.10994986, y: 0.01971272, z: 0.33358553, w: 0.93607867}
+      scale: {x: 0.99999964, y: 1.0000014, z: 1.0000006}
+    - name: Mamel_MT:RightHandThumb2
+      parentName: Mamel_MT:RightHandThumb1
+      position: {x: -0.0033746967, y: 0.04391013, z: 2.6791155e-10}
+      rotation: {x: 0.029909603, y: -0.000740321, z: 0.029637389, w: 0.9991129}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000001}
+    - name: Mamel_MT:RightHandThumb3
+      parentName: Mamel_MT:RightHandThumb2
+      position: {x: 0.0014724946, y: 0.04340203, z: -0.0000000011446277}
+      rotation: {x: 0.0041814214, y: 0.000000051781296, z: -0.0000001192947, w: 0.99999124}
+      scale: {x: 1.0000002, y: 1.0000007, z: 1.0000002}
+    - name: Mamel_MT:RightHandThumb4
+      parentName: Mamel_MT:RightHandThumb3
+      position: {x: 0.0019022042, y: 0.038278155, z: 8.7446833e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightHandPinky1
+      parentName: Mamel_MT:RightHand
+      position: {x: 0.038138386, y: 0.12298192, z: 0.0018834922}
+      rotation: {x: -0.0024053564, y: 0.0002492219, z: 0.036794633, w: -0.99932}
+      scale: {x: 1.0000012, y: 1.0000004, z: 1.000001}
+    - name: Mamel_MT:RightHandPinky2
+      parentName: Mamel_MT:RightHandPinky1
+      position: {x: -0.00016226481, y: 0.0375551, z: -2.2779133e-10}
+      rotation: {x: 0.023692412, y: 0.00000003687455, z: -0.00000000734235, w: 0.9997194}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: Mamel_MT:RightHandPinky3
+      parentName: Mamel_MT:RightHandPinky2
+      position: {x: -0.00000585671, y: 0.029501362, z: -6.052579e-10}
+      rotation: {x: 0.037953213, y: -0.000000021036138, z: 0.000000053949947, w: 0.99927956}
+      scale: {x: 0.9999997, y: 0.99999934, z: 1}
+    - name: Mamel_MT:RightHandPinky4
+      parentName: Mamel_MT:RightHandPinky3
+      position: {x: 0.00016812216, y: 0.026260156, z: -7.929486e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightHandRing1
+      parentName: Mamel_MT:RightHand
+      position: {x: 0.013911262, y: 0.13548867, z: -0.0017981131}
+      rotation: {x: 0.0022727472, y: -0.00002055615, z: 0.009034847, w: -0.99995667}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: Mamel_MT:RightHandRing2
+      parentName: Mamel_MT:RightHandRing1
+      position: {x: -0.00021827045, y: 0.037462506, z: 2.7386022e-11}
+      rotation: {x: 0.040678162, y: -0.000020132904, z: 0.0012463817, w: 0.99917156}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Mamel_MT:RightHandRing3
+      parentName: Mamel_MT:RightHandRing2
+      position: {x: 0.00011557861, y: 0.03577943, z: -8.269507e-10}
+      rotation: {x: 0.00030769032, y: 0.000000056215487, z: -0.0000000046975885, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999996}
+    - name: Mamel_MT:RightHandRing4
+      parentName: Mamel_MT:RightHandRing3
+      position: {x: 0.000102691694, y: 0.03169974, z: 1.1829115e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mamel_MT:RightHandIndex1
+      parentName: Mamel_MT:RightHand
+      position: {x: -0.039518025, y: 0.12667075, z: -0.0004861809}
+      rotation: {x: -0.07691271, y: -0.003907017, z: -0.05058259, w: -0.99574625}
+      scale: {x: 0.9999998, y: 0.99999964, z: 1.0000001}
+    - name: Mamel_MT:RightHandIndex2
+      parentName: Mamel_MT:RightHandIndex1
+      position: {x: -0.00008711066, y: 0.03973242, z: -2.1605699e-10}
+      rotation: {x: 0.01897124, y: 0.000000008149072, z: -0.000000047264614, w: 0.99982005}
+      scale: {x: 1.0000007, y: 1.000001, z: 1.0000002}
+    - name: Mamel_MT:RightHandIndex3
+      parentName: Mamel_MT:RightHandIndex2
+      position: {x: 0.00006246925, y: 0.03843254, z: -5.645353e-10}
+      rotation: {x: -0.008775152, y: -6.559782e-10, z: 0.000000048638572, w: 0.99996156}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: Mamel_MT:RightHandIndex4
+      parentName: Mamel_MT:RightHandIndex3
+      position: {x: 0.000024641327, y: 0.03466673, z: 0.0000000011325559}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

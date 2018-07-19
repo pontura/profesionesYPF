@@ -11,6 +11,9 @@ using System.Text;
 /// </summary>
 public class FacetrackingManager : MonoBehaviour 
 {
+	//pontura:
+	public Vector3 headOffsetToMatch;
+
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
 	
@@ -260,6 +263,7 @@ public class FacetrackingManager : MonoBehaviour
 		{
 			rotAngles.x = -rotAngles.x;
 			rotAngles.z = -rotAngles.z;
+			rotAngles.y = -rotAngles.y;
 		}
 		else
 		{
@@ -1061,7 +1065,7 @@ public class FacetrackingManager : MonoBehaviour
 			{
 				KinectManager kinectManager = KinectManager.Instance;
 				Matrix4x4 kinectToWorld = kinectManager ? kinectManager.GetKinectToWorldMatrix() : Matrix4x4.identity;
-				Vector3 newHeadPos = kinectToWorld.MultiplyPoint3x4(headPos);
+				Vector3 newHeadPos = kinectToWorld.MultiplyPoint3x4(headPos) ;
 
 				// check for head pos overlay
 				if(foregroundCamera)
@@ -1089,11 +1093,12 @@ public class FacetrackingManager : MonoBehaviour
 				faceModelMesh.transform.position = newHeadPos; // Vector3.Lerp(faceModelMesh.transform.position, newHeadPos, 20f * Time.deltaTime);
 				//faceModelMesh.transform.rotation = faceModelRot;
 			}
-
+			faceModelMesh.transform.localPosition = headOffsetToMatch;
+			//faceModelMesh.transform.localRotation = Quaternion.Lerp(faceModelMesh.transform.localRotation, GetHeadRotation(false), 0.2f);
 			// don't rotate the transform - mesh follows the head rotation
 			if (faceModelMesh.transform.rotation != Quaternion.identity) 
 			{
-				faceModelMesh.transform.rotation = Quaternion.identity;
+				//faceModelMesh.transform.rotation = Quaternion.identity;
 			}
 
 			// apply scale factor

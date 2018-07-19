@@ -9,7 +9,6 @@ public class PonturaHeadPosition : MonoBehaviour {
 	public GameObject faceModelMesh;
 
 	void Update () {
-		//transform.localPosition = faceTrackingManager.myHeadPosition + offset;
-		faceModelMesh.transform.localPosition = transform.localPosition;
+		transform.rotation = Quaternion.Lerp(transform.rotation, faceTrackingManager.GetHeadRotation(true), 0.2f);
 	}
 }
