@@ -2240,7 +2240,7 @@ public class KinectManager : MonoBehaviour
 
 	}
 
-	private void StartKinect() 
+	public void StartKinect() 
 	{
 		try
 		{

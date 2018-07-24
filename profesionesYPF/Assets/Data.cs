@@ -8,6 +8,7 @@ public class Data : MonoBehaviour
 {
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
+	public HeadCharacter headCharacter;
 
     public static Data Instance
     {
@@ -49,6 +50,6 @@ public class Data : MonoBehaviour
     }
 	void Start()
 	{
-		LoadLevel ("01_Intro");
+		//LoadLevel ("01_Intro");
 	}
 }

@@ -11,8 +11,6 @@ using System.Text;
 /// </summary>
 public class FacetrackingManager : MonoBehaviour 
 {
-	//pontura:
-	public Vector3 headOffsetToMatch;
 
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
@@ -135,7 +133,7 @@ public class FacetrackingManager : MonoBehaviour
 
 	private Material faceMeshMaterial = null;
 	private RenderTexture faceMeshTexture = null;
-	private Vector3 nosePos = Vector3.zero;
+	public Vector3 nosePos = Vector3.zero;
 
 	/// <summary>
 	/// Gets the single FacetrackingManager instance.
@@ -262,13 +260,13 @@ public class FacetrackingManager : MonoBehaviour
 		if(bMirroredMovement)
 		{
 			rotAngles.x = -rotAngles.x;
-			rotAngles.z = -rotAngles.z;
-			rotAngles.y = -rotAngles.y;
+			rotAngles.z = rotAngles.z;
 		}
 		else
 		{
 			rotAngles.x = -rotAngles.x;
 			rotAngles.y = -rotAngles.y;
+			rotAngles.z = -rotAngles.z;
 		}
 
 		return Quaternion.Euler(rotAngles);
@@ -724,7 +722,6 @@ public class FacetrackingManager : MonoBehaviour
 		}
 	}
 
-
 	protected bool CreateFaceModelMesh()
 	{
 //		if(faceModelMesh == null)
@@ -756,7 +753,6 @@ public class FacetrackingManager : MonoBehaviour
 			{
 				vFaceCenter += avModelVertices[i];
 			}
-
 			vFaceCenter /= (float)avModelVertices.Length;
 
 			faceHeadOffset = Vector3.zero;
@@ -1093,8 +1089,8 @@ public class FacetrackingManager : MonoBehaviour
 				faceModelMesh.transform.position = newHeadPos; // Vector3.Lerp(faceModelMesh.transform.position, newHeadPos, 20f * Time.deltaTime);
 				//faceModelMesh.transform.rotation = faceModelRot;
 			}
-			faceModelMesh.transform.localPosition = headOffsetToMatch;
 			//faceModelMesh.transform.localRotation = Quaternion.Lerp(faceModelMesh.transform.localRotation, GetHeadRotation(false), 0.2f);
+			faceModelMesh.transform.localRotation = GetHeadRotation(false);
 			// don't rotate the transform - mesh follows the head rotation
 			if (faceModelMesh.transform.rotation != Quaternion.identity) 
 			{
