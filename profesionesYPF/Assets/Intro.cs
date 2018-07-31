@@ -8,7 +8,15 @@ public class Intro : MonoBehaviour {
 	int id;
 
 	void Start () {
-		Loop ();
+		Events.OnInput += OnInput;
+	}
+	void OnDestroy () {
+		Events.OnInput -= OnInput;
+	}
+	public void OnInput(InputManager.states state)
+	{
+		if(state == InputManager.states.TOUCH_UP)
+			Data.Instance.LoadLevel ("02_Preguntas");
 	}
 	void Loop()
 	{

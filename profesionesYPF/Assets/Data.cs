@@ -9,6 +9,7 @@ public class Data : MonoBehaviour
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
 	public HeadCharacter headCharacter;
+	public string jumpToScene;
 
     public static Data Instance
     {
@@ -36,7 +37,7 @@ public class Data : MonoBehaviour
     void Awake()
     {
 		QualitySettings.vSyncCount = 1;
-		Cursor.visible = false;
+		//Cursor.visible = false;
 
         if (!mInstance)
             mInstance = this;
@@ -50,6 +51,7 @@ public class Data : MonoBehaviour
     }
 	void Start()
 	{
-		//LoadLevel ("01_Intro");
+		if(jumpToScene != "")
+			LoadLevel (jumpToScene);
 	}
 }
