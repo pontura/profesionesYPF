@@ -124,7 +124,8 @@ public class AvatarController : MonoBehaviour
 	protected KinectManager kinectManager;
 
 	// last hand events
-	private InteractionManager.HandEventType lastLeftHandEvent = InteractionManager.HandEventType.Release;
+	private InteractionManager.HandEventType lastLeftHandEvent = InteractionManager.HandEventType.Grip;
+	//private InteractionManager.HandEventType lastLeftHandEvent = InteractionManager.HandEventType.Release;
 	private InteractionManager.HandEventType lastRightHandEvent = InteractionManager.HandEventType.Release;
 
 	// fist states
@@ -461,6 +462,7 @@ public class AvatarController : MonoBehaviour
 	/// <param name="UserID">User ID</param>
     public void UpdateAvatar(Int64 UserID)
     {	
+		
 		if(!gameObject.activeInHierarchy) 
 			return;
 
@@ -487,29 +489,29 @@ public class AvatarController : MonoBehaviour
 			MoveAvatar(UserID);
 		}
 
-		// get the left hand state and event
-		if(kinectManager && kinectManager.GetJointTrackingState(UserID, (int)KinectInterop.JointType.HandLeft) != KinectInterop.TrackingState.NotTracked)
-		{
-			KinectInterop.HandState leftHandState = kinectManager.GetLeftHandState(UserID);
-			InteractionManager.HandEventType leftHandEvent = InteractionManager.HandStateToEvent(leftHandState, lastLeftHandEvent);
+		// get the left hand state and event:pontura: comenté esto para uqe no se muevan la mano izquierda
+//		if(kinectManager && kinectManager.GetJointTrackingState(UserID, (int)KinectInterop.JointType.HandLeft) != KinectInterop.TrackingState.NotTracked)
+//		{
+//			KinectInterop.HandState leftHandState = kinectManager.GetLeftHandState(UserID);
+//			InteractionManager.HandEventType leftHandEvent = InteractionManager.HandStateToEvent(leftHandState, lastLeftHandEvent);
+//
+//			if(leftHandEvent != InteractionManager.HandEventType.None)
+//			{
+//				lastLeftHandEvent = leftHandEvent;
+//			}
+//		}
 
-			if(leftHandEvent != InteractionManager.HandEventType.None)
-			{
-				lastLeftHandEvent = leftHandEvent;
-			}
-		}
-
-		// get the right hand state and event
-		if(kinectManager && kinectManager.GetJointTrackingState(UserID, (int)KinectInterop.JointType.HandRight) != KinectInterop.TrackingState.NotTracked)
-		{
-			KinectInterop.HandState rightHandState = kinectManager.GetRightHandState(UserID);
-			InteractionManager.HandEventType rightHandEvent = InteractionManager.HandStateToEvent(rightHandState, lastRightHandEvent);
-			
-			if(rightHandEvent != InteractionManager.HandEventType.None)
-			{
-				lastRightHandEvent = rightHandEvent;
-			}
-		}
+		// get the right hand state and event:pontura: comenté esto para uqe no se muevan la mano derecha
+//		if(kinectManager && kinectManager.GetJointTrackingState(UserID, (int)KinectInterop.JointType.HandRight) != KinectInterop.TrackingState.NotTracked)
+//		{
+//			KinectInterop.HandState rightHandState = kinectManager.GetRightHandState(UserID);
+//			InteractionManager.HandEventType rightHandEvent = InteractionManager.HandStateToEvent(rightHandState, lastRightHandEvent);
+//			
+//			if(rightHandEvent != InteractionManager.HandEventType.None)
+//			{
+//				lastRightHandEvent = rightHandEvent;
+//			}
+//		}
 		
 		// rotate the avatar bones
 		for (var boneIndex = 0; boneIndex < bones.Length; boneIndex++)
