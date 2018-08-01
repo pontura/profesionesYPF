@@ -14,6 +14,6 @@ public class MoviePhoto : MonoBehaviour {
 	}
 	void Delayed()
 	{
-		Data.Instance.LoadLevel ("04_TakePhoto");
+		Data.Instance.scenesManager.Next ();
 	}
 }

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using System;
 
 public class Data : MonoBehaviour
@@ -10,7 +9,23 @@ public class Data : MonoBehaviour
     static Data mInstance = null;
 	public HeadCharacter headCharacter;
 	public string jumpToScene;
-
+	public ScenesManager scenesManager;
+	public ProgressIcons progressIcons;
+	public characterTypes characterType;
+	public enum characterTypes
+	{
+		HE,
+		SHE
+	}
+	public categoriesTypes categoryType;
+	public enum categoriesTypes
+	{
+		TIERRA,
+		FISICA,
+		PETROLEO,
+		ELECTRICA
+	}
+	public int questionID;
     public static Data Instance
     {
         get
@@ -29,11 +44,7 @@ public class Data : MonoBehaviour
         }
     }
     public string currentLevel;
-    public void LoadLevel(string aLevelName)
-    {
-        this.currentLevel = aLevelName;
-        SceneManager.LoadScene(aLevelName);
-    }
+   
     void Awake()
     {
 		QualitySettings.vSyncCount = 1;
@@ -48,10 +59,12 @@ public class Data : MonoBehaviour
         }
        
         DontDestroyOnLoad(this.gameObject);
+
+		scenesManager = GetComponent<ScenesManager> ();
+		scenesManager.Next ();
     }
-	void Start()
+	public void Reset()
 	{
-		if(jumpToScene != "")
-			LoadLevel (jumpToScene);
+		questionID = 0;
 	}
 }

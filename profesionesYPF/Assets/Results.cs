@@ -17,6 +17,6 @@ public class Results : MonoBehaviour {
 	}
 	public void OnSelected(int id)
 	{
-		Data.Instance.LoadLevel ("03_Map");
+		Data.Instance.scenesManager.Next ();
 	}
 }

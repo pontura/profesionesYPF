@@ -6,13 +6,11 @@ using UnityEngine.UI;
 
 public class Questions : MonoBehaviour {
 
-	public int id;
 	public QuestionData[] questionsData;
 	public Text num;
 	public Text title;
 	public Image background;
 	public QuestionButtons buttons;
-	public QuestionIcons icons;
 	public int totalQuestions = 3;
 
 	[Serializable]
@@ -34,18 +32,17 @@ public class Questions : MonoBehaviour {
 	}
 	void PressedReady()
 	{		
-		id++;
-		if (id >= totalQuestions) {
-			Data.Instance.LoadLevel ("03_Results");
+		Data.Instance.questionID++;
+		if (Data.Instance.questionID >= totalQuestions) {
+			Data.Instance.scenesManager.Next ();
 			return;
 		}
-		Next ();
+		Data.Instance.scenesManager.Next ();
 	}
 	void Next () {
-		num.text = "0" + (id+1).ToString();
-		title.text = questionsData [id].question;
-		background.sprite = questionsData [id].background;
-		buttons.Init (id);
-		icons.Init (id);
+		num.text = "0" + (Data.Instance.questionID+1).ToString();
+		title.text = questionsData [Data.Instance.questionID].question;
+		background.sprite = questionsData [Data.Instance.questionID].background;
+		buttons.Init (Data.Instance.questionID);
 	}
 }

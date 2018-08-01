@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Intro : MonoBehaviour {
+public class Intro : SceneBase {
 
 	public GameObject[] slides;
 	int id;
@@ -15,8 +15,8 @@ public class Intro : MonoBehaviour {
 	}
 	public void OnInput(InputManager.states state)
 	{
-		if(state == InputManager.states.TOUCH_UP)
-			Data.Instance.LoadLevel ("02_Preguntas");
+		if (state == InputManager.states.TOUCH_UP)
+			Data.Instance.scenesManager.Next ();
 	}
 	void Loop()
 	{

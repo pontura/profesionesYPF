@@ -38,6 +38,7 @@ public class QuestionButton : MonoBehaviour {
 		Events.QuestionDone (id);
 	}
 	void QuestionDone(int selectedID) {
+		GetComponent<Button> ().interactable = false;
 		Sprite sprite;
 		if (selectedID == id)
 			sprite = spritesByQuestion [questionId].selected;

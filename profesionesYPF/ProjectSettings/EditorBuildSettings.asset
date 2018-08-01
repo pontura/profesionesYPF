@@ -6,24 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/00_Data.unity
+    path: Assets/Scenes/Game.unity
     guid: 956004daff4552d41a3190f6a3609c53
   - enabled: 1
-    path: Assets/Scenes/01_Intro.unity
+    path: Assets/Scenes/screens/Intro.unity
     guid: e37ff40e4364015498aac22f67e4367e
   - enabled: 1
-    path: Assets/Scenes/02_Preguntas.unity
+    path: Assets/Scenes/screens/ChooseCharacter.unity
+    guid: 8d4c4cbb7e2320544ab0e9b37fe692d1
+  - enabled: 1
+    path: Assets/Scenes/screens/ChoosCategory.unity
+    guid: 6cdc9f26845b55444913628525e6246c
+  - enabled: 1
+    path: Assets/Scenes/screens/Trivia1.unity
     guid: 527505d2c37c99b48ae62eb091f4176a
   - enabled: 1
-    path: Assets/Scenes/03_Map.unity
-    guid: 437e3b801f44d9a418d6fdc9c4cdf4ff
+    path: Assets/Scenes/screens/Trivia2.unity
+    guid: 17e90c5d64690cd46b68d070e47e2acc
   - enabled: 1
-    path: Assets/Scenes/03_Results.unity
+    path: Assets/Scenes/screens/Trivia3.unity
+    guid: 94805b6df9d082b4098e2b4f9be8452c
+  - enabled: 1
+    path: Assets/Scenes/screens/Results.unity
     guid: a9b5a670747c8f84482fac3c1ff37b78
   - enabled: 1
-    path: Assets/Scenes/04_TakePhoto.unity
+    path: Assets/Scenes/screens/Map.unity
+    guid: 437e3b801f44d9a418d6fdc9c4cdf4ff
+  - enabled: 1
+    path: Assets/Scenes/screens/TakePhoto.unity
     guid: 772e5e8adb6c7224a8298544ff14c0a9
   - enabled: 1
-    path: Assets/Scenes/05_PhotoDone.unity
+    path: Assets/Scenes/screens/PhotoDone.unity
     guid: ef410aab028232a44aea6acc68bb2008
   m_configObjects: {}
