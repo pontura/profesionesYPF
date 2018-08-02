@@ -61,7 +61,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1511079012186892
 GameObject:
   m_ObjectHideFlags: 1
@@ -95,7 +95,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1952679745801272
 GameObject:
   m_ObjectHideFlags: 0
@@ -197,7 +197,7 @@ MonoBehaviour:
   icons: []
   progressIcon: {fileID: 114185613445411208, guid: f1af501bbeddd66448dede3468471406,
     type: 2}
-  total: 8
+  total: 10
   container: {fileID: 224681538358115316}
   panel: {fileID: 1135093878809750}
   id: 0
@@ -259,7 +259,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   headCharacter: {fileID: 0}
-  jumpToScene: Intro
   scenesManager: {fileID: 114443808050322474}
   progressIcons: {fileID: 114382858517633482}
   characterType: 0
@@ -503,8 +502,8 @@ RectTransform:
   m_Father: {fileID: 224681538358115316}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 257.6, y: -50}
   m_SizeDelta: {x: 30, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}

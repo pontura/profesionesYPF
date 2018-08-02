@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/screens/TakePhoto.unity
-    guid: 772e5e8adb6c7224a8298544ff14c0a9
-  - enabled: 1
     path: Assets/Scenes/Game.unity
     guid: 956004daff4552d41a3190f6a3609c53
   - enabled: 1
@@ -36,6 +33,12 @@ EditorBuildSettings:
     path: Assets/Scenes/screens/Map.unity
     guid: 437e3b801f44d9a418d6fdc9c4cdf4ff
   - enabled: 1
-    path: Assets/Scenes/screens/PhotoDone.unity
-    guid: ef410aab028232a44aea6acc68bb2008
+    path: Assets/Scenes/screens/TakePhoto.unity
+    guid: 772e5e8adb6c7224a8298544ff14c0a9
+  - enabled: 1
+    path: Assets/Scenes/screens/Stickers.unity
+    guid: 4dadb2e85a425ff4d8484d3ca66d1f7d
+  - enabled: 1
+    path: Assets/Scenes/screens/Share.unity
+    guid: 0c13a2e71c2b5fa4eb4d668a800eb35c
   m_configObjects: {}

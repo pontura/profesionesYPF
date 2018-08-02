@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class MapScreen : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	void Start()
+	{
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	public void Next()
+	{
+		Data.Instance.scenesManager.Next ();
 	}
 }

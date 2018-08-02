@@ -8,7 +8,6 @@ public class Data : MonoBehaviour
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
 	public HeadCharacter headCharacter;
-	public string jumpToScene;
 	public ScenesManager scenesManager;
 	public ProgressIcons progressIcons;
 	public characterTypes characterType;
