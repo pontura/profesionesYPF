@@ -1401,7 +1401,7 @@ public class AvatarController : MonoBehaviour
 	// Mikhail Korchun (korchoon@gmail.com). Big thanks to this guy!
 	protected static readonly Dictionary<int, HumanBodyBones> boneIndex2MecanimMap = new Dictionary<int, HumanBodyBones>
 	{
-		{0, HumanBodyBones.Hips},
+		//{0, HumanBodyBones.Hips},
 		{1, HumanBodyBones.Spine},
 	    {2, HumanBodyBones.Chest},
 		{3, HumanBodyBones.Neck},

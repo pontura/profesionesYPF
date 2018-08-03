@@ -1,14 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Intro : SceneBase {
 
 	public GameObject[] slides;
 	int id;
+	public Text title1;
+	public Text title2;
 
 	void Start () {
 		Events.OnInput += OnInput;
+
+		title1.text = Data.Instance.texts.intro_title1;
+		title2.text = Data.Instance.texts.intro_title2;
 	}
 	void OnDestroy () {
 		Events.OnInput -= OnInput;

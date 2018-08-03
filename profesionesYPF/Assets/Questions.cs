@@ -19,24 +19,65 @@ public class Questions : MonoBehaviour {
 		public string question;
 		public Sprite background;
 	}
-	void Start () {		
+	void Start () {	
+		string q1;	
+		string q2;
+		string q3;
+
+		print ("_" + Data.Instance.texts.pregunta_1_1);
+
+		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
+			q1 = Data.Instance.texts.pregunta_1_1;
+			q2 = Data.Instance.texts.pregunta_1_2;
+			q3 = Data.Instance.texts.pregunta_1_3;
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.FISICA) {
+			q1 = Data.Instance.texts.pregunta_2_1;
+			q2 = Data.Instance.texts.pregunta_2_2;
+			q3 = Data.Instance.texts.pregunta_2_3;
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.PETROLEO) {
+			q1 = Data.Instance.texts.pregunta_3_1;
+			q2 = Data.Instance.texts.pregunta_3_2;
+			q3 = Data.Instance.texts.pregunta_3_3;
+		} else {
+			q1 =  Data.Instance.texts.pregunta_4_1;
+			q2 =  Data.Instance.texts.pregunta_4_2;
+			q3 =  Data.Instance.texts.pregunta_4_3;				
+		}
+		print ("q1_" + q1);
+		questionsData[0].question = q1;
+		questionsData[1].question = q2;
+		questionsData[2].question = q3;
+
+
+
 		Next ();
 		Events.QuestionDone += QuestionDone;
 	}
 	void OnDestroy () {
 		Events.QuestionDone -= QuestionDone;
 	}
+	int selectedID;
 	void QuestionDone(int selectedID)
 	{
+		this.selectedID = selectedID;
 		Invoke ("PressedReady", 1.5f);
 	}
 	void PressedReady()
 	{		
 		Data.Instance.questionID++;
+
+		if(Data.Instance.questionID == 1)
+			Data.Instance.results.y = selectedID;
+		if(Data.Instance.questionID == 2)
+			Data.Instance.results.z = selectedID;
+		if(Data.Instance.questionID == 3)
+			Data.Instance.results.w = selectedID;
+		
 		if (Data.Instance.questionID >= totalQuestions) {
 			Data.Instance.scenesManager.Next ();
 			return;
 		}
+
 		Data.Instance.scenesManager.Next ();
 	}
 	void Next () {

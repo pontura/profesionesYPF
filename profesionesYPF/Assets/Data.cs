@@ -8,9 +8,19 @@ public class Data : MonoBehaviour
     const string PREFAB_PATH = "Data";    
     static Data mInstance = null;
 	public HeadCharacter headCharacter;
+	[HideInInspector]
 	public ScenesManager scenesManager;
+	[HideInInspector]
 	public ProgressIcons progressIcons;
 	public characterTypes characterType;
+	[HideInInspector]
+	public DataConfig dataConfig;
+	//[HideInInspector]
+	public DataTexts texts;
+	public Vector4 results;
+	public Carrera carrera;
+	public Texture2D texture2d;
+
 	public enum characterTypes
 	{
 		HE,
@@ -60,8 +70,16 @@ public class Data : MonoBehaviour
         DontDestroyOnLoad(this.gameObject);
 
 		scenesManager = GetComponent<ScenesManager> ();
-		scenesManager.Next ();
+		dataConfig = GetComponent<DataConfig> ();
     }
+	void Start()
+	{
+		Invoke ("Delayed", 0.1f);
+	}
+	void Delayed()
+	{
+		scenesManager.Next ();
+	}
 	public void Reset()
 	{
 		questionID = 0;

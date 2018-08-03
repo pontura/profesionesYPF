@@ -33,6 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/screens/Map.unity
     guid: 437e3b801f44d9a418d6fdc9c4cdf4ff
   - enabled: 1
+    path: Assets/Scenes/screens/Photo.unity
+    guid: 89919113567510c4784fe3e609a7d9da
+  - enabled: 1
     path: Assets/Scenes/screens/TakePhoto.unity
     guid: 772e5e8adb6c7224a8298544ff14c0a9
   - enabled: 1

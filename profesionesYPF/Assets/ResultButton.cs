@@ -1,18 +1,23 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ResultButton : MonoBehaviour {
 
-	int id;
+	public Text field;
+	Carrera carrera;
 	Results results;
-	public void Init(Results results, int id)
+
+	public void Init(Results results, Carrera _carrera)
 	{
+		this.carrera = _carrera;
+		field.text = carrera.name;
 		this.results = results;
-		this.id = id;
+		this.carrera = carrera;
 	}
 	public void OnSelected()
 	{
-		results.OnSelected (id);
+		results.OnSelected (carrera);
 	}
 }

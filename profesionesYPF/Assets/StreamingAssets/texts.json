@@ -1,0 +1,77 @@
+{
+    "intro_title1": "ANIMATE A CONOCER LAS",
+	"intro_title2": "PROFESIONES DEL FUTURO",
+	"choose_character": "ELEGÍ TU PERSONAJE PARA EMPEZAR A JUGAR",
+	"results_1": "ENCONTRAMOS ",
+	"results_2": "CARRERAS QUE TE PUEDEN INTERESAR",
+	"results_3": "¿CUÁL TE GUSTARÍA ESTUDIAR?",
+	
+	"pregunta_1_1":"Primer pregunta de area 1",
+	"pregunta_1_2":"Segunda pregunta de area 1",
+	"pregunta_1_3":"Tercer pregunta de area 1",
+	
+	"pregunta_2_1":"Primer pregunta de area 2",
+	"pregunta_2_2":"Segunda pregunta de area 2",
+	"pregunta_2_3":"Tercer pregunta de area 2",
+	
+	"pregunta_3_1":"Primer pregunta de area 3",
+	"pregunta_3_2":"Segunda pregunta de area 3",
+	"pregunta_3_3":"Tercer pregunta de area 3",
+	
+	"pregunta_4_1":"Primer pregunta de area 4",
+	"pregunta_4_2":"Segunda pregunta de area 4",
+	"pregunta_4_3":"Tercer pregunta de area 4",
+	
+	
+	
+	"carreras":
+	[
+		{ 
+			"id": 1, 
+			"name":"carrrera 1", 
+			"desc":"Es carrrera 1 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
+		},
+		{ 
+			"id": 2, 
+			"name":"carrrera 2",
+			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
+		}
+	],
+	
+	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",	
+	"1_0_0_0":1,
+	"1_0_0_1":2,
+	"1_0_1_1":1,
+	"1_1_1_1":2,
+	"1_1_1_0":1,
+	"1_1_0_0":2,
+	"1_0_1_0":1,
+	"1_1_0_1":2,
+	
+	"2_0_0_0":1,
+	"2_0_0_1":2,
+	"2_0_1_1":1,
+	"2_1_1_1":2,
+	"2_1_1_0":1,
+	"2_1_0_0":2,
+	"2_0_1_0":1,
+	"2_1_0_1":2,
+	
+	"3_0_0_0":2,
+	"3_0_0_1":1,
+	"3_0_1_1":2,
+	"3_1_1_1":1,
+	"3_1_1_0":2,
+	"3_1_0_0":1,
+	"3_0_1_0":2,
+	"3_1_0_1":1,
+	
+	"4_0_0_0":1,
+	"4_0_0_1":2,
+	"4_0_1_1":1,
+	"4_1_1_1":2,
+	"4_1_1_0":1,
+	"4_1_0_0":2,
+	"4_0_1_0":1,
+	"4_1_0_1":2
+}

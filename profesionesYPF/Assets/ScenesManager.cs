@@ -12,7 +12,7 @@ public class ScenesManager : MonoBehaviour {
 		SceneManager.LoadScene(aLevelName);
 	}
 	public void Next()
-	{
+	{		
 		id++;
 		SceneManager.LoadScene(id);
 		Data.Instance.progressIcons.SetStateBySceneID(id);
