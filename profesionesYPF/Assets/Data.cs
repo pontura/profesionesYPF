@@ -72,14 +72,7 @@ public class Data : MonoBehaviour
 		scenesManager = GetComponent<ScenesManager> ();
 		dataConfig = GetComponent<DataConfig> ();
     }
-	void Start()
-	{
-		Invoke ("Delayed", 0.1f);
-	}
-	void Delayed()
-	{
-		scenesManager.Next ();
-	}
+
 	public void Reset()
 	{
 		questionID = 0;
