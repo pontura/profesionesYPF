@@ -10,6 +10,8 @@ public class MapScreen : MonoBehaviour {
 
 	void Start()
 	{
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.map);
+
 		carreraNameField.text = Data.Instance.carrera.name;
 		carreraNameDesc.text = Data.Instance.carrera.desc;
 	}

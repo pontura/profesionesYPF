@@ -1,12 +1,14 @@
 {
-    "version": "1.0",
-    "data": {
-        "sampleArray": [
-            "string value",
-            5,
-            {
-                "name": "sub object"
-            }
-        ]
+	"timer":
+	{
+		"chooseCharacter": 15,
+		"chooseCategory": 10,				
+		"trivia": 15,
+		"results": 20,
+		"map": 25,
+		"video": 15,
+		"photo": 30,
+		"stickers": 40,
+		"shareScreen": 20
     }
 }

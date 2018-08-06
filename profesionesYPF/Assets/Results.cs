@@ -15,6 +15,7 @@ public class Results : MonoBehaviour {
 
 	void Start()
 	{		
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
 
 		foreach (Carrera carrera in Data.Instance.texts.carreras) {
 			all.Add (carrera);

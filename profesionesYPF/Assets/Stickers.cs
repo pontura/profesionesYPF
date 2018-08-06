@@ -12,6 +12,7 @@ public class Stickers : MonoBehaviour {
 	public List<Sticker> all;
 
 	void Start () {
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
 		rawImage.texture = Data.Instance.texture2d;
 	}
 	public void OnStickerSelected(Sticker sticker)

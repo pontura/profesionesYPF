@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ChooseCategory : MonoBehaviour {
 
+	public Text title;
 	void Start () {
-		
+		title.text = Data.Instance.texts.choose_category;
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.chooseCategory);
 	}
 	public void Choose(int id)
 	{

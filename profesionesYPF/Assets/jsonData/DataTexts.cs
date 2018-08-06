@@ -5,6 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class DataTexts  {
 
+	public string choose_category;
 	public string intro_title1;
 	public string intro_title2;
 	public string choose_character;

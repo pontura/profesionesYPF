@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class Questions : MonoBehaviour {
 
+	public Color[] colors;
 	public QuestionData[] questionsData;
 	public Text num;
 	public Text title;
@@ -20,6 +21,9 @@ public class Questions : MonoBehaviour {
 		public Sprite background;
 	}
 	void Start () {	
+
+		title.color = colors [Data.Instance.questionID];
+
 		string q1;	
 		string q2;
 		string q3;
@@ -48,7 +52,7 @@ public class Questions : MonoBehaviour {
 		questionsData[1].question = q2;
 		questionsData[2].question = q3;
 
-
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.trivia);
 
 		Next ();
 		Events.QuestionDone += QuestionDone;

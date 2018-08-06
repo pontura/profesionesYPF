@@ -3,13 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Share : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
-	// Update is called once per frame
+	void Start () {
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.shareScreen);
+	}
+
 	void Update () {
 		
 	}

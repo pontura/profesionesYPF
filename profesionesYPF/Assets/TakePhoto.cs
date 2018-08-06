@@ -25,6 +25,7 @@ public class TakePhoto : MonoBehaviour {
 	void Start()
 	{
 		Events.OnUserStatus += OnUserStatus;
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 	}
 	void LateUpdate()
 	{
@@ -94,6 +95,10 @@ public class TakePhoto : MonoBehaviour {
 	void Next()
 	{
 		Data.Instance.scenesManager.Next ();
+	}
+	void OnDestroy()
+	{
+		Destroy (GameObject.Find ("KinectController"));
 	}
 //	public void SetPhoto()
 //	{

@@ -20,6 +20,7 @@ public class Data : MonoBehaviour
 	public Vector4 results;
 	public Carrera carrera;
 	public Texture2D texture2d;
+	public CountDown countDown;
 
 	public enum characterTypes
 	{

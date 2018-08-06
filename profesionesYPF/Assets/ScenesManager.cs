@@ -16,6 +16,7 @@ public class ScenesManager : MonoBehaviour {
 		id++;
 		SceneManager.LoadScene(id);
 		Data.Instance.progressIcons.SetStateBySceneID(id);
+		Data.Instance.countDown.SetStateBySceneID(id);
 	}
 	public void Reset()
 	{
@@ -23,6 +24,8 @@ public class ScenesManager : MonoBehaviour {
 		SceneManager.LoadScene(id);
 		Data.Instance.Reset ();
 		Data.Instance.progressIcons.Reset();
+		Data.Instance.progressIcons.SetStateBySceneID(id);
+		Data.Instance.countDown.SetStateBySceneID(id);
 	}
 
 }

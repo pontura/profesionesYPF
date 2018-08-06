@@ -4,15 +4,44 @@ using UnityEngine;
 using System.IO;
 
 public class DataConfig : MonoBehaviour {
-
-	string Path;
-	string jsonString;
+	
+	public DataSettings settings;
 
 	void Start()
 	{
-		Path = Application.streamingAssetsPath + "/texts.json";
-		jsonString = File.ReadAllText (Path);
+		LoadTexts ();
+		LoadSettings ();
+	}
+	void LoadTexts()
+	{
+		string Path = Application.streamingAssetsPath + "/texts.json";
+		string jsonString = File.ReadAllText (Path);
 		Data.Instance.texts = JsonUtility.FromJson<DataTexts> (jsonString);
+	}
+	void LoadSettings()
+	{
+		string Path = Application.streamingAssetsPath + "/settings.json";
+		string jsonString = File.ReadAllText (Path);
+		settings = JsonUtility.FromJson<DataSettings> (jsonString);
+	}
+
+	[System.Serializable]
+	public class DataSettings
+	{
+		public Duration timer;
+	}
+	[System.Serializable]
+	public class Duration
+	{
+		public int chooseCharacter;
+		public int chooseCategory;
+		public int results;
+		public int map;
+		public int trivia;
+		public int video;
+		public int photo;
+		public int stickers;
+		public int shareScreen;
 	}
 
 }

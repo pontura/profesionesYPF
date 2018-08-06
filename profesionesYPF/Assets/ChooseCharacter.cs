@@ -9,6 +9,7 @@ public class ChooseCharacter : SceneBase {
 
 	void Start () {
 		title.text = Data.Instance.texts.choose_character;
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.chooseCharacter);
 	}
 	public void Choose(int id)
 	{
