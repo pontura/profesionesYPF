@@ -64,7 +64,7 @@ public class Questions : MonoBehaviour {
 	void QuestionDone(int selectedID)
 	{
 		this.selectedID = selectedID;
-		Invoke ("PressedReady", 1.5f);
+		Invoke ("PressedReady", 0.5f);
 	}
 	void PressedReady()
 	{		

@@ -21,6 +21,7 @@ public class Data : MonoBehaviour
 	public Carrera carrera;
 	public Texture2D texture2d;
 	public CountDown countDown;
+	public ScreenshotManager screenshotManager;
 
 	public enum characterTypes
 	{

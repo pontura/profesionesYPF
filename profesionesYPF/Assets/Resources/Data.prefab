@@ -160,6 +160,7 @@ GameObject:
   - component: {fileID: 114456946049153974}
   - component: {fileID: 114328111013260722}
   - component: {fileID: 114006585341564592}
+  - component: {fileID: 114548725397194274}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -232,6 +233,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9625f5fcf7b1e7f44881f9715e9bc7c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  settings:
+    timer:
+      chooseCharacter: 0
+      chooseCategory: 0
+      results: 0
+      map: 0
+      trivia: 0
+      video: 0
+      photo: 0
+      stickers: 0
+      shareScreen: 0
 --- !u!114 &114339231744628210
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -285,7 +297,7 @@ MonoBehaviour:
   icons: []
   progressIcon: {fileID: 114185613445411208, guid: f1af501bbeddd66448dede3468471406,
     type: 2}
-  total: 10
+  total: 11
   container: {fileID: 224681538358115316}
   panel: {fileID: 1135093878809750}
   id: 0
@@ -379,6 +391,7 @@ MonoBehaviour:
     desc: 
   texture2d: {fileID: 0}
   countDown: {fileID: 114006585341564592}
+  screenshotManager: {fileID: 114548725397194274}
   categoryType: 0
   questionID: 0
   currentLevel: 
@@ -398,6 +411,19 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114548725397194274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952679745801272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8d38c9ddf8d13489efb072b0fbd1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _w: 1080
+  _h: 1080
 --- !u!114 &114602030836812288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -429,7 +455,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -438,8 +464,9 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: 9ba0d6a7c1c110c46b8faaed1b7bf747,
+      type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: 9ba0d6a7c1c110c46b8faaed1b7bf747, type: 3}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
@@ -483,7 +510,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: c3441846b52eeef4f978cd449b224e31, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ee4f13a0a824f8e4c8443f64f9b3b44d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -628,7 +655,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -34}
   m_SizeDelta: {x: 985, y: 56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224266695478517028
@@ -704,7 +731,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -5.8}
+  m_AnchoredPosition: {x: 0, y: -39.8}
   m_SizeDelta: {x: 521.6, y: 111.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224681538358115316
@@ -742,5 +769,5 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -101}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 108, y: 107}
   m_Pivot: {x: 0.5, y: 0.5}

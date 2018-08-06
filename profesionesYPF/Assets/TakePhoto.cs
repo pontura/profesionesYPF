@@ -78,19 +78,8 @@ public class TakePhoto : MonoBehaviour {
 		if (done)
 			return;
 		done = true;
-		StartCoroutine (TakeSnapshot (1080, 1080));
-	}
-	WaitForEndOfFrame frameEnd = new WaitForEndOfFrame();
-	public IEnumerator TakeSnapshot(int w, int h)
-	{
-		yield return frameEnd;
-
-		Texture2D texture = new Texture2D(w,h, TextureFormat.RGB24, true);
-		texture.ReadPixels(new Rect(0, 1920-1080, w, h), 0, 0);
-		texture.LoadRawTextureData(texture.GetRawTextureData());
-		texture.Apply();
-		Data.Instance.texture2d = texture;
-		Next ();
+		Data.Instance.screenshotManager.Init (false);
+		Invoke ("Next",0.5f);
 	}
 	void Next()
 	{

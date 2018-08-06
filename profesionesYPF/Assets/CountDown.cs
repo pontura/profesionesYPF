@@ -37,4 +37,8 @@ public class CountDown : MonoBehaviour {
 		 else
 			panel.SetActive (false);
 	}
+	public void Hide()
+	{
+		panel.SetActive (false);
+	}
 }

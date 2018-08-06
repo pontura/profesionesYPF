@@ -31,7 +31,16 @@ public class Stickers : MonoBehaviour {
 		all.Add (newSticker);
 		newSticker.Init (this, sprite);
 	}
+	bool done;
 	public void Done()
+	{
+		if (done)
+			return;
+		done = true;
+		Data.Instance.screenshotManager.Init (true);
+		Invoke ("Next", 0.5f);
+	}
+	void Next()
 	{
 		Data.Instance.scenesManager.Next ();
 	}
