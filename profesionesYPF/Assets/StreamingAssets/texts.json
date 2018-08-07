@@ -6,7 +6,7 @@
 	"results_1": "ENCONTRAMOS ",
 	"results_2": "CARRERAS QUE TE PUEDEN INTERESAR",
 	"results_3": "¿CUÁL TE GUSTARÍA ESTUDIAR?",
-	
+	"usar_instrumento": "¡USÁ TU INSTRUMENTO PARA EXPLORAR!",
 	"pregunta_1_1":"Primer pregunta de area 1",
 	"pregunta_1_2":"Segunda pregunta de area 1",
 	"pregunta_1_3":"Tercer pregunta de area 1",
@@ -30,11 +30,13 @@
 		{ 
 			"id": 1, 
 			"name":"carrrera 1", 
+			"duration":"5-6 años", 
 			"desc":"Es carrrera 1 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
 		},
 		{ 
 			"id": 2, 
 			"name":"carrrera 2",
+			"duration":"4-8 años", 
 			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
 		}
 	],

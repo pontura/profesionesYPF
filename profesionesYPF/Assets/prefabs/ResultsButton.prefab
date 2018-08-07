@@ -146,7 +146,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 00f381e2b2c61a7429773c7d5e0a1370, type: 3}
+    m_Font: {fileID: 12800000, guid: a566617ed3eb6d84fb4e5480525d1fa7, type: 3}
     m_FontSize: 1
     m_FontStyle: 0
     m_BestFit: 1
@@ -158,7 +158,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '...'
+  m_Text: ASD ASDASDSASADDSADSADSA
 --- !u!114 &114568946159803248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -171,14 +171,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: eb451cda7d78a5d419d5d3d111ed660a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 74c650a435d93cc46a3b391745a9ce1e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -216,7 +216,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 727, y: 105}
+  m_SizeDelta: {x: 728, y: 106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224221815427269600
 RectTransform:
@@ -233,7 +233,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.6, y: -1.25}
+  m_AnchoredPosition: {x: 8.6, y: 3}
   m_SizeDelta: {x: 637.7, y: 102.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224750027798703594
@@ -253,6 +253,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
+  m_AnchoredPosition: {x: 356.4, y: -212.1}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}

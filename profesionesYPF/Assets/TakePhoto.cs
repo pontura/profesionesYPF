@@ -14,6 +14,7 @@ public class TakePhoto : MonoBehaviour {
 
 	public states state;
 	public GameObject freezeRotationGO;
+	public Text field;
 
 	public enum states
 	{
@@ -24,6 +25,7 @@ public class TakePhoto : MonoBehaviour {
 
 	void Start()
 	{
+		field.text = Data.Instance.texts.usar_instrumento;
 		Events.OnUserStatus += OnUserStatus;
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 	}

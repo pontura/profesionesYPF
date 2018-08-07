@@ -7,6 +7,7 @@ public class MapScreen : MonoBehaviour {
 
 	public Text carreraNameField;
 	public Text carreraNameDesc;
+	public Text carreraDuraction;
 
 	void Start()
 	{
@@ -14,6 +15,7 @@ public class MapScreen : MonoBehaviour {
 
 		carreraNameField.text = Data.Instance.carrera.name;
 		carreraNameDesc.text = Data.Instance.carrera.desc;
+		carreraDuraction.text = Data.Instance.carrera.duration;
 	}
 	public void Next()
 	{

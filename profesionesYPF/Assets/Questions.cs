@@ -8,7 +8,9 @@ public class Questions : MonoBehaviour {
 
 	public Color[] colors;
 	public QuestionData[] questionsData;
-	public Text num;
+	public Image num;
+	public Sprite[] nums;
+
 	public Text title;
 	public Image background;
 	public QuestionButtons buttons;
@@ -85,7 +87,7 @@ public class Questions : MonoBehaviour {
 		Data.Instance.scenesManager.Next ();
 	}
 	void Next () {
-		num.text = "0" + (Data.Instance.questionID+1).ToString();
+		num.sprite = nums [Data.Instance.questionID];
 		title.text = questionsData [Data.Instance.questionID].question;
 		background.sprite = questionsData [Data.Instance.questionID].background;
 		buttons.Init (Data.Instance.questionID);

@@ -17,6 +17,7 @@ public class ProgressIcons : MonoBehaviour {
 		for (int a = 0; a < total; a++) {
 			ProgressIcon pi = Instantiate (progressIcon);
 			pi.transform.SetParent (container);
+			pi.transform.localScale = Vector3.one;
 			pi.SetState (false);
 			icons.Add (pi);
 		}
