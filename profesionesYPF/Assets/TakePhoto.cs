@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class TakePhoto : MonoBehaviour {
 
+	public Camera cam_outline;
+	public Camera cam;
 	public Image image;
 	public Sprite image_parate;
 	public Sprite image_preparate;
@@ -13,7 +15,7 @@ public class TakePhoto : MonoBehaviour {
 	public Sprite image_1;
 
 	public states state;
-	public GameObject freezeRotationGO;
+	//public GameObject freezeRotationGO;
 	public Text field;
 
 	public enum states
@@ -29,10 +31,10 @@ public class TakePhoto : MonoBehaviour {
 		Events.OnUserStatus += OnUserStatus;
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 	}
-	void LateUpdate()
-	{
-		freezeRotationGO.transform.localEulerAngles = Vector3.zero;
-	}
+//	void LateUpdate()
+//	{
+//		freezeRotationGO.transform.localEulerAngles = Vector3.zero;
+//	}
 	void OnUserStatus(bool isOn)
 	{
 		print ("OnUserStatus " + isOn + " state " + state);
@@ -79,13 +81,21 @@ public class TakePhoto : MonoBehaviour {
 	{
 		if (done)
 			return;
+		
+		//Data.Instance.rt = cam.targetTexture;
+		//Data.Instance.texture2d = new Texture2D (cam.targetTexture.width, cam.targetTexture.height);
+		//Data.Instance.texture2d.ReadPixels(new Rect(0, 0, cam.targetTexture.width, cam.targetTexture.height), 0, 0);
+	//	Data.Instance.texture2d.Apply();
+		cam.targetTexture = null;
+		cam_outline.targetTexture = null;
 		done = true;
 		Data.Instance.screenshotManager.Init (false);
 		Invoke ("Next",0.5f);
 	}
 	void Next()
 	{
-		Data.Instance.scenesManager.Next ();
+		Data.Instance.scenesManager.LoadScene("Stickers");
+		//Data.Instance.scenesManager.Next ();
 	}
 	void OnDestroy()
 	{

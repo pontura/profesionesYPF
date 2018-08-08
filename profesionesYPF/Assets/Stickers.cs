@@ -10,10 +10,34 @@ public class Stickers : MonoBehaviour {
 	public Transform stickersContainer;
 	public Sticker sticker;
 	public List<Sticker> all;
+	public RenderTexture rt;
+	public Texture2D myTexture2D;
+	public SpriteRenderer sr;
 
 	void Start () {
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
-		rawImage.texture = Data.Instance.texture2d;
+	//	Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
+		//rawImage.material.mainTexture = Data.Instance.rt;
+
+		//RenderTexture.active = rt;
+
+//		RenderTexture.active = rt;
+//		Texture2D myTexture2D = 
+//		myTexture2D.ReadPixels(new Rect(0, 0, rt.width, rt.height), 0, 0);
+////		myTexture2D.Apply();
+////
+//		Texture2D targetTexture= new Texture2D(350, 350);
+//		GetComponent<Renderer>().material.mainTexture = targetTexture;
+		
+		for (int y = 0; y < 350; y++) {
+			for (int x = 0; x < 350; x++) {
+				print ( (rawImage.texture as Texture2D).GetPixel (x, y).a);
+			}
+		}
+
+		myTexture2D.Apply();
+
+		sr.material.mainTexture = myTexture2D;
+
 	}
 	public void OnStickerSelected(Sticker sticker)
 	{

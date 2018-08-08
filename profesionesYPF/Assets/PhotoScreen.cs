@@ -47,23 +47,23 @@ public class PhotoScreen : MonoBehaviour {
 		if (countDown > 4) {
 			return;
 		}
-		switch (countDown) {
-		case 0:
-			image.sprite = image_parate;
-			break;
-		case 1:
-			image.sprite = image_preparate;
-			break;
-		case 2:
-			image.sprite = image_3;
-			break;
-		case 3:
-			image.sprite = image_2;
-			break;
-		case 4:
-			image.sprite = image_1;
-			break;
-		}
+//		switch (countDown) {
+//		case 0:
+//			image.sprite = image_parate;
+//			break;
+//		case 1:
+//			image.sprite = image_preparate;
+//			break;
+//		case 2:
+//			image.sprite = image_3;
+//			break;
+//		case 3:
+//			image.sprite = image_2;
+//			break;
+//		case 4:
+//			image.sprite = image_1;
+//			break;
+//		}
 		Invoke ("Loop", 1);
 		countDown++;
 	}

@@ -22,6 +22,7 @@ public class Data : MonoBehaviour
 	public Texture2D texture2d;
 	public CountDown countDown;
 	public ScreenshotManager screenshotManager;
+	public RenderTexture rt;
 
 	public enum characterTypes
 	{
