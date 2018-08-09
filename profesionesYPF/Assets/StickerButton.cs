@@ -5,12 +5,13 @@ using UnityEngine;
 public class StickerButton : MonoBehaviour {
 
 	public Stickers stickers;
-	public Sprite content;
+	public GameObject asset;
+
 	void Start () {
 		
 	}
 	public void OnClicked()
 	{
-		stickers.OnItemSelected (content);
+		stickers.OnItemSelected (asset);
 	}
 }

@@ -1,7 +1,7 @@
 // comment out the following #define, if you want to use the depth sensor and the KinectManager on per-scene basis
 #define USE_SINGLE_KM_IN_MULTIPLE_SCENES
 
-
+using UnityEngine.UI;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -15,6 +15,8 @@ using System.Collections.Generic;
 /// </summary>
 public class KinectManager : MonoBehaviour 
 {
+	public RawImage rawImage;
+
 	[Tooltip("How high above the ground is the sensor, in meters.")]
 	public float sensorHeight = 1.0f;
 
@@ -2625,8 +2627,14 @@ public class KinectManager : MonoBehaviour
 					}
 
 					//usersClrRect = new Rect(cameraRect.width - displayWidth, cameraRect.height, displayWidth, -displayHeight);
-					usersClrRect = new Rect(displayX, displayY, displayWidth, displayHeight);
-						
+					//usersClrRect = new Rect(displayX, displayY, displayWidth, displayHeight);
+
+					float cam_w = 1920;
+					float cam_h = 1080;
+					float offset_cam_x = 450;
+					float offset_cam = 250;
+					usersClrRect = new Rect(0-offset_cam_x, cam_h+offset_cam, cam_w, -cam_h);
+
 //					if(computeUserMap && displayColorMap)
 //					{
 //						usersMapRect.x -= cameraRect.width * displayMapsWidthPercent;
@@ -2636,7 +2644,8 @@ public class KinectManager : MonoBehaviour
 				if (sensorData.colorImageTexture2D != null || sensorData.colorImageTexture != null) 
 				{
 					//GUI.DrawTexture(usersClrRect, usersClrTex);
-					GUI.DrawTexture(usersClrRect, sensorData.colorImageTexture2D ? sensorData.colorImageTexture2D : sensorData.colorImageTexture);
+					rawImage.material.mainTexture = sensorData.colorImageTexture2D ? sensorData.colorImageTexture2D : sensorData.colorImageTexture;
+					//GUI.DrawTexture(usersClrRect, sensorData.colorImageTexture2D ? sensorData.colorImageTexture2D : sensorData.colorImageTexture);
 				}
 			}
 		}
