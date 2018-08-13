@@ -36,6 +36,9 @@ EditorBuildSettings:
     path: Assets/Scenes/screens/Stickers.unity
     guid: 4dadb2e85a425ff4d8484d3ca66d1f7d
   - enabled: 1
+    path: Assets/Scenes/screens/PhotoReady.unity
+    guid: e8a08e473be86df44be17e775c63e8df
+  - enabled: 1
     path: Assets/Scenes/screens/Share.unity
     guid: 0c13a2e71c2b5fa4eb4d668a800eb35c
   m_configObjects: {}

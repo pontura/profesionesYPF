@@ -8,14 +8,32 @@ public class Stickers : MonoBehaviour {
 	public RawImage rawImage;
 	public DraggerManager draggerManager;
 	public Transform stickersContainer;
+
 	public Sticker sticker;
+	public StickerButton stickerTag;
+	public StickerButton stickerIcon;
+
 	public List<Sticker> all;
 	public RenderTexture rt;
 	public Texture2D myTexture2D;
 	public SpriteRenderer sr;
+	public Transform container_tags;
+	public Transform container_icons;
+
 
 	void Start () {
 		//Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
+
+		foreach (string iconName in Data.Instance.carrera.sctickers_tags) {
+			StickerButton newSticker = Instantiate(stickerTag, Vector3.zero, Quaternion.identity, container_tags);
+			Sprite s = Resources.Load("stickers/" + iconName, typeof(Sprite)) as Sprite;
+			newSticker.Init (this, s);
+		}
+		foreach (string iconName in Data.Instance.carrera.sctickers_icons) {
+			StickerButton newSticker = Instantiate(stickerIcon, Vector3.zero, Quaternion.identity, container_icons);
+			Sprite s = Resources.Load("stickers/" + iconName, typeof(Sprite)) as Sprite;
+			newSticker.Init (this, s);
+		}
 	}
 	public void OnStickerSelected(Sticker sticker)
 	{
