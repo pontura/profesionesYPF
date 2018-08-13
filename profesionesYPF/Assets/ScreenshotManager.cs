@@ -7,12 +7,14 @@ public class ScreenshotManager : MonoBehaviour {
 
 	public int _w = 1080;
 	public int _h = 1080;
-	int offset_Y;
+	float offsetY = 241;
+	float offset_Y;
 	bool saveItToDisk;
 
 	void Start()
 	{
 		offset_Y = 1920 - 1080;
+		offset_Y -= offsetY;
 	}
 	public void Init(bool saveItToDisk)
 	{
@@ -47,8 +49,10 @@ public class ScreenshotManager : MonoBehaviour {
 		tex.ReadPixels(new Rect(0, offset_Y, _w, _h), 0, 0);
 		tex.Apply();
 
+		Data.Instance.texture2d = tex;
+
 		byte[] bytes = tex.EncodeToPNG();
-		Object.Destroy(tex);
+		//Object.Destroy(tex);
 
 		 File.WriteAllBytes(Application.dataPath + "/../SavedScreen.png", bytes);
 

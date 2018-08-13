@@ -12,18 +12,38 @@ public class DataTexts  {
 	public string results_1;
 	public string results_2;
 	public string results_3;
+
 	public string pregunta_1_1;
-	public string pregunta_1_2;
-	public string pregunta_1_3;
+	public string pregunta_1_10;
+	public string pregunta_1_11;
+	public string pregunta_1_100;
+	public string pregunta_1_101;
+	public string pregunta_1_110;
+	public string pregunta_1_111;
+
 	public string pregunta_2_1;
-	public string pregunta_2_2;
-	public string pregunta_2_3;
+	public string pregunta_2_10;
+	public string pregunta_2_11;
+	public string pregunta_2_100;
+	public string pregunta_2_101;
+	public string pregunta_2_110;
+	public string pregunta_2_111;
+
 	public string pregunta_3_1;
-	public string pregunta_3_2;
-	public string pregunta_3_3;
+	public string pregunta_3_10;
+	public string pregunta_3_11;
+	public string pregunta_3_100;
+	public string pregunta_3_101;
+	public string pregunta_3_110;
+	public string pregunta_3_111;
+
 	public string pregunta_4_1;
-	public string pregunta_4_2;
-	public string pregunta_4_3;
+	public string pregunta_4_10;
+	public string pregunta_4_11;
+	public string pregunta_4_100;
+	public string pregunta_4_101;
+	public string pregunta_4_110;
+	public string pregunta_4_111;
 
 	public List<Carrera> carreras;
 }

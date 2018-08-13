@@ -4,7 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Share : MonoBehaviour {
-	
+
+	public RawImage rawImage;
 	public GameObject panel_all;
 	public GameObject panel_whatsapp;
 	public GameObject panel_email;
@@ -15,6 +16,7 @@ public class Share : MonoBehaviour {
 	public string text;
 
 	void Start () {
+		rawImage.material.mainTexture = Data.Instance.texture2d;
 		//Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.shareScreen);
 		Events.OnKeyboardDone += OnKeyboardDone;
 		ResetAll ();

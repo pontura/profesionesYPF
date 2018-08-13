@@ -104,8 +104,7 @@ public class TakePhoto : MonoBehaviour {
 	}
 	void Next()
 	{
-		Data.Instance.scenesManager.LoadScene("Stickers");
-		//Data.Instance.scenesManager.Next ();
+		Data.Instance.scenesManager.Next ();
 	}
 	void OnDestroy()
 	{

@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/screens/Intro.unity
     guid: e37ff40e4364015498aac22f67e4367e
   - enabled: 1
-    path: Assets/Scenes/screens/ChooseCharacter.unity
-    guid: 8d4c4cbb7e2320544ab0e9b37fe692d1
-  - enabled: 1
     path: Assets/Scenes/screens/ChoosCategory.unity
     guid: 6cdc9f26845b55444913628525e6246c
   - enabled: 1
@@ -35,9 +32,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/screens/Photo.unity
     guid: c66390828011c9b4fae287b8d9dc48d5
-  - enabled: 1
-    path: Assets/Scenes/screens/TakePhoto.unity
-    guid: 772e5e8adb6c7224a8298544ff14c0a9
   - enabled: 1
     path: Assets/Scenes/screens/Stickers.unity
     guid: 4dadb2e85a425ff4d8484d3ca66d1f7d

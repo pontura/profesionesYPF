@@ -7,57 +7,32 @@ using UnityEngine.UI;
 public class Questions : MonoBehaviour {
 
 	public Color[] colors;
-	public QuestionData[] questionsData;
 	public Image num;
 	public Sprite[] nums;
+	public Sprite[] bgs;
 
 	public Text title;
 	public Image background;
 	public QuestionButtons buttons;
 	public int totalQuestions = 3;
 
-	[Serializable]
-	public class QuestionData
-	{
-		public string question;
-		public Sprite background;
-	}
 	void Start () {	
-
-		title.color = colors [Data.Instance.questionID];
-
-		string q1;	
-		string q2;
-		string q3;
-
-		print ("_" + Data.Instance.texts.pregunta_1_1);
-
-		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
-			q1 = Data.Instance.texts.pregunta_1_1;
-			q2 = Data.Instance.texts.pregunta_1_2;
-			q3 = Data.Instance.texts.pregunta_1_3;
-		} else if (Data.Instance.categoryType == Data.categoriesTypes.FISICA) {
-			q1 = Data.Instance.texts.pregunta_2_1;
-			q2 = Data.Instance.texts.pregunta_2_2;
-			q3 = Data.Instance.texts.pregunta_2_3;
-		} else if (Data.Instance.categoryType == Data.categoriesTypes.PETROLEO) {
-			q1 = Data.Instance.texts.pregunta_3_1;
-			q2 = Data.Instance.texts.pregunta_3_2;
-			q3 = Data.Instance.texts.pregunta_3_3;
-		} else {
-			q1 =  Data.Instance.texts.pregunta_4_1;
-			q2 =  Data.Instance.texts.pregunta_4_2;
-			q3 =  Data.Instance.texts.pregunta_4_3;				
-		}
-		print ("q1_" + q1);
-		questionsData[0].question = q1;
-		questionsData[1].question = q2;
-		questionsData[2].question = q3;
-
+		
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.trivia);
-
-		Next ();
 		Events.QuestionDone += QuestionDone;
+
+		num.sprite = nums [Data.Instance.questionID];
+
+		string q = "";
+		if (Data.Instance.questionID == 0)
+			q = GetFirst ();
+		else
+			q = GetOhters ();
+		
+		title.text = q;
+		title.color = colors [Data.Instance.questionID];
+		background.sprite = bgs [Data.Instance.questionID];
+		buttons.Init (Data.Instance.questionID);
 	}
 	void OnDestroy () {
 		Events.QuestionDone -= QuestionDone;
@@ -86,10 +61,93 @@ public class Questions : MonoBehaviour {
 
 		Data.Instance.scenesManager.Next ();
 	}
-	void Next () {
-		num.sprite = nums [Data.Instance.questionID];
-		title.text = questionsData [Data.Instance.questionID].question;
-		background.sprite = questionsData [Data.Instance.questionID].background;
-		buttons.Init (Data.Instance.questionID);
+	string GetFirst()
+	{
+		if (Data.Instance.categoryType ==  Data.categoriesTypes.TIERRA)
+			return Data.Instance.texts.pregunta_1_1;
+		if(Data.Instance.categoryType ==  Data.categoriesTypes.FISICA)
+			return Data.Instance.texts.pregunta_2_1;
+		if(Data.Instance.categoryType ==  Data.categoriesTypes.PETROLEO)
+			return Data.Instance.texts.pregunta_3_1;
+		else
+			return Data.Instance.texts.pregunta_4_1;
+	}
+	string GetOhters()
+	{
+		string result = "";
+		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
+
+			if (Data.Instance.results.y == 0) 
+				result = Data.Instance.texts.pregunta_1_10;	
+			else 
+				result = Data.Instance.texts.pregunta_1_11;		
+			
+			if (Data.Instance.questionID == 2) {
+				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_1_100;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_1_110;
+				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_1_101;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_1_111;
+			}
+			
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.FISICA) {
+
+			if (Data.Instance.results.y == 0) 
+				result = Data.Instance.texts.pregunta_2_10;	
+			else 
+				result = Data.Instance.texts.pregunta_2_11;		
+
+			if (Data.Instance.questionID == 2) {
+				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_2_100;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_2_110;
+				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_2_101;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_2_111;
+			}
+
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.PETROLEO) {
+
+			if (Data.Instance.results.y == 0) 
+				result = Data.Instance.texts.pregunta_3_10;	
+			else 
+				result = Data.Instance.texts.pregunta_3_11;		
+
+			if (Data.Instance.questionID == 2) {
+				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_3_100;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_3_110;
+				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_3_101;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_3_111;
+			}
+
+		} else {
+
+			if (Data.Instance.results.y == 0) 
+				result = Data.Instance.texts.pregunta_4_10;	
+			else 
+				result = Data.Instance.texts.pregunta_4_11;		
+
+			if (Data.Instance.questionID == 2) {
+				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_4_100;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
+					result = Data.Instance.texts.pregunta_4_110;
+				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_4_101;
+				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
+					result = Data.Instance.texts.pregunta_4_111;
+			}
+
+		}
+		return result;
 	}
 }

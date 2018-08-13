@@ -14,6 +14,7 @@ public class ScenesManager : MonoBehaviour {
 	public void Next()
 	{		
 		id++;
+		print ("Load scene : "  + id);
 		SceneManager.LoadScene(id);
 		Data.Instance.progressIcons.SetStateBySceneID(id);
 		Data.Instance.countDown.SetStateBySceneID(id);

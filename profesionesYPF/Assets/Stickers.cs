@@ -15,7 +15,7 @@ public class Stickers : MonoBehaviour {
 	public SpriteRenderer sr;
 
 	void Start () {
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
+		//Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
 	}
 	public void OnStickerSelected(Sticker sticker)
 	{

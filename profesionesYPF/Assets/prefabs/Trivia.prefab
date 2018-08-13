@@ -237,18 +237,15 @@ MonoBehaviour:
   - {r: 0, g: 0.39607844, b: 0.7411765, a: 1}
   - {r: 0.015686275, g: 0.65882355, b: 0.59607846, a: 1}
   - {r: 0.8862745, g: 0.27058825, b: 0.69803923, a: 1}
-  questionsData:
-  - question: 
-    background: {fileID: 21300000, guid: d0580f0bf354ba149b97d8923b54f8ff, type: 3}
-  - question: 
-    background: {fileID: 21300000, guid: cc563d377994b754a97ebb5c7b1cef99, type: 3}
-  - question: 
-    background: {fileID: 21300000, guid: 23d3374fe468302489251999f8b457ee, type: 3}
   num: {fileID: 114807971966619064}
   nums:
   - {fileID: 21300000, guid: 810062d695a800b44a800733cd8acfd9, type: 3}
   - {fileID: 21300000, guid: f6edc1732a61cab49a2605759da50f2f, type: 3}
   - {fileID: 21300000, guid: 6c6691bdf2e3b9643a7add3bb916d338, type: 3}
+  bgs:
+  - {fileID: 21300000, guid: e34c0436daaeb8644b27e52820758e84, type: 3}
+  - {fileID: 21300000, guid: 956528b6e04672b4a93beadb80f723ed, type: 3}
+  - {fileID: 21300000, guid: b4a34ec0a28900d4ba79905a7e54df3f, type: 3}
   title: {fileID: 114575080726384602}
   background: {fileID: 114660222806819700}
   buttons: {fileID: 114982095016130620}

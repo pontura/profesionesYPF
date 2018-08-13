@@ -8,37 +8,37 @@
 	"results_3": "¿CUÁL TE GUSTARÍA ESTUDIAR?",
 	"usar_instrumento": "¡USÁ TU INSTRUMENTO PARA EXPLORAR!",
 	
-	"pregunta_1_1":"Primer pregunta de area 1",
-	"pregunta_1_10":"Segunda pregunta de area 1",	
-	"pregunta_1_11":"Segunda pregunta de area 1",
-	"pregunta_1_100":"Tercer pregunta de area 1",
-	"pregunta_1_101":"Tercer pregunta de area 1",
-	"pregunta_1_110":"Tercer pregunta de area 1",
-	"pregunta_1_111":"Tercer pregunta de area 1",
+	"pregunta_1_1":"area 1",
+	"pregunta_1_10":"pregunta_1_10",	
+	"pregunta_1_11":"pregunta_1_11",
+	"pregunta_1_100":"pregunta_1_100",
+	"pregunta_1_101":"pregunta_1_101",
+	"pregunta_1_110":"pregunta_1_110",
+	"pregunta_1_111":"pregunta_1_111",
 	
-	"pregunta_2_1":"Primer pregunta de area 2",
-	"pregunta_2_10":"Segunda pregunta de area 2",	
-	"pregunta_2_11":"Segunda pregunta de area 2",
-	"pregunta_2_100":"Tercer pregunta de area 2",
-	"pregunta_2_101":"Tercer pregunta de area 2",
-	"pregunta_2_110":"Tercer pregunta de area 2",
-	"pregunta_2_111":"Tercer pregunta de area 2",
+	"pregunta_2_1":"area 2",
+	"pregunta_2_10":"pregunta_2_10",	
+	"pregunta_2_11":"pregunta_2_11",
+	"pregunta_2_100":"pregunta_2_100",
+	"pregunta_2_101":"pregunta_2_101",
+	"pregunta_2_110":"pregunta_2_110",
+	"pregunta_2_111":"pregunta_2_111",
 	
-	"pregunta_3_1":"Primer pregunta de area 3",
-	"pregunta_3_10":"Segunda pregunta de area 3",	
-	"pregunta_3_11":"Segunda pregunta de area 3",
-	"pregunta_3_100":"Tercer pregunta de area 3",
-	"pregunta_3_101":"Tercer pregunta de area 3",
-	"pregunta_3_110":"Tercer pregunta de area 3",
-	"pregunta_3_111":"Tercer pregunta de area 3",
+	"pregunta_3_1":"area 1",
+	"pregunta_3_10":"pregunta_3_10",	
+	"pregunta_3_11":"pregunta_3_11",
+	"pregunta_3_100":"pregunta_3_100",
+	"pregunta_3_101":"pregunta_3_101",
+	"pregunta_3_110":"pregunta_3_110",
+	"pregunta_3_111":"pregunta_3_111",
 	
-	"pregunta_4_1":"Primer pregunta de area 4",
-	"pregunta_4_10":"Segunda pregunta de area 4",	
-	"pregunta_4_11":"Segunda pregunta de area 4",
-	"pregunta_4_100":"Tercer pregunta de area 4",
-	"pregunta_4_101":"Tercer pregunta de area 4",
-	"pregunta_4_110":"Tercer pregunta de area 4",
-	"pregunta_4_111":"Tercer pregunta de area 4",
+	"pregunta_4_1":"area 4",
+	"pregunta_4_10":"pregunta_4_10",	
+	"pregunta_4_11":"pregunta_4_11",
+	"pregunta_4_100":"pregunta_4_100",
+	"pregunta_4_101":"pregunta_4_101",
+	"pregunta_4_110":"pregunta_4_110",
+	"pregunta_4_111":"pregunta_4_111",
 	
 	
 	
@@ -62,7 +62,8 @@
 					"desc":"description icon 2"
 				}
 			]
-		},
+		}
+		,
 		{ 
 			"id": 2, 
 			"name":"carrrera 2",
@@ -79,6 +80,59 @@
 					"_x":100,
 					"_y":-92,
 					"desc":"description icon 2"
+				}
+			]
+		},
+		{ 
+			"id": 3, 
+			"name":"carrrera 3",
+			"duration":"5-8 años", 
+			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. ",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				},
+				{
+					"_x":20,
+					"_y":-110,
+					"desc":"description icon 1"
+				},
+				{
+					"_x":100,
+					"_y":-92,
+					"desc":"description icon 2"
+				}
+			]
+		},
+		{ 
+			"id": 4, 
+			"name":"carrrera 4",
+			"duration":"5-8 años", 
+			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. ",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				},
+				{
+					"_x":20,
+					"_y":-110,
+					"desc":"description icon 2"
+				},
+				{
+					"_x":100,
+					"_y":-92,
+					"desc":"description icon 3"
+				},
+				{
+					"_x":900,
+					"_y":-62,
+					"desc":"description icon 4"
 				}
 			]
 		}

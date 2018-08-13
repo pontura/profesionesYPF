@@ -13,22 +13,38 @@ public class Results : MonoBehaviour {
 
 	public List<Carrera> all;
 
+	public GameObject buttons2;
+	public GameObject buttons3;
+	public GameObject buttons4;
+
 	void Start()
 	{		
+		GameObject container;
+		buttons2.SetActive (false);
+		buttons3.SetActive (false);
+		buttons4.SetActive (false);
+
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
 
 		foreach (Carrera carrera in Data.Instance.texts.carreras) {
 			all.Add (carrera);
 		}
 
+		if (all.Count == 2)
+			container = buttons2;
+		else if (all.Count == 3)
+			container = buttons3;
+		else
+			container = buttons4;
+
+		container.SetActive (true);
+
 		results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
 		results_2.text = Data.Instance.texts.results_3;
 
 		int id = 0;
-		foreach (Carrera carrera in all) {
-			ResultButton b = Instantiate (button);
-			b.transform.SetParent (container);
-			b.Init (this, carrera);
+		foreach (ResultButton rb in container.GetComponentsInChildren<ResultButton>()) {
+			rb.Init (this, all[id]);
 			id++;
 		}
 
