@@ -95,6 +95,7 @@ public class TakePhoto : MonoBehaviour {
 		//Data.Instance.texture2d = new Texture2D (cam.targetTexture.width, cam.targetTexture.height);
 		//Data.Instance.texture2d.ReadPixels(new Rect(0, 0, cam.targetTexture.width, cam.targetTexture.height), 0, 0);
 	//	Data.Instance.texture2d.Apply();
+		cam.enabled = false;
 		cam.targetTexture = null;
 		cam_outline.targetTexture = null;
 		done = true;

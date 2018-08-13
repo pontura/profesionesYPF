@@ -31,13 +31,39 @@
 			"id": 1, 
 			"name":"carrrera 1", 
 			"duration":"5-6 años", 
-			"desc":"Es carrrera 1 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
+			"desc":"Es carrrera 1 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. ",
+			"mapSlots":
+			[
+				{
+					"_x":122,
+					"_y":-191,
+					"desc":"description icon 1"
+				},
+				{
+					"_x":80,
+					"_y":-140,
+					"desc":"description icon 2"
+				}
+			]
 		},
 		{ 
 			"id": 2, 
 			"name":"carrrera 2",
 			"duration":"4-8 años", 
-			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. "
+			"desc":"Es carrrera 2 una rama de la ingeniería basada en la ingeniería eléctrica que se encarga de resolver problemas tales como el control de procesos industriales, sistemas electrónicos de potencia o transformación de electricidad para el funcionamiento de diversos aparatos eléctricos. Tiene aplicación en la industria, telecomunicaciones, diseño de instrumentación electrónica, microcontroladores y microprocesadores. ",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				},
+				{
+					"_x":100,
+					"_y":-92,
+					"desc":"description icon 2"
+				}
+			]
 		}
 	],
 	

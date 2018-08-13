@@ -35,4 +35,12 @@ public class Carrera
 	public string name;
 	public string desc;
 	public string duration;
+	public List<MapSlots> mapSlots;
+}
+[System.Serializable]
+public class MapSlots
+{
+	public int _x;
+	public int _y;
+	public string desc;
 }

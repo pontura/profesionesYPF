@@ -568,7 +568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &735883539
 RectTransform:
   m_ObjectHideFlags: 0
@@ -584,7 +584,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 130}
+  m_AnchoredPosition: {x: 0, y: 54.92}
   m_SizeDelta: {x: 340, y: 340}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &735883540
@@ -1177,9 +1177,9 @@ MonoBehaviour:
   displayColorMap: 1
   displaySkeletonLines: 0
   DisplayMapsWidthPercent: 40
-  useMultiSourceReader: 1
-  minUserDistance: 0.7
-  maxUserDistance: 1.5
+  useMultiSourceReader: 0
+  minUserDistance: 0.6
+  maxUserDistance: 1.1
   maxLeftRightDistance: 0
   maxTrackedUsers: 1
   showTrackedUsersOnly: 0
