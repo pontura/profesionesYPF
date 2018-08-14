@@ -22,7 +22,8 @@ public class Stickers : MonoBehaviour {
 
 
 	void Start () {
-		//Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
+		Data.Instance.scenesManager.ShowDoubleNavigation ();
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
 
 		foreach (string iconName in Data.Instance.carrera.sctickers_tags) {
 			StickerButton newSticker = Instantiate(stickerTag, Vector3.zero, Quaternion.identity, container_tags);
@@ -35,6 +36,7 @@ public class Stickers : MonoBehaviour {
 			newSticker.Init (this, s);
 		}
 	}
+
 	public void OnStickerSelected(Sticker sticker)
 	{
 		all.Remove (sticker);

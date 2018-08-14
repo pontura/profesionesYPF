@@ -4,7 +4,7 @@ using UnityEngine;
 
 [System.Serializable]
 public class DataTexts  {
-	public string usar_instrumento;
+	
 	public string choose_category;
 	public string intro_title1;
 	public string intro_title2;
@@ -12,6 +12,9 @@ public class DataTexts  {
 	public string results_1;
 	public string results_2;
 	public string results_3;
+	public string map_instructions;
+	public string photo_instructions;
+	public string share_instructions;
 
 	public string pregunta_1_1;
 	public string pregunta_1_10;

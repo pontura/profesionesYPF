@@ -29,6 +29,7 @@ public class DataConfig : MonoBehaviour {
 	public class DataSettings
 	{
 		public Duration timer;
+		public List<CountryData> countries;
 	}
 	[System.Serializable]
 	public class Duration
@@ -42,6 +43,12 @@ public class DataConfig : MonoBehaviour {
 		public int photo;
 		public int stickers;
 		public int shareScreen;
+	}
+	[System.Serializable]
+	public class CountryData
+	{
+		public string name;
+		public int number;
 	}
 
 }

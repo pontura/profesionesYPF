@@ -18,7 +18,6 @@ public class PhotoScreen : MonoBehaviour {
 
 	void Start()
 	{
-		field.text = Data.Instance.texts.usar_instrumento;
 		Events.OnUserStatus += OnUserStatus;
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 	}

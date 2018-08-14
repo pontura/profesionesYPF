@@ -11,6 +11,9 @@ public class Intro : SceneBase {
 	public Text title2;
 
 	void Start () {
+		
+		Data.Instance.scenesManager.ShowSimpleNavigation ();
+
 		Events.OnInput += OnInput;
 
 		title1.text = Data.Instance.texts.intro_title1;

@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class TakePhoto : MonoBehaviour {
 
+	public Text title;
 	public RawImage rawimage;
 	public Camera cam_outline;
 	public Camera cam;
@@ -27,11 +28,15 @@ public class TakePhoto : MonoBehaviour {
 
 	void Start()
 	{
+		Data.Instance.scenesManager.ShowSimpleNavigation ();
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
+
+		title.text = Data.Instance.texts.photo_instructions;
 		rawimage.enabled = false;
 		OnUserStatus (false);
 		//field.text = Data.Instance.texts.usar_instrumento;
 		Events.OnUserStatus += OnUserStatus;
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
+
 		Invoke ("rawimageOn", 1);
 	}
 	void rawimageOn()
