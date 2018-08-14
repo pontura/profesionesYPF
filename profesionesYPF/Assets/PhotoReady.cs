@@ -9,8 +9,9 @@ public class PhotoReady : MonoBehaviour {
 
 	void Start()
 	{		
+		Data.Instance.scenesManager.ShowDoubleNavigation ();
 		rawImage.material.mainTexture = Data.Instance.texture2d;
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photoReady);
 	}
 
 	void Next()

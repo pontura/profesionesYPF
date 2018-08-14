@@ -41,17 +41,17 @@ public class Stickers : MonoBehaviour {
 	{
 		all.Remove (sticker);
 		Destroy (sticker.gameObject);
-		draggerManager.OnItemSelected (sticker.gameObject);
+		draggerManager.OnItemSelected (sticker.gameObject, sticker.restrictions);
 	}
 	public void OnItemSelected(GameObject asset)
 	{
-		draggerManager.OnItemSelected (asset);
+		draggerManager.OnItemSelected (asset, Vector2.zero);
 	}
-	public void AddSticker (GameObject asset, Vector3 pos)
+	public void AddSticker (GameObject asset, Vector3 pos, Vector2 restrictMovement)
 	{
 		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
 		all.Add (newSticker);
-		newSticker.Init (this, asset);
+		newSticker.Init (this, asset, restrictMovement);
 	}
 	bool done;
 	public void Done()

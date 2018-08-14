@@ -7,8 +7,9 @@
 		"results": 20,
 		"map": 25,
 		"video": 15,
-		"photo": 120,
-		"stickers": 40,
+		"photo": 40,
+		"stickers": 50,
+		"photoReady": 15,
 		"shareScreen": 20
     },
 	"countries":

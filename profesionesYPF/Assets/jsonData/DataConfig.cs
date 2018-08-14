@@ -42,6 +42,7 @@ public class DataConfig : MonoBehaviour {
 		public int video;
 		public int photo;
 		public int stickers;
+		public int photoReady;
 		public int shareScreen;
 	}
 	[System.Serializable]
