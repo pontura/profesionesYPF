@@ -9,7 +9,7 @@ public class CountriesManager : MonoBehaviour {
 	public Transform container;
 	public Text field;
 	public List<CountryButton> all;
-
+	public DataConfig.CountryData data ;
 	void Start () {
 		Invoke ("SetOn", 0.5f);
 	}
@@ -23,6 +23,7 @@ public class CountriesManager : MonoBehaviour {
 	}
 	public void Clicked(DataConfig.CountryData data )
 	{
+		this.data = data;
 		foreach (CountryButton button in all) {
 			if (data == button.data)
 				button.SetActiveButton (true);
