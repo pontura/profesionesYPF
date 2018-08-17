@@ -463,7 +463,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1453746878}
-  - {fileID: 712529462}
+  - {fileID: 725921939}
   - {fileID: 562715395}
   - {fileID: 735883539}
   - {fileID: 300047184}
@@ -543,7 +543,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63aa904a4dd979d4792d6989140273a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  title: {fileID: 712529463}
+  title: {fileID: 725921940}
   rawimage: {fileID: 1453746876}
   cam_outline: {fileID: 1522402613}
   cam: {fileID: 1018283396}
@@ -554,17 +554,16 @@ MonoBehaviour:
   image_1: {fileID: 21300000, guid: f8c9ab6a46f09524eb9d2ab938663ff1, type: 3}
   state: 0
   field: {fileID: 562715393}
---- !u!1 &712529461
+--- !u!1 &725921938
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1673783349153890, guid: 8fc7fe2d830fda4409cb5ae6f3312346,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 712529462}
-  - component: {fileID: 712529464}
-  - component: {fileID: 712529463}
+  - component: {fileID: 725921939}
+  - component: {fileID: 725921941}
+  - component: {fileID: 725921940}
   m_Layer: 0
   m_Name: title
   m_TagString: Untagged
@@ -572,13 +571,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &712529462
+--- !u!224 &725921939
 RectTransform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 224462110252725662, guid: 8fc7fe2d830fda4409cb5ae6f3312346,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 712529461}
+  m_GameObject: {fileID: 725921938}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.3125, y: 0.3125, z: 0.3125}
@@ -588,23 +586,22 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.91, y: 208.31}
-  m_SizeDelta: {x: 488.22, y: 91.77}
+  m_AnchoredPosition: {x: 0, y: 202.12502}
+  m_SizeDelta: {x: 578, y: 203.4}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &712529463
+--- !u!114 &725921940
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114575080726384602, guid: 8fc7fe2d830fda4409cb5ae6f3312346,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 712529461}
+  m_GameObject: {fileID: 725921938}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.16176468, g: 0.15908843, b: 0.15819634, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -613,25 +610,24 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: c6244f9c2299d5d44b9f2a7f236a017f, type: 3}
-    m_FontSize: 59
+    m_FontSize: 32
     m_FontStyle: 0
-    m_BestFit: 1
+    m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 258
-    m_Alignment: 4
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "PARATE SOBRE LA MARCA Y PREPARATE PARA LA FOTO\r\n"
---- !u!222 &712529464
+  m_Text: "\xBFSOBRE QU\xC9 CATEGOR\xCDA TE GUSTAR\xCDA CONOCER?"
+--- !u!222 &725921941
 CanvasRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 222354006273592806, guid: 8fc7fe2d830fda4409cb5ae6f3312346,
-    type: 2}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 712529461}
+  m_GameObject: {fileID: 725921938}
   m_CullTransparentMesh: 0
 --- !u!1 &735883538
 GameObject:
@@ -1201,7 +1197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rawImage: {fileID: 1453746876}
-  sensorHeight: 1
+  sensorHeight: 1.8
   sensorAngle: 0
   autoHeightAngle: 2
   computeUserMap: 2
@@ -1212,9 +1208,9 @@ MonoBehaviour:
   displaySkeletonLines: 0
   DisplayMapsWidthPercent: 40
   useMultiSourceReader: 0
-  minUserDistance: 0.6
-  maxUserDistance: 1.1
-  maxLeftRightDistance: 0
+  minUserDistance: 1
+  maxUserDistance: 1.3
+  maxLeftRightDistance: 1
   maxTrackedUsers: 1
   showTrackedUsersOnly: 0
   userDetectionOrder: 0
@@ -1266,7 +1262,7 @@ MonoBehaviour:
   colorCameraResolution: 1
   computeBodyTexOnly: 0
   invertAlphaColorMask: 0
-  erodeIterations: 3
+  erodeIterations: 2
   dilateIterations: 3
-  applyMedianFilter: 0
+  applyMedianFilter: 1
   debugText: {fileID: 0}

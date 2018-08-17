@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 
 public class KeyboardPanel : MonoBehaviour {
 
+	public bool isPhoneNumber;
 	public string[] fields;
 	public Transform container;
 	public Text field;
@@ -30,12 +31,11 @@ public class KeyboardPanel : MonoBehaviour {
 	}
 	public void Clicked(string text)
 	{
-		print (text);
 		if (text == "<") {
 			if (field.text.Length > 0)
 				field.text = field.text.Remove (field.text.Length - 1, 1);
 		} else if (text == "OK") {
-			if (validateEmail (field.text))
+			if (isPhoneNumber || validateEmail (field.text))
 				Events.OnKeyboardDone (field.text);
 			else
 				errorField.text = "Email incorrecto";

@@ -12,7 +12,7 @@ public class ResultButton : MonoBehaviour {
 	public void Init(Results results, Carrera _carrera)
 	{
 		this.carrera = _carrera;
-		field.text = carrera.name;
+		field.text = carrera.name.ToUpper();
 		this.results = results;
 		this.carrera = carrera;
 	}

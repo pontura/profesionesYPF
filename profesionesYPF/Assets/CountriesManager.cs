@@ -20,6 +20,7 @@ public class CountriesManager : MonoBehaviour {
 			button.Init (this, data);
 			all.Add (button);
 		}
+		Clicked (Data.Instance.dataConfig.settings.countries[0]);
 	}
 	public void Clicked(DataConfig.CountryData data )
 	{

@@ -14,18 +14,29 @@ public class ScenesManager : MonoBehaviour {
 
 	public void LoadScene(string aLevelName)
 	{
+		
 		SceneManager.LoadScene(aLevelName);
+
 	}
 	public void Next()
-	{		
+	{	
+		if (UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name == "Stickers") {
+			Events.BackClicked ();
+			return;
+		}
+		JumpNext ();
+	}
+	public void JumpNext()
+	{
 		id++;
-		print ("Load scene : "  + id);
+		print ("Load scene : "  + id);		
 		SceneManager.LoadScene(id);
 		Data.Instance.progressIcons.SetStateBySceneID(id);
 		Data.Instance.countDown.SetStateBySceneID(id);
 	}
 	public void Reset()
 	{
+		Data.Instance.progressIcons.SetStatus (true);
 		id=1;
 		SceneManager.LoadScene(id);
 		Data.Instance.Reset ();
@@ -58,6 +69,12 @@ public class ScenesManager : MonoBehaviour {
 		simplePanel.SetActive (false);
 		doublePanel.SetActive (true);
 		iconNextBack.transform.localScale = new Vector2 (-1, 1);
+	}
+	public void HideAll()
+	{
+		simplePanel.SetActive (false);
+		doublePanel.SetActive (false);
+		Data.Instance.progressIcons.SetStatus (false);
 	}
 
 }

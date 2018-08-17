@@ -8,7 +8,7 @@ public class Share : MonoBehaviour {
 	public Text title;
 
 	public Text doneField;
-	public RawImage rawImage;
+	public Image image;
 	public GameObject panel_all;
 	public GameObject panel_done;
 	public GameObject panel_whatsapp;
@@ -25,8 +25,9 @@ public class Share : MonoBehaviour {
 	void Start () {
 
 		title.text = Data.Instance.texts.share_instructions;
-		rawImage.material.mainTexture = Data.Instance.texture2d;
-		//Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.shareScreen);
+		image.material.mainTexture = Data.Instance.texture2d;
+
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.shareScreen);
 		Events.OnKeyboardDone += OnKeyboardDone;
 		Events.BackClicked += BackClicked;
 		ResetAll ();

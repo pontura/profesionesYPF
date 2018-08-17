@@ -11,10 +11,14 @@ public class DataTexts  {
 	public string choose_character;
 	public string results_1;
 	public string results_2;
-	public string results_3;
 	public string map_instructions;
 	public string photo_instructions;
 	public string share_instructions;
+	public string lastScreen_text1;
+	public string lastScreen_text2;
+	public string photo_ready_title;
+	public string stickers_title;
+	public string photo_ready_subtitle;
 
 	public string pregunta_1_1;
 	public string pregunta_1_10;
@@ -55,6 +59,7 @@ public class DataTexts  {
 public class Carrera
 {
 	public int id;
+	public int categoria;
 	public string name;
 	public string desc;
 	public string duration;

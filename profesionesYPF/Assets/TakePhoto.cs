@@ -104,12 +104,14 @@ public class TakePhoto : MonoBehaviour {
 		cam.targetTexture = null;
 		cam_outline.targetTexture = null;
 		done = true;
-		Data.Instance.screenshotManager.Init (false);
+		//Data.Instance.screenshotManager.Init (false);
 		Invoke ("Next",0.5f);
+		Next ();
 	}
 	void Next()
 	{
 		Data.Instance.scenesManager.Next ();
+		//UnityEngine.SceneManagement.SceneManager.LoadScene ("Stickers");
 	}
 	void OnDestroy()
 	{

@@ -53,4 +53,8 @@ public class ProgressIcons : MonoBehaviour {
 		foreach (ProgressIcon pi in icons)
 			pi.SetState (false);
 	}
+	public void SetStatus(bool isOn)
+	{
+		container.transform.gameObject.SetActive (isOn);
+	}
 }

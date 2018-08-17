@@ -5,22 +5,26 @@ using UnityEngine.UI;
 
 public class Sticker : MonoBehaviour {
 
-	public GameObject asset;
+	public Sprite sprite;
 	public Transform container;
 	public Stickers stickers;
 	public bool restrictMovement;
+	public Image image;
 
 	public Vector2 restrictions;
 
-	public void Init(Stickers stickers, GameObject asset, Vector2 restrictions)
+	public void Init(Stickers stickers, Sprite sprite, Vector2 restrictions)
 	{
-		this.asset = asset;
+		this.sprite = sprite;
 		this.restrictions = restrictions;
 		this.stickers = stickers;
-		GameObject newAsset = Instantiate (asset);
-		newAsset.transform.SetParent (container);
-		newAsset.transform.localScale = Vector3.one;
-		newAsset.transform.localPosition = Vector3.zero;
+		image.sprite = sprite;
+		image.SetNativeSize ();
+
+//		GameObject newAsset = Instantiate (asset);
+//		newAsset.transform.SetParent (container);
+//		newAsset.transform.localScale = Vector3.one;
+//		newAsset.transform.localPosition = Vector3.zero;
 
 		if (restrictMovement) {
 			restrictions = transform.position;
@@ -28,6 +32,7 @@ public class Sticker : MonoBehaviour {
 	}
 	public void Selected()
 	{
+		this.sprite = image.sprite;
 		if (restrictMovement) {
 			restrictions = transform.position;
 		}

@@ -25,9 +25,19 @@ public class Results : MonoBehaviour {
 		buttons4.SetActive (false);
 
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
-
+		int categoria = 0;
+		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
+			categoria = 1;
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.FISICA) {
+			categoria = 2;
+		} else if (Data.Instance.categoryType == Data.categoriesTypes.PETROLEO) {
+			categoria = 3;
+		} else {
+			categoria = 4;
+		}
 		foreach (Carrera carrera in Data.Instance.texts.carreras) {
-			all.Add (carrera);
+			if(carrera.categoria == categoria)
+				all.Add (carrera);
 		}
 
 		if (all.Count == 2)
@@ -40,7 +50,6 @@ public class Results : MonoBehaviour {
 		container.SetActive (true);
 
 		results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
-		results_2.text = Data.Instance.texts.results_3;
 
 		int id = 0;
 		foreach (ResultButton rb in container.GetComponentsInChildren<ResultButton>()) {

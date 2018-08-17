@@ -7,7 +7,7 @@ public class ScreenshotManager : MonoBehaviour {
 
 	public int _w = 1080;
 	public int _h = 1080;
-	float offsetY = 280;
+	float offsetY = 360;
 	float offset_Y;
 	bool saveItToDisk;
 
@@ -18,6 +18,9 @@ public class ScreenshotManager : MonoBehaviour {
 	}
 	public void Init(bool saveItToDisk)
 	{
+		Debug.Log ("____saveItToDisk " + saveItToDisk	);
+
+		StopAllCoroutines ();
 		Data.Instance.countDown.Hide ();
 		this.saveItToDisk = saveItToDisk;
 		StartCoroutine (TakeSnapshot (_w, _h));
@@ -32,6 +35,8 @@ public class ScreenshotManager : MonoBehaviour {
 		texture.LoadRawTextureData(texture.GetRawTextureData());
 		texture.Apply();
 		Data.Instance.texture2d = texture;
+
+		Debug.Log ("saveItToDisk " + saveItToDisk	);
 
 		if (saveItToDisk)
 			SaveIt ();
@@ -48,8 +53,8 @@ public class ScreenshotManager : MonoBehaviour {
 
 		tex.ReadPixels(new Rect(0, offset_Y, _w, _h), 0, 0);
 		tex.Apply();
-
-		Data.Instance.texture2d = tex;
+		Debug.Log ("GRABAR");
+		//Data.Instance.texture2d = tex;
 
 		byte[] bytes = tex.EncodeToPNG();
 		//Object.Destroy(tex);

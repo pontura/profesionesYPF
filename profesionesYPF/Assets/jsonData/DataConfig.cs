@@ -44,6 +44,7 @@ public class DataConfig : MonoBehaviour {
 		public int stickers;
 		public int photoReady;
 		public int shareScreen;
+		public int lastScreen;
 	}
 	[System.Serializable]
 	public class CountryData

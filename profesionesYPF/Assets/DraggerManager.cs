@@ -6,7 +6,10 @@ using UnityEngine.UI;
 public class DraggerManager : MonoBehaviour {
 
 	public GameObject dragger;
-	public GameObject asset;
+
+	Sprite sprite;
+
+	public Image image;
 
 	public bool dragging;
 	Stickers stickers;
@@ -19,10 +22,10 @@ public class DraggerManager : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonDown (0)) {
 			dragging = true;
-		} else if (Input.GetMouseButtonUp (0)) {
+		} else if (dragging && Input.GetMouseButtonUp (0)) {
 			StopDragging ();
 		}
-		if (dragging && asset != null) {
+		if (dragging) {
 			Vector2 pos = Input.mousePosition;
 			if (restrictions != Vector2.zero) {
 				if(pos.x>restrictions.x+offset)
@@ -38,22 +41,24 @@ public class DraggerManager : MonoBehaviour {
 			dragger.transform.position = pos;
 		} 
 	}
-	public void OnItemSelected(GameObject newAsset, Vector2 restrictions)
+	public void OnItemSelected(Sprite sprite, Vector2 restrictions)
 	{
 		this.restrictions = restrictions;
-		asset = Instantiate (newAsset);
-		Utils.RemoveAllChildsIn (dragger.transform);
-		asset.transform.SetParent (dragger.transform);
-		asset.transform.localScale = Vector3.one;
-		asset.transform.localPosition = Vector3.zero;
+		this.sprite = sprite;
+		image.sprite = sprite;
+		image.SetNativeSize ();
+
+//		asset = Instantiate (newAsset);
+//		Utils.RemoveAllChildsIn (dragger.transform);
+//		asset.transform.SetParent (dragger.transform);
+//		asset.transform.localScale = Vector3.one;
+//		asset.transform.localPosition = Vector3.zero;
 	}
 	public void StopDragging()
 	{
-		if (asset == null)
-			return;
-		stickers.AddSticker (asset, dragger.transform.position, restrictions);
+		stickers.AddSticker (sprite, dragger.transform.position, restrictions);
 		dragging = false;
-		asset = null;
+		sprite = null;
 		dragger.transform.position = new Vector2 (2000, -2000);
 	}
 }

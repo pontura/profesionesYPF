@@ -13,6 +13,8 @@ public class InputManager : MonoBehaviour {
 	void Update () {
 		if (Input.GetMouseButtonUp (0)) {
 			Events.OnInput (states.TOUCH_UP);
+		} else if (Input.GetKeyDown(KeyCode.Space)) {
+			Data.Instance.scenesManager.Next ();
 		}
 	}
 }

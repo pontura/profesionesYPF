@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class Stickers : MonoBehaviour {
 
+	public Text title;
+	public GameObject buttonsPanel;
 	public RawImage rawImage;
 	public DraggerManager draggerManager;
 	public Transform stickersContainer;
@@ -22,8 +24,12 @@ public class Stickers : MonoBehaviour {
 
 
 	void Start () {
+		
+		title.text = Data.Instance.texts.stickers_title;
+
+		Events.BackClicked += BackClicked;
 		Data.Instance.scenesManager.ShowDoubleNavigation ();
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers+1000);
 
 		foreach (string iconName in Data.Instance.carrera.sctickers_tags) {
 			StickerButton newSticker = Instantiate(stickerTag, Vector3.zero, Quaternion.identity, container_tags);
@@ -36,34 +42,38 @@ public class Stickers : MonoBehaviour {
 			newSticker.Init (this, s);
 		}
 	}
-
+	void OnDestroy(){
+		Events.BackClicked -= BackClicked;
+	}
 	public void OnStickerSelected(Sticker sticker)
 	{
 		all.Remove (sticker);
 		Destroy (sticker.gameObject);
-		draggerManager.OnItemSelected (sticker.gameObject, sticker.restrictions);
+		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions);
 	}
-	public void OnItemSelected(GameObject asset)
+	public void OnItemSelected(Sprite asset)
 	{
 		draggerManager.OnItemSelected (asset, Vector2.zero);
 	}
-	public void AddSticker (GameObject asset, Vector3 pos, Vector2 restrictMovement)
+	public void AddSticker (Sprite sprite, Vector3 pos, Vector2 restrictMovement)
 	{
 		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
 		all.Add (newSticker);
-		newSticker.Init (this, asset, restrictMovement);
+		newSticker.Init (this, sprite, restrictMovement);
 	}
 	bool done;
-	public void Done()
+	public void BackClicked()
 	{
 		if (done)
 			return;
 		done = true;
+		buttonsPanel.SetActive (false);
+		draggerManager.dragger.SetActive (false);
 		Data.Instance.screenshotManager.Init (true);
 		Invoke ("Next", 0.5f);
 	}
 	void Next()
 	{
-		Data.Instance.scenesManager.Next ();
+		Data.Instance.scenesManager.JumpNext ();
 	}
 }
