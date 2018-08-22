@@ -19,6 +19,8 @@ public class DataTexts  {
 	public string photo_ready_title;
 	public string stickers_title;
 	public string photo_ready_subtitle;
+	public string enjoy;
+	public string accept;
 
 	public string pregunta_1_1;
 	public string pregunta_1_10;

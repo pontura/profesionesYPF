@@ -15,9 +15,15 @@ public class Questions : MonoBehaviour {
 	public Image background;
 	public QuestionButtons buttons;
 	public int totalQuestions = 3;
+	public GameObject help;
 
 	void Start () {	
-		
+
+		if(Data.Instance.questionID == 0)
+			help.SetActive (true);
+		else
+			help.SetActive (false);
+
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.trivia);
 		Events.QuestionDone += QuestionDone;
 
@@ -40,6 +46,7 @@ public class Questions : MonoBehaviour {
 	int selectedID;
 	void QuestionDone(int selectedID)
 	{
+		help.SetActive (false);
 		this.selectedID = selectedID;
 		Invoke ("PressedReady", 0.5f);
 	}

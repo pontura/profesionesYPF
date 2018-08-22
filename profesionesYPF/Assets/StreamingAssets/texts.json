@@ -13,7 +13,8 @@
 	"photo_ready_title": "¿QUERÉS DESCARGAR TU FOTO PARA COMPARTIRLA? ",
 	"photo_ready_subtitle": "COMPLETÁ TUS DATOS Y RECIBILA",	
 	"stickers_title":"EDITÁ TU FOTO",
-
+	"enjoy":"¿DISFRUTASTE DE LA EXPERIENCIA?",
+	"accept":"Acepto recibir información de la Fundación YPF; asimismo autorizo\na la Fundación YPF a hacer uso de mi imagen para actividades\nde difusión de las actividades del Trailer Espacio de la Energía.",
 	
 	"pregunta_1_1":"Me interesaría investigar sobre exploración, extracción y procesamiento de hidrocarburos.",
 	"pregunta_1_10":"Me gustaría analizar la composición de los elementos que nos rodean.",	
@@ -56,7 +57,7 @@
 			"categoria": 1,
 			"name":"Ingeniería en Petróleo", 
 			"duration":"5 años", 
-			"desc":"Es una carrera de gran demanda laboral, actualmente una de las más buscadas en todo el mundo. \nVas a poder desenvolverte en diversas actividades vinculadas con la industria del petróleo, el gas y sus derivados en todas sus etapas: exploración, perforación, producción, refinación, tratamiento, transporte y almacenamiento. Podrás a ser parte de los distintos procesos de producción y refinación de hidrocarburos. Vas a poder estar en la planificación, pero si te gusta, también en las tareas de campo.  \nPero si tu mayor interés, son las leyes, vas a poder manejar los aspectos legales, la seguridad y la conservación del medio ambiente asociados a esta actividad. ",
+			"desc":"Es una carrera de gran demanda laboral, actualmente una de las más buscadas en todo el mundo. \nVas a poder desenvolverte en diversas actividades vinculadas con la industria del petróleo, el gas y sus derivados en todas sus etapas: exploración, perforación, producción, refinación, tratamiento, transporte y almacenamiento. Podrás a ser parte de los distintos procesos de producción y refinación de hidrocarburos. Vas a poder estar en la planificación, pero si te gusta, también en las tareas de campo. \nPero si tu mayor interés, son las leyes, vas a poder manejar los aspectos legales, la seguridad y la conservación del medio ambiente asociados a esta actividad. ",
 			"mapSlots":
 			[
 				{

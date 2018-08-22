@@ -18,6 +18,7 @@ public class TakePhoto : MonoBehaviour {
 	public states state;
 	//public GameObject freezeRotationGO;
 	public Text field;
+	public GameObject help;
 
 	public enum states
 	{
@@ -28,6 +29,8 @@ public class TakePhoto : MonoBehaviour {
 
 	void Start()
 	{
+		field.text = "";
+		help.SetActive (true);
 		Data.Instance.scenesManager.ShowSimpleNavigation ();
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 
@@ -49,10 +52,13 @@ public class TakePhoto : MonoBehaviour {
 //	}
 	void OnUserStatus(bool isOn)
 	{
-		if (isOn)
-			field.text = "En zona!";
+		if (isOn) {
+			//field.text = "En zona!";
+			help.SetActive (false);
+		}
 		else {
-			field.text = "No estas en zona...";
+			help.SetActive (true);
+			//field.text = "No estas en zona...";
 			CancelInvoke ();
 			Reset ();
 		}

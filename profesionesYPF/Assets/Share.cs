@@ -7,7 +7,8 @@ public class Share : MonoBehaviour {
 
 	public Text title;
 
-	public Text doneField;
+	public Text enjoyField;
+	public Text acceptField;
 	public Image image;
 	public GameObject panel_all;
 	public GameObject panel_done;
@@ -15,10 +16,13 @@ public class Share : MonoBehaviour {
 	public GameObject panel_email;
 	public GameObject doneIcon;
 
+	public Text whatsapp_field;
+	public Text email_field;
+
 	public Button whatsapp;
 	public Button email;
 	int id;
-	public string text;
+	//public string text;
 	bool accepted;
 	public GameObject doneButton;
 
@@ -26,6 +30,8 @@ public class Share : MonoBehaviour {
 
 		title.text = Data.Instance.texts.share_instructions;
 		image.material.mainTexture = Data.Instance.texture2d;
+		enjoyField.text = Data.Instance.texts.enjoy;
+		acceptField.text = Data.Instance.texts.accept;
 
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.shareScreen);
 		Events.OnKeyboardDone += OnKeyboardDone;
@@ -47,10 +53,14 @@ public class Share : MonoBehaviour {
 	void OnKeyboardDone(string text)
 	{
 		ResetAll ();
-		if (isWhatsapp)
+		if (isWhatsapp) {
 			text = GetComponent<CountriesManager> ().data.number.ToString () + "-" + text;
-		this.text = text;
-		doneField.text = text;
+			whatsapp_field.text = text;
+		} else {
+			email_field.text = text;
+		}
+		//this.text = text;
+		//doneField.text = text;
 		panel_done.SetActive (true);
 		doneIcon.SetActive (false);
 	}
@@ -64,7 +74,7 @@ public class Share : MonoBehaviour {
 	{
 		Data.Instance.scenesManager.ShowSimpleNavigation ();
 		panel_done.SetActive (false);
-		panel_all.SetActive (false);
+		//panel_all.SetActive (false);
 		panel_whatsapp.SetActive (false);
 		panel_email.SetActive (false);
 	}

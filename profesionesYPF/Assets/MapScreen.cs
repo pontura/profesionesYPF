@@ -14,8 +14,12 @@ public class MapScreen : MonoBehaviour {
 	public MapSlot mapSlot;
 	public List<MapSlot> slots;
 
+	public GameObject help1;
+	public GameObject help2;
+
 	void Start()
-	{
+	{	
+
 		Data.Instance.scenesManager.ShowDoubleNavigation ();
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.map);
 
@@ -27,6 +31,9 @@ public class MapScreen : MonoBehaviour {
 		AddSlots ();
 
 		MapSlotClicked (Random.Range(0,slots.Count));
+
+		help1.SetActive (true);
+		help2.SetActive (false);
 	}
 	void AddSlots()
 	{
@@ -43,6 +50,9 @@ public class MapScreen : MonoBehaviour {
 	}
 	public void MapSlotClicked(int id)
 	{
+		help1.SetActive (false);
+		help2.SetActive (true);
+
 		Color c;
 		foreach (MapSlot mapSlot in slots) {
 			c = mapSlot.GetComponentInChildren<Image> ().color;
