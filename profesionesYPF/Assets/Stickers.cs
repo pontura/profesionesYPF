@@ -10,6 +10,7 @@ public class Stickers : MonoBehaviour {
 	public RawImage rawImage;
 	public DraggerManager draggerManager;
 	public Transform stickersContainer;
+	public Transform container_icons_generics;
 
 	public Sticker sticker;
 	public StickerButton stickerTag;
@@ -31,12 +32,28 @@ public class Stickers : MonoBehaviour {
 		Data.Instance.scenesManager.ShowDoubleNavigation ();
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers+1000);
 
-		foreach (string iconName in Data.Instance.carrera.sctickers_tags) {
+		string[] sctickers_icons;
+
+		if(Data.Instance.results.x == 1) 
+			sctickers_icons = Data.Instance.texts.iconos_cat_1;
+		if(Data.Instance.results.x == 2) 
+			sctickers_icons = Data.Instance.texts.iconos_cat_2;
+		if(Data.Instance.results.x == 3) 
+			sctickers_icons = Data.Instance.texts.iconos_cat_3;
+		else 
+			sctickers_icons = Data.Instance.texts.iconos_cat_4;
+
+		foreach (string iconName in  Data.Instance.texts.iconos_tags) {
 			StickerButton newSticker = Instantiate(stickerTag, Vector3.zero, Quaternion.identity, container_tags);
 			Sprite s = Resources.Load("stickers/" + iconName, typeof(Sprite)) as Sprite;
 			newSticker.Init (this, s);
 		}
-		foreach (string iconName in Data.Instance.carrera.sctickers_icons) {
+		foreach (string iconName in Data.Instance.texts.iconos_generics) {
+			StickerButton newSticker = Instantiate(stickerIcon, Vector3.zero, Quaternion.identity, container_icons_generics);
+			Sprite s = Resources.Load("stickers/" + iconName, typeof(Sprite)) as Sprite;
+			newSticker.Init (this, s);
+		}
+		foreach (string iconName in sctickers_icons) {
 			StickerButton newSticker = Instantiate(stickerIcon, Vector3.zero, Quaternion.identity, container_icons);
 			Sprite s = Resources.Load("stickers/" + iconName, typeof(Sprite)) as Sprite;
 			newSticker.Init (this, s);

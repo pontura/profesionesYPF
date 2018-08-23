@@ -10,7 +10,7 @@ public class ScenesManager : MonoBehaviour {
 	public GameObject simplePanel;
 	public GameObject doublePanel;
 	public Image iconNextBack; 
-	bool isBack;
+	public bool isBack;
 
 	public void LoadScene(string aLevelName)
 	{
@@ -20,7 +20,7 @@ public class ScenesManager : MonoBehaviour {
 	}
 	public void Next()
 	{	
-		if (UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name == "Stickers") {
+		if (isBack || UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name == "Stickers") {
 			Events.BackClicked ();
 			return;
 		}

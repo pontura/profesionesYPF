@@ -40,8 +40,10 @@ public class QuestionButton : MonoBehaviour {
 	void QuestionDone(int selectedID) {
 		GetComponent<Button> ().interactable = false;
 		Sprite sprite;
-		if (selectedID == id)
+		if (selectedID == id) {
 			sprite = spritesByQuestion [questionId].selected;
+			GetComponent<Animation>().Play("triviaAnswaerOn");
+		}
 		else
 			sprite = spritesByQuestion [questionId].unselected;
 		image.sprite = sprite;

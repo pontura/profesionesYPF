@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 224313505416595870}
   - component: {fileID: 114020649147015314}
   - component: {fileID: 114658175938098110}
+  - component: {fileID: 111994838893679608}
   m_Layer: 0
   m_Name: b1 (1)
   m_TagString: Untagged
@@ -57,6 +58,7 @@ GameObject:
   - component: {fileID: 224929355515776460}
   - component: {fileID: 114299652469689654}
   - component: {fileID: 114704348557868616}
+  - component: {fileID: 111494887201847906}
   m_Layer: 0
   m_Name: b1 (2)
   m_TagString: Untagged
@@ -217,6 +219,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!111 &111494887201847906
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106833096868438}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: db165e30c4f839e45be37ca6754f4f10, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e767f7b8d72fb7a41b908fc4548e1860, type: 2}
+  - {fileID: 7400000, guid: db165e30c4f839e45be37ca6754f4f10, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!111 &111515256143295110
 Animation:
   m_ObjectHideFlags: 1
@@ -225,9 +243,25 @@ Animation:
   m_GameObject: {fileID: 1683694756719058}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 1ad3dc7341205d44386f722337a17174, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 1ad3dc7341205d44386f722337a17174, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!111 &111994838893679608
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105889346975476}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: db165e30c4f839e45be37ca6754f4f10, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: e767f7b8d72fb7a41b908fc4548e1860, type: 2}
+  - {fileID: 7400000, guid: db165e30c4f839e45be37ca6754f4f10, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
@@ -283,7 +317,6 @@ MonoBehaviour:
   background: {fileID: 114660222806819700}
   buttons: {fileID: 114982095016130620}
   totalQuestions: 3
-  helpOn: 1
   help: {fileID: 1683694756719058}
 --- !u!114 &114299652469689654
 MonoBehaviour:

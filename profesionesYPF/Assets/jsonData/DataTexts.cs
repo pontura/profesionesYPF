@@ -90,6 +90,13 @@ public class DataTexts  {
 	public int r_4_0_1_0;
 	public int r_4_1_0_1;
 
+	public string[] iconos_tags;
+	public string[] iconos_generics;
+	public string[] iconos_cat_1;
+	public string[] iconos_cat_2;
+	public string[] iconos_cat_3;
+	public string[] iconos_cat_4;
+
 	public List<Carrera> carreras;
 }
 

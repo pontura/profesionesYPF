@@ -77,6 +77,7 @@ public class TakePhoto : MonoBehaviour {
 	}
 	void Reset()
 	{
+		image.enabled = false;
 		image.sprite = image_parate;
 		state = states.WAITING;
 		countDown = 0;
@@ -91,6 +92,7 @@ public class TakePhoto : MonoBehaviour {
 			Done ();
 			return;
 		}
+		image.enabled = true;
 		countDown++;
 		switch (countDown) {
 		case 1:
