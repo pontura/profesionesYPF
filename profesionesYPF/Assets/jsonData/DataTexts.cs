@@ -54,6 +54,42 @@ public class DataTexts  {
 	public string pregunta_4_110;
 	public string pregunta_4_111;
 
+	public int r_1_0_0_0;
+	public int r_1_0_0_1;
+	public int r_1_0_1_1;
+	public int r_1_1_1_1;
+	public int r_1_1_1_0;
+	public int r_1_1_0_0;
+	public int r_1_0_1_0;
+	public int r_1_1_0_1;
+
+	public int r_2_0_0_0;
+	public int r_2_0_0_1;
+	public int r_2_0_1_1;
+	public int r_2_1_1_1;
+	public int r_2_1_1_0;
+	public int r_2_1_0_0;
+	public int r_2_0_1_0;
+	public int r_2_1_0_1;
+
+	public int r_3_0_0_0;
+	public int r_3_0_0_1;
+	public int r_3_0_1_1;
+	public int r_3_1_1_1;
+	public int r_3_1_1_0;
+	public int r_3_1_0_0;
+	public int r_3_0_1_0;
+	public int r_3_1_0_1;
+
+	public int r_4_0_0_0;
+	public int r_4_0_0_1;
+	public int r_4_0_1_1;
+	public int r_4_1_1_1;
+	public int r_4_1_1_0;
+	public int r_4_1_0_0;
+	public int r_4_0_1_0;
+	public int r_4_1_0_1;
+
 	public List<Carrera> carreras;
 }
 

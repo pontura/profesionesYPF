@@ -188,7 +188,7 @@
 		},
 		{ 
 			"id": 4, 
-			"categoria": 2,
+			"categoria": 1,
 			"name":"Licenciatura en Química",
 			"duration":"5/6 años", 
 			"desc":"Es una carrera que te permitirá conocer en detalle la materia y sus transformaciones. \nTus conocimientos serán fundamentales para el desarrollo de nuevos materiales, nuevos productos industriales y farmacéuticos, y para entender las bases moleculares de procesos biológicos en la generación de nuevas formas de energía. \nVas a poder operar instrumental, dirigir laboratorios y equipos de trabajo interdisciplinarios. Pero además vas a poder desempeñarte en la docencia, o colaborar en la preservación del medio ambiente, por ejemplo, estudiando la velocidad de reacción de un determinado fenómeno químico para retardarlo o acelerarlo o determinar niveles de contaminación.",
@@ -296,7 +296,38 @@
 		},
 		{ 
 			"id": 7, 
-			"categoria": 3,
+			"categoria": 2,
+			"name":"Licenciatura en Geoquímica",
+			"duration":"5 años", 
+			"desc":"En esta carrera vas a adquirir sólidos conocimientos del comportamiento de los componentes químicos en los medios naturales. Vas a poder encontrar estos elementos en los minerales, los seres vivos, el agua y la atmósfera, para mejorar el conocimiento actual de la estructura de nuestro planeta y del universo, así como también para la búsqueda de materiales naturales de interés económico.\nVas a poder desarrollar e implementar técnicas de análisis químico para evaluar aguas, rocas, sedimento, petróleo y materiales naturales, y determinar su posible explotación.\nY si te gusta también vas a poder ser un investigador y docente a nivel universitario.",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 8, 
+			"categoria": 2,
 			"name":"Licenciatura en Ciencias del Ambiente",
 			"duration":"5 años", 
 			"desc":"Es una carrera que te convertirá en un experto en cumplimiento de leyes ambientales. Vas a poder evaluar el desempeño ambiental de empresas y participar en la elaboración de leyes, reglamentos y políticas de conservación. \nVas a poder colaborar con empresas, organizaciones o instituciones relacionadas con la problemática ambiental. Podrás hacer estudios de factibilidad y evaluar impacto ambiental de grandes obras.\nAl 3er año de carrera tendrás un título intermedio de Técnico Universitario Guarda Ambiental, con el que podrás desempeñarte en áreas naturales protegidas, ser auxiliar en actividades de ecoturismo, educación, investigación y control.",
@@ -326,8 +357,8 @@
 			]
 		},
 		{ 
-			"id": 8, 
-			"categoria": 3,
+			"id": 9, 
+			"categoria": 2,
 			"name":"Ingeniería Ambiental",
 			"duration":"5 años", 
 			"desc":"Es una carrera que te dará los conocimientos requeridos para evaluar de qué forma las transformaciones que se realicen debido a actividades productivas afectan al medio ambiente y a los recursos naturales. \nTu rol será clave en la prevención y resolución de problemas ambientales derivados de procesos productivos.\nVas a poder planificar y gestionar el uso responsable de los recursos naturales tanto para preservarlos como para recuperar áreas afectadas por la actividad industrial o urbana. \nSerás asesor en proyectos de desarrollo de obras o procesos que apliquen tecnologías limpias, y en temáticas de contaminación de cursos de agua, suelo y aire y la gestión de residuos.",
@@ -357,8 +388,8 @@
 			]
 		},
 		{ 
-			"id": 9, 
-			"categoria": 3,
+			"id": 10, 
+			"categoria": 2,
 			"name":"Ingeniería en Recursos Naturales Renovables",
 			"duration":"...", 
 			"desc":"...",
@@ -388,8 +419,8 @@
 			]
 		},
 		{ 
-			"id": 10, 
-			"categoria": 3,
+			"id": 11, 
+			"categoria": 2,
 			"name":"Tecnicatura Gestión Ambiental",
 			"duration":"...", 
 			"desc":"...",
@@ -419,8 +450,8 @@
 			]
 		},
 		{ 
-			"id": 11, 
-			"categoria": 4,
+			"id": 12, 
+			"categoria": 3,
 			"name":"Ingeniería en Energía",
 			"duration":"...", 
 			"desc":"...",
@@ -450,9 +481,226 @@
 			]
 		},
 		{ 
-			"id": 12, 
-			"categoria": 4,
+			"id": 13, 
+			"categoria": 3,
 			"name":"Licenciatura en Energética",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 14, 
+			"categoria": 3,
+			"name":"Licenciatura en Energías Renovables",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 15, 
+			"categoria": 3,
+			"name":"Ingeniería Electricista",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 16, 
+			"categoria": 3,
+			"name":"Ingeniería Electrónica",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 17, 
+			"categoria": 4,
+			"name":"Licenciatura en Física",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 18, 
+			"categoria": 4,
+			"name":"Ingeniería Mecánica",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 19, 
+			"categoria": 4,
+			"name":"Ingeniería Electromecánica",
+			"duration":"...", 
+			"desc":"...",
+			"mapSlots":
+			[
+				{
+					"_x":120,
+					"_y":-150,
+					"desc":"description icon 1"
+				}
+			],
+			"sctickers_tags":
+			[
+				"Foto_#laboratorio",
+				"Foto_#profesional",
+				"Foto_#sustentable",
+				"Foto_#innovar",
+				"Foto_#energia",
+				"Foto_#explorar"				
+			],	
+			"sctickers_icons":
+			[
+				"Stickers_engranaje",
+				"Stickers_panel",
+				"Stickers_rayo",
+				"Stickers_tubos"
+			]
+		},
+		{ 
+			"id": 20, 
+			"categoria": 4,
+			"name":"Ingeniería Mecatrónica",
 			"duration":"...", 
 			"desc":"...",
 			"mapSlots":
@@ -482,41 +730,63 @@
 		}
 	],
 	
-	"__":"YA NO SE USA:",
-	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",	
-	"1_0_0_0":1,
-	"1_0_0_1":1,
-	"1_0_1_1":1,
-	"1_1_1_1":1,
-	"1_1_1_0":1,
-	"1_1_0_0":1,
-	"1_0_1_0":1,
-	"1_1_0_1":1,
 	
-	"2_0_0_0":2,
-	"2_0_0_1":2,
-	"2_0_1_1":2,
-	"2_1_1_1":2,
-	"2_1_1_0":2,
-	"2_1_0_0":2,
-	"2_0_1_0":2,
-	"2_1_0_1":2,
+	"id 1 ":"Ingeniería en Petróleo",
+	"id 2 ":"Ingeniería en Perforaciones",
+	"id 3 ":"Ingeniería Química",
+	"id 4 ":"Licenciatura en Química",
+	"id 5 ":"Ingeniería en Geodésica y Geofísica",
+	"id 6 ":"Licenciatura en Geología",
+	"id 7 ":"Licenciatura en Geoquímica",
+	"id 8 ":"Licenciatura en Ciencias del Ambiente",
+	"id 9 ":"Ingeniería Ambiental",
+	"id 10":"Ingeniería en Recursos Naturales Renovables",
+	"id 11":"Tecnicatura Gestión Ambiental",
+	"id 12":"Ingeniería en Energía",
+	"id 13":"Licenciatura en Energética",
+	"id 14":"Licenciatura en Energías Renovables",
+	"id 15":"Ingeniería Electricista",
+	"id 16":"Ingeniería Electrónica",
+	"id 17":"Licenciatura en Física",
+	"id 18":"Ingeniería Mecánica",
+	"id 19":"Ingeniería Electromecánica",
+	"id 20":"Ingeniería Mecatrónica",	
+			
+	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",
 	
-	"3_0_0_0":3,
-	"3_0_0_1":3,
-	"3_0_1_1":3,
-	"3_1_1_1":3,
-	"3_1_1_0":3,
-	"3_1_0_0":3,
-	"3_0_1_0":3,
-	"3_1_0_1":3,
+	"r_1_0_0_0":3,
+	"r_1_0_0_1":3,
+	"r_1_0_1_0":3,
+	"r_1_0_1_1":2,
+	"r_1_1_0_0":3,
+	"r_1_1_0_1":1,
+	"r_1_1_1_0":1,
+	"r_1_1_1_1":2,
 	
-	"4_0_0_0":4,
-	"4_0_0_1":4,
-	"4_0_1_1":4,
-	"4_1_1_1":4,
-	"4_1_1_0":4,
-	"4_1_0_0":4,
-	"4_0_1_0":4,
-	"4_1_0_1":4
+	"r_2_0_0_0":10,
+	"r_2_0_0_1":8,
+	"r_2_0_1_0":11,
+	"r_2_0_1_1":9,
+	"r_2_1_0_0":6,
+	"r_2_1_0_1":7,
+	"r_2_1_1_0":5,
+	"r_2_1_1_1":5,
+	
+	"r_3_0_0_0":16,
+	"r_3_0_0_1":15,
+	"r_3_0_1_0":15,
+	"r_3_0_1_1":16,
+	"r_3_1_0_0":12,
+	"r_3_1_0_1":14,
+	"r_3_1_1_0":12,
+	"r_3_1_1_1":13,
+	
+	"r_4_0_0_0":20,
+	"r_4_0_0_1":18,
+	"r_4_0_1_0":19,
+	"r_4_0_1_1":18,
+	"r_4_1_0_0":17,
+	"r_4_1_0_1":18,
+	"r_4_1_1_0":19,
+	"r_4_1_1_1":17
 }

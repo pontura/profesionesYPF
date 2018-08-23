@@ -17,8 +17,11 @@ public class Results : MonoBehaviour {
 	public GameObject buttons3;
 	public GameObject buttons4;
 
+	public int carrera_destacada_id;
+
 	void Start()
 	{		
+		
 		GameObject container;
 		buttons2.SetActive (false);
 		buttons3.SetActive (false);
@@ -51,12 +54,31 @@ public class Results : MonoBehaviour {
 
 		results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
 
+		Vector4 r = Data.Instance.results;
+		carrera_destacada_id = (int)Data.Instance.texts.GetType().GetField("r_" + r.x + "_" + r.y + "_" + r.z + "_" + r.w ).GetValue(Data.Instance.texts);
+
 		int id = 0;
+
 		foreach (ResultButton rb in container.GetComponentsInChildren<ResultButton>()) {
-			rb.Init (this, all[id]);
+			bool isSelected = false;
+			if (all[id].id == carrera_destacada_id)
+				isSelected = true;
+			rb.Init (this, all[id], isSelected);
 			id++;
 		}
 
+
+
+//		Vector4 r = Data.Instance.results;
+//		if (r.x == 1) {
+//			if (r.y == 0 && r.z == 0 && r.w == 0)
+//				carrera_destacada_id = (int)Data.Instance.texts.r_1_0_0_0;
+//			if (r.y == 1 && r.z == 0 && r.w == 0)
+//				carrera_destacada_id = (int)Data.Instance.texts.r_1_1_0_0;
+//			if (r.y == 1 && r.z == 0 && r.w == 0)
+//				carrera_destacada_id = (int)Data.Instance.texts.r_1_1_0_0;
+//		}
+//
 	}
 	public void OnSelected(Carrera carrera)
 	{

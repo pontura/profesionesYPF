@@ -589,6 +589,7 @@ MonoBehaviour:
   image_3: {fileID: 21300000, guid: 420a949f77a9590469fb3fd5d0e6337d, type: 3}
   image_2: {fileID: 21300000, guid: 810d8ef47381a29478a6a389d55bdd09, type: 3}
   image_1: {fileID: 21300000, guid: f8c9ab6a46f09524eb9d2ab938663ff1, type: 3}
+  setFaceTracking: {fileID: 2068721101}
   state: 0
   field: {fileID: 562715393}
   help: {fileID: 295347473}
@@ -1323,6 +1324,7 @@ MonoBehaviour:
   faceWidth: 0.7
   faceHeight: 0.7
   targetObject: {fileID: 453366000}
+  isValid: 0
 --- !u!114 &2068721102
 MonoBehaviour:
   m_ObjectHideFlags: 0

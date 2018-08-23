@@ -17,7 +17,7 @@ public class SetFaceTexture : MonoBehaviour
 	[Tooltip("Game object renderer, used to display the face image as 2D texture.")]
 	public Renderer targetObject;
 
-
+	public bool isValid;
 	//private Renderer targetRenderer;
 	private Rect faceRect;
 	private Texture2D colorTex, faceTex;
@@ -76,6 +76,7 @@ public class SetFaceTexture : MonoBehaviour
 	
 	void Update () 
 	{
+		
 		if(faceManager == null)
 		{
 			faceManager = FacetrackingManager.Instance;
@@ -87,15 +88,13 @@ public class SetFaceTexture : MonoBehaviour
 			return;
 
 		long userId = kinectManager.GetUserIdByIndex(playerIndex);
-		if (userId == 0) 
-		{
-			if(targetObject && targetObject.material && targetObject.material.mainTexture != null)
-			{
+		if (userId == 0) {
+			if (targetObject && targetObject.material && targetObject.material.mainTexture != null) {
 				targetObject.material.mainTexture = null;
-			}
-
+				isValid = false;
+			} 
 			return;
-		}
+		} 
 
 		if (!backManager) 
 		{
@@ -142,6 +141,7 @@ public class SetFaceTexture : MonoBehaviour
 
 		if (faceRect.width > 0 && faceRect.height > 0) 
 		{
+			isValid = true;
 			int faceX = (int)faceRect.x;
 			int faceY = (int)faceRect.y;
 			int faceW = (int)faceRect.width;
@@ -195,6 +195,7 @@ public class SetFaceTexture : MonoBehaviour
 		} 
 		else 
 		{
+			isValid = false;
 			if (targetObject && targetObject.gameObject.activeSelf) 
 			{
 				targetObject.gameObject.SetActive(false);

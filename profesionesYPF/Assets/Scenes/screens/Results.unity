@@ -1482,10 +1482,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1779971627602684, guid: 970141cd97cd72f4db5facc91f94244a, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 970141cd97cd72f4db5facc91f94244a, type: 2}
   m_IsPrefabAsset: 0
@@ -1667,6 +1663,7 @@ MonoBehaviour:
   buttons2: {fileID: 16102328}
   buttons3: {fileID: 181629955}
   buttons4: {fileID: 1919387687}
+  carrera_destacada_id: 0
 --- !u!114 &1770609789
 MonoBehaviour:
   m_ObjectHideFlags: 0
