@@ -34,6 +34,14 @@ public class ScenesManager : MonoBehaviour {
 		Data.Instance.progressIcons.SetStateBySceneID(id);
 		Data.Instance.countDown.SetStateBySceneID(id);
 	}
+	public void JumpBack()
+	{
+		id--;
+		print ("Load scene : "  + id);		
+		SceneManager.LoadScene(id);
+		Data.Instance.progressIcons.SetStateBySceneID(id);
+		Data.Instance.countDown.SetStateBySceneID(id);
+	}
 	public void Reset()
 	{
 		Data.Instance.progressIcons.SetStatus (true);

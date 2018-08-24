@@ -7,8 +7,10 @@ public class StickerButton : MonoBehaviour {
 
 	public Stickers stickers;
 	public Image image;
+	public Sprite asset;
 
 	public void Init (Stickers stickers,  Sprite asset) {
+		this.asset = asset;
 		image.sprite = asset;
 		image.SetNativeSize ();
 		float scaler = 0.3f;
@@ -17,6 +19,6 @@ public class StickerButton : MonoBehaviour {
 	}
 	public void OnClicked()
 	{
-		stickers.OnItemSelected (image.sprite);
+		stickers.OnItemSelected (asset);
 	}
 }

@@ -43,6 +43,11 @@ public class DraggerManager : MonoBehaviour {
 	}
 	public void OnItemSelected(Sprite sprite, Vector2 restrictions)
 	{
+		if (sprite == null) {
+			print ("no hay sprite");
+			dragging = false;
+			return;
+		}
 		this.restrictions = restrictions;
 		this.sprite = sprite;
 		image.sprite = sprite;
@@ -56,7 +61,11 @@ public class DraggerManager : MonoBehaviour {
 	}
 	public void StopDragging()
 	{
-		stickers.AddSticker (sprite, dragger.transform.position, restrictions);
+		if (sprite == null) {
+			print ("StopDragging NO hay sprite");
+		} else {
+			stickers.AddSticker (sprite, dragger.transform.position, restrictions);
+		}
 		dragging = false;
 		sprite = null;
 		dragger.transform.position = new Vector2 (2000, -2000);

@@ -32,7 +32,7 @@ public class Sticker : MonoBehaviour {
 	}
 	public void Selected()
 	{
-		this.sprite = image.sprite;
+		//this.sprite = image.sprite;
 		if (restrictMovement) {
 			restrictions = transform.position;
 		}

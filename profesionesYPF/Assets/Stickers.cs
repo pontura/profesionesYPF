@@ -28,7 +28,7 @@ public class Stickers : MonoBehaviour {
 		
 		title.text = Data.Instance.texts.stickers_title;
 
-		Events.BackClicked += BackClicked;
+		//Events.BackClicked += BackClicked;
 		Data.Instance.scenesManager.ShowDoubleNavigation ();
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers+1000);
 
@@ -60,26 +60,40 @@ public class Stickers : MonoBehaviour {
 		}
 	}
 	void OnDestroy(){
-		Events.BackClicked -= BackClicked;
+		//Events.BackClicked -= BackClicked;
 	}
 	public void OnStickerSelected(Sticker sticker)
-	{
+	{		
+		print ("__OnStickerSelected " + sticker);
+
+		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions);
+
 		all.Remove (sticker);
 		Destroy (sticker.gameObject);
-		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions);
 	}
 	public void OnItemSelected(Sprite asset)
 	{
+		print ("OnItemSelected " + asset);
 		draggerManager.OnItemSelected (asset, Vector2.zero);
 	}
 	public void AddSticker (Sprite sprite, Vector3 pos, Vector2 restrictMovement)
 	{
+		print ("AddSticker " + sprite);
+
 		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
 		all.Add (newSticker);
 		newSticker.Init (this, sprite, restrictMovement);
 	}
+
 	bool done;
-	public void BackClicked()
+	public void Back()
+	{
+		if (done)
+			return;
+		done = true;
+		Data.Instance.scenesManager.JumpBack ();
+	}
+	public void Next()
 	{
 		if (done)
 			return;
@@ -87,10 +101,10 @@ public class Stickers : MonoBehaviour {
 		buttonsPanel.SetActive (false);
 		draggerManager.dragger.SetActive (false);
 		Data.Instance.screenshotManager.Init (true);
-		Invoke ("Next", 0.5f);
+		Invoke ("NextDone", 0.5f);
 	}
-	void Next()
+	void NextDone()
 	{
-		Data.Instance.scenesManager.JumpNext ();
+		Data.Instance.scenesManager.JumpNext();
 	}
 }
