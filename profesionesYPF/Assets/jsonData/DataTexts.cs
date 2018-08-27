@@ -11,7 +11,7 @@ public class DataTexts  {
 	public string choose_character;
 	public string results_1;
 	public string results_2;
-	public string map_instructions;
+//	public string map_instructions;
 	public string photo_instructions;
 	public string share_instructions;
 	public string lastScreen_text1;

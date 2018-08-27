@@ -9,10 +9,10 @@ public class MapScreen : MonoBehaviour {
 	public Text carreraNameDesc;
 	public Text carreraDuraction;
 	public Text mapDesc;
-	public Text mapInstructions;
 	public Transform map_container;
 	public MapSlot mapSlot;
 	public List<MapSlot> slots;
+	public Image summaryImage;
 
 	public GameObject help1;
 	public GameObject help2;
@@ -26,7 +26,9 @@ public class MapScreen : MonoBehaviour {
 		carreraNameField.text = Data.Instance.carrera.name;
 		carreraNameDesc.text = Data.Instance.carrera.desc;
 		carreraDuraction.text = Data.Instance.carrera.duration;
-		mapInstructions.text = Data.Instance.texts.map_instructions;
+
+		Sprite s = Resources.Load("summary/" +  Data.Instance.carrera.id, typeof(Sprite)) as Sprite;
+		summaryImage.sprite = s;
 
 		AddSlots ();
 

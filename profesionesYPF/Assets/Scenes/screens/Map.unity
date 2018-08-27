@@ -540,7 +540,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -185}
+  m_AnchoredPosition: {x: 0, y: -273.59998}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &479455919
@@ -575,7 +575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 171.5, y: -192.5}
+  m_AnchoredPosition: {x: 171.5, y: -281.09998}
   m_SizeDelta: {x: 389.6, y: 505.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479455921
@@ -604,7 +604,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 219
-    m_Alignment: 3
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1136,6 +1136,75 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 224861405841150234, guid: 6fe4f22386e922f499f5d42d5ca44e76,
     type: 2}
   m_PrefabInternal: {fileID: 784491061}
+--- !u!1 &1009036640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1009036641}
+  - component: {fileID: 1009036643}
+  - component: {fileID: 1009036642}
+  m_Layer: 0
+  m_Name: summary
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1009036641
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009036640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1770609792}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 135.40002}
+  m_SizeDelta: {x: 699, y: 165}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1009036642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009036640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 9df18c37bae17a24faf1990562772f3c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1009036643
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1009036640}
+  m_CullTransparentMesh: 0
 --- !u!1 &1134998896
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,10 +1558,10 @@ MonoBehaviour:
   carreraNameDesc: {fileID: 1944685297}
   carreraDuraction: {fileID: 2005732582}
   mapDesc: {fileID: 479455921}
-  mapInstructions: {fileID: 2107601994}
   map_container: {fileID: 1571719404}
   mapSlot: {fileID: 114555900579339996, guid: 6fe4f22386e922f499f5d42d5ca44e76, type: 2}
   slots: []
+  summaryImage: {fileID: 1009036642}
   help1: {fileID: 2065192064}
   help2: {fileID: 643396985}
 --- !u!114 &1770609789
@@ -1567,7 +1636,7 @@ RectTransform:
   - {fileID: 1387896094}
   - {fileID: 2005732584}
   - {fileID: 1944685296}
-  - {fileID: 2107601996}
+  - {fileID: 1009036641}
   - {fileID: 479455920}
   - {fileID: 462596247}
   - {fileID: 1571719404}
@@ -1613,8 +1682,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 300.4}
-  m_SizeDelta: {x: 912, y: 340}
+  m_AnchoredPosition: {x: 0, y: 366.2}
+  m_SizeDelta: {x: 732.8, y: 208.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1944685297
 MonoBehaviour:
@@ -1641,19 +1710,18 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 25
+    m_MaxSize: 30
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Es una rama de la ingenier\xEDa basada en la ingenier\xEDa\r\nel\xE9ctrica
-    que se encarga de resolver problemas tales\r\ncomo el control de procesos industriales,
-    sistemas\r\nelectr\xF3nicos de potencia o transformaci\xF3n de\r\nelectricidad
-    para el funcionamiento de diversos\r\naparatos el\xE9ctricos. Tiene aplicaci\xF3n
-    en la industria,\r\ntelecomunicaciones, dise\xF1o de instrumentaci\xF3n\r\nelectr\xF3nica,
-    microcontroladores y microprocesadores."
+  m_Text: "Vas a poder desenvolverte en actividades vinculadas con la industria del
+    petr\xF3leo, el gas y sus derivados. Estar\xE1s en la plani\uFB01caci\xF3n pero
+    si te gusta, tambi\xE9n en tareas de campo. Si te interesan las leyes, vas a poder
+    manejar los aspectos legales, de seguridad y conservaci\xF3n del medio ambiente
+    asociados a esta actividad. "
 --- !u!222 &1944685298
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1825,82 +1893,6 @@ RectTransform:
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -149, y: -459}
   m_SizeDelta: {x: 241, y: 229}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!1 &2107601993
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2107601996}
-  - component: {fileID: 2107601995}
-  - component: {fileID: 2107601994}
-  m_Layer: 0
-  m_Name: INSTRUCTIONS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2107601994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2107601993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.5754717, g: 0.5727572, b: 0.5727572, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: c6244f9c2299d5d44b9f2a7f236a017f, type: 3}
-    m_FontSize: 19
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 219
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "HAC\xC9 CLICK EN LAS PROVINCIAS PARA SABER D\xD3NDE POD\xC9S ESTUDIAR ESTA
-    CARRERA\r\n"
---- !u!222 &2107601995
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2107601993}
-  m_CullTransparentMesh: 0
---- !u!224 &2107601996
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2107601993}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1770609792}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.5, y: 72.6}
-  m_SizeDelta: {x: 912, y: 62.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2123622152
 GameObject:

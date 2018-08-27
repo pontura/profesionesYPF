@@ -129,8 +129,8 @@ public class TakePhoto : MonoBehaviour {
 	}
 	void Next()
 	{
-		Data.Instance.scenesManager.Next ();
-		//UnityEngine.SceneManagement.SceneManager.LoadScene ("Stickers");
+		//Data.Instance.scenesManager.Next ();
+		UnityEngine.SceneManagement.SceneManager.LoadScene ("Stickers");
 	}
 	void OnDestroy()
 	{

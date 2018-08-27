@@ -29,7 +29,7 @@ public class Stickers : MonoBehaviour {
 		title.text = Data.Instance.texts.stickers_title;
 
 		//Events.BackClicked += BackClicked;
-		Data.Instance.scenesManager.ShowDoubleNavigation ();
+		Data.Instance.scenesManager.ShowSimpleNavigation ();
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers+1000);
 
 		string[] sctickers_icons;
