@@ -26,7 +26,7 @@ public class KeyboardPanel : MonoBehaviour {
 	}
 	void OnEnable()
 	{
-		field.text = "";
+		//field.text = "";
 		errorField.text = "";
 	}
 	public void Clicked(string text)
@@ -35,7 +35,9 @@ public class KeyboardPanel : MonoBehaviour {
 			if (field.text.Length > 0)
 				field.text = field.text.Remove (field.text.Length - 1, 1);
 		} else if (text == "OK") {
-			if (isPhoneNumber || validateEmail (field.text))
+			if (field.text.Length < 4) {
+				Events.OnKeyboardDone ("");
+			} else if (isPhoneNumber || validateEmail (field.text))
 				Events.OnKeyboardDone (field.text);
 			else
 				errorField.text = "Email incorrecto";

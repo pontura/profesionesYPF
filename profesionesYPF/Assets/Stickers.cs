@@ -30,7 +30,7 @@ public class Stickers : MonoBehaviour {
 
 		//Events.BackClicked += BackClicked;
 		Data.Instance.scenesManager.ShowSimpleNavigation ();
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers+1000);
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.stickers);
 
 		string[] sctickers_icons;
 

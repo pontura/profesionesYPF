@@ -68,6 +68,7 @@ public class DraggerManager : MonoBehaviour {
 		}
 		dragging = false;
 		sprite = null;
+		image.sprite = null;
 		dragger.transform.position = new Vector2 (2000, -2000);
 	}
 }

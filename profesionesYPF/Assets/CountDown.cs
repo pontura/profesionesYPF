@@ -8,15 +8,32 @@ public class CountDown : MonoBehaviour {
 	public GameObject panel;
 	public Text field;
 	int sec = 0;
+	int initialSec;
 
 	void Start () {
 		panel.SetActive (false);
 	}
 	public void Init(int sec)
 	{
+		this.initialSec = sec;
 		CancelInvoke ();
 		this.sec = sec;
 		Loop ();
+	}
+	public void PauseCountdown()
+	{
+		CancelInvoke ();
+	}
+	public void UnPauseCountdown()
+	{
+		Loop ();
+	}
+	public void Restart()
+	{
+		if (sec > 5)
+			UnPauseCountdown ();
+		else
+			Init (initialSec);
 	}
 	void Loop()
 	{
@@ -25,7 +42,8 @@ public class CountDown : MonoBehaviour {
 			secText = "0" + secText;
 		field.text = "00:" + secText;
 		if (sec == 0) {
-			Data.Instance.scenesManager.Reset ();
+			Data.Instance.scenesManager.OpenResetPopup ();
+			return;
 		}
 		Invoke ("Loop", 1);
 		sec--;
@@ -40,5 +58,7 @@ public class CountDown : MonoBehaviour {
 	public void Hide()
 	{
 		panel.SetActive (false);
+		field.text = "";
+		PauseCountdown ();
 	}
 }

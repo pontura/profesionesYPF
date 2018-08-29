@@ -15,6 +15,7 @@ public class Share : MonoBehaviour {
 	public GameObject panel_whatsapp;
 	public GameObject panel_email;
 	public GameObject doneIcon;
+	public GameObject hideOnKeyboard;
 
 	public Text whatsapp_field;
 	public Text email_field;
@@ -27,6 +28,11 @@ public class Share : MonoBehaviour {
 	public GameObject doneButton;
 
 	void Start () {
+		
+		ResetWhatsapp ();
+		ResetEmail ();
+
+		Data.Instance.scenesManager.ShowSimpleNavigation ();
 
 		title.text = Data.Instance.texts.share_instructions;
 		image.material.mainTexture = Data.Instance.texture2d;
@@ -54,13 +60,20 @@ public class Share : MonoBehaviour {
 	{
 		ResetAll ();
 		if (isWhatsapp) {
-			text = GetComponent<CountriesManager> ().data.number.ToString () + "-" + text;
-			whatsapp_field.text = text;
+			if (text == "")
+				ResetWhatsapp ();
+			else {
+				text = GetComponent<CountriesManager> ().data.number.ToString () + "-" + text;
+				whatsapp_field.text = text;
+			}
 		} else {
-			email_field.text = text;
+			if (text == "")
+				ResetEmail ();
+			else
+				email_field.text = text;
 		}
-		//this.text = text;
-		//doneField.text = text;
+
+		hideOnKeyboard.SetActive (true);
 		panel_done.SetActive (true);
 		doneIcon.SetActive (false);
 	}
@@ -86,13 +99,15 @@ public class Share : MonoBehaviour {
 		switch (id) {
 		case 1:
 			isWhatsapp = true;
-			Data.Instance.scenesManager.ShowDoubleNavigationBack ();
+			//Data.Instance.scenesManager.ShowDoubleNavigationBack ();
 			panel_whatsapp.SetActive (true);
+			hideOnKeyboard.SetActive (false);
 			break;
 		case 2:
 			isWhatsapp = false;
-			Data.Instance.scenesManager.ShowDoubleNavigationBack ();
+			//Data.Instance.scenesManager.ShowDoubleNavigationBack ();
 			panel_email.SetActive (true);
+			hideOnKeyboard.SetActive (false);
 			break;
 		}
 	}
@@ -106,5 +121,13 @@ public class Share : MonoBehaviour {
 	public void Done()
 	{
 		Data.Instance.scenesManager.Next ();
+	}
+	void ResetWhatsapp()
+	{
+		whatsapp_field.text = "WHATSAPP";
+	}
+	void ResetEmail()
+	{
+		email_field.text = "E-MAIL";
 	}
 }

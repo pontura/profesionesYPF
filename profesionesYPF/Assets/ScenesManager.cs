@@ -42,6 +42,11 @@ public class ScenesManager : MonoBehaviour {
 		Data.Instance.progressIcons.SetStateBySceneID(id);
 		Data.Instance.countDown.SetStateBySceneID(id);
 	}
+	public void OpenResetPopup()
+	{
+		GetComponent<PopupReset> ().Init ();
+		GetComponent<CountDown> ().PauseCountdown ();
+	}
 	public void Reset()
 	{
 		Data.Instance.progressIcons.SetStatus (true);
@@ -50,14 +55,19 @@ public class ScenesManager : MonoBehaviour {
 		Data.Instance.Reset ();
 		Data.Instance.progressIcons.Reset();
 		Data.Instance.progressIcons.SetStateBySceneID(id);
-		Data.Instance.countDown.SetStateBySceneID(id);
+
+		if (id == 1)
+			Data.Instance.countDown.Hide ();
+		else
+			Data.Instance.countDown.SetStateBySceneID(id);
 	}
 	public void HomeClicked()
 	{
 		if (isBack)
 			Events.BackClicked ();
 		else
-			Data.Instance.scenesManager.Reset();
+			OpenResetPopup ();
+			//Data.Instance.scenesManager.Reset();
 	}
 	public void ShowSimpleNavigation()
 	{

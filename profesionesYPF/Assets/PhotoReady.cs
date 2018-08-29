@@ -12,8 +12,7 @@ public class PhotoReady : MonoBehaviour {
 	void Start()
 	{		
 		title.text = Data.Instance.texts.photo_ready_title + " " + Data.Instance.texts.photo_ready_subtitle;
-
-		Data.Instance.scenesManager.ShowDoubleNavigation ();
+		Data.Instance.scenesManager.ShowSimpleNavigation ();
 		image.material.mainTexture = Data.Instance.texture2d;
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photoReady);
 	}

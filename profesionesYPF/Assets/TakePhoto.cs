@@ -33,7 +33,7 @@ public class TakePhoto : MonoBehaviour {
 		field.text = "";
 		help.SetActive (true);
 		Data.Instance.scenesManager.ShowSimpleNavigation ();
-		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo+1000);
+		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.photo);
 
 		title.text = Data.Instance.texts.photo_instructions;
 		rawimage.enabled = false;
@@ -129,8 +129,8 @@ public class TakePhoto : MonoBehaviour {
 	}
 	void Next()
 	{
-		//Data.Instance.scenesManager.Next ();
-		UnityEngine.SceneManagement.SceneManager.LoadScene ("Stickers");
+		Data.Instance.scenesManager.Next ();
+		//UnityEngine.SceneManagement.SceneManager.LoadScene ("Stickers");
 	}
 	void OnDestroy()
 	{
