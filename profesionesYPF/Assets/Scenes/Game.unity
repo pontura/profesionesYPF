@@ -1665,7 +1665,7 @@ MonoBehaviour:
   icons: []
   progressIcon: {fileID: 114185613445411208, guid: f1af501bbeddd66448dede3468471406,
     type: 2}
-  total: 11
+  total: 10
   container: {fileID: 6307256}
   panel: {fileID: 1272908660}
   id: 0

@@ -23,8 +23,19 @@ public class Stickers : MonoBehaviour {
 	public Transform container_tags;
 	public Transform container_icons;
 
+	public GameObject carrearasContainer;
+	public List<CarreraInSticker> carreras_default_icons;
+
 
 	void Start () {
+
+		foreach (CarreraInSticker go in carrearasContainer.GetComponentsInChildren<CarreraInSticker>())
+			carreras_default_icons.Add (go);
+		
+		foreach (CarreraInSticker go in carreras_default_icons) 
+			go.gameObject.SetActive (false);
+
+		carreras_default_icons [Data.Instance.carrera.id-1].gameObject.SetActive (true);
 		
 		title.text = Data.Instance.texts.stickers_title;
 

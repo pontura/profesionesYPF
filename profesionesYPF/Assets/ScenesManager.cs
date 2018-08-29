@@ -37,9 +37,9 @@ public class ScenesManager : MonoBehaviour {
 	public void JumpBack()
 	{
 		id--;
-		print ("Load scene : "  + id);		
+		print ("Load scene : "  + id);	
+		Data.Instance.progressIcons.SetStateBySceneID (id);
 		SceneManager.LoadScene(id);
-		Data.Instance.progressIcons.SetStateBySceneID(id);
 		Data.Instance.countDown.SetStateBySceneID(id);
 	}
 	public void OpenResetPopup()

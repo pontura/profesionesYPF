@@ -1,17 +1,16 @@
 {
 	"timer":
 	{
-		"chooseCharacter": 59,
-		"chooseCategory": 59,				
-		"trivia": 59,
-		"results": 59,
+		"chooseCategory": 40,				
+		"trivia": 30,
+		"results": 30,
 		"map": 59,
 		"video": 59,
 		"photo": 59,
 		"stickers": 59,
 		"photoReady": 59,
 		"shareScreen": 59,
-		"lastScreen": 59
+		"lastScreen": 5
     },
 	"countries":
 	[

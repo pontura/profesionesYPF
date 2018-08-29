@@ -26,6 +26,11 @@ public class DraggerManager : MonoBehaviour {
 			StopDragging ();
 		}
 		if (dragging) {
+			if (image.sprite == null)
+				image.enabled = false;
+			else
+				image.enabled = true;
+			
 			Vector2 pos = Input.mousePosition;
 			if (restrictions != Vector2.zero) {
 				if(pos.x>restrictions.x+offset)

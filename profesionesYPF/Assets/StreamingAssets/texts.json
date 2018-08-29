@@ -496,7 +496,7 @@
 			
 	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",
 	
-	"r_1_0_0_0":3,
+	"r_1_0_0_0":{"resaltada":3, "mostrar":[1,2,3]},
 	"r_1_0_0_1":3,
 	"r_1_0_1_0":3,
 	"r_1_0_1_1":2,

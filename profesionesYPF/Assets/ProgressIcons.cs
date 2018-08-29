@@ -23,6 +23,11 @@ public class ProgressIcons : MonoBehaviour {
 		}
 		SetState (false);
 	}
+	public void BackClicked()
+	{
+		//id--;
+	//	ActivateIcon (id);
+	}
 	public void Reset()
 	{
 		SetState (false);
@@ -30,10 +35,11 @@ public class ProgressIcons : MonoBehaviour {
 	}
 	public void SetStateBySceneID(int sceneNum)
 	{
+		this.id = sceneNum;
 		if (sceneNum > 1) {
 			SetState (true);
 			ActivateIcon (id);
-			id++;
+		//	id++;
 		}
 		else
 			SetState (false);		
@@ -46,7 +52,7 @@ public class ProgressIcons : MonoBehaviour {
 	public void ActivateIcon(int id)
 	{
 		ResetIcons ();
-		icons[id].SetState (true);
+		icons[id-2].SetState (true);
 	}
 	void ResetIcons()
 	{
