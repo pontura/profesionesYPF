@@ -7,7 +7,7 @@ public class ScreenshotManager : MonoBehaviour {
 
 	public int _w = 1080;
 	public int _h = 1080;
-	float offsetY = 360;
+	float offsetY = 380;
 	float offset_Y;
 	bool saveItToDisk;
 

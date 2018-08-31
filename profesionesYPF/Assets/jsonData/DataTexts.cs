@@ -109,8 +109,7 @@ public class Carrera
 	public string desc;
 	public string duration;
 	public List<MapSlots> mapSlots;
-	public List<string> sctickers_tags;
-	public List<string> sctickers_icons;
+	public List<string> stickers_icons;
 }
 [System.Serializable]
 public class MapSlots
