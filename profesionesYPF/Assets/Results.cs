@@ -28,6 +28,13 @@ public class Results : MonoBehaviour {
 		buttons4.SetActive (false);
 
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
+
+		Vector4 r = Data.Instance.results;
+		TriviaResults triviaResults = (TriviaResults)Data.Instance.texts.GetType().GetField("r_" + r.x + "_" + r.y + "_" + r.z + "_" + r.w ).GetValue(Data.Instance.texts);
+
+		int carrera_destacada_id = triviaResults.resaltada;
+
+
 		int categoria = 0;
 		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
 			categoria = 1;
@@ -39,8 +46,9 @@ public class Results : MonoBehaviour {
 			categoria = 4;
 		}
 		foreach (Carrera carrera in Data.Instance.texts.carreras) {
-			if(carrera.categoria == categoria)
-				all.Add (carrera);
+			foreach(int carreraID in triviaResults.mostrar)
+				if(carrera.id == carreraID)
+					all.Add (carrera);
 		}
 
 		if (all.Count == 2)
@@ -54,8 +62,6 @@ public class Results : MonoBehaviour {
 
 		results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
 
-		Vector4 r = Data.Instance.results;
-		carrera_destacada_id = (int)Data.Instance.texts.GetType().GetField("r_" + r.x + "_" + r.y + "_" + r.z + "_" + r.w ).GetValue(Data.Instance.texts);
 
 		int id = 0;
 
