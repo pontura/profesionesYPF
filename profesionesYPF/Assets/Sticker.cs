@@ -11,10 +11,34 @@ public class Sticker : MonoBehaviour {
 	public bool restrictMovement;
 	public Image image;
 
+	public GameObject robot;
+	public GameObject brujula;
+	public GameObject metro;
+
 	public Vector2 restrictions;
 
 	public void Init(Stickers stickers, Sprite sprite, Vector2 restrictions)
 	{
+		robot.SetActive (false);
+		brujula.SetActive (false);
+		metro.SetActive (false);
+		image.enabled = true;
+		switch (sprite.name) {
+		case "Sticker_robot":
+			robot.SetActive (true);
+			image.enabled = false;
+			break;
+		case "Sticker_brujula":
+			brujula.SetActive (true);
+			image.enabled = false;
+			break;
+		case "Sticker_metro":
+			metro.SetActive (true);
+			image.enabled = false;
+			break;
+		}
+		print ("sprite::::::   " + sprite.name);
+
 		this.sprite = sprite;
 		this.restrictions = restrictions;
 		this.stickers = stickers;

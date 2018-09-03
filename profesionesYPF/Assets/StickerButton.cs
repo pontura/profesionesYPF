@@ -9,7 +9,10 @@ public class StickerButton : MonoBehaviour {
 	public Image image;
 	public Sprite asset;
 
+
+
 	public void Init (Stickers stickers,  Sprite asset) {
+		
 		this.asset = asset;
 		image.sprite = asset;
 		image.SetNativeSize ();

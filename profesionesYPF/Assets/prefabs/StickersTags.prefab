@@ -132,6 +132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stickers: {fileID: 0}
   image: {fileID: 114706599180185310}
+  asset: {fileID: 0}
 --- !u!114 &114489060875272706
 MonoBehaviour:
   m_ObjectHideFlags: 1

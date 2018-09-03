@@ -242,6 +242,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 2144604707}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &16236823
 GameObject:
@@ -922,6 +925,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1907691784}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &88869227
 GameObject:
@@ -2184,6 +2190,115 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 204747007}
   m_CullTransparentMesh: 0
+--- !u!1001 &206550147
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 693439220}
+    m_Modifications:
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.1449585
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 139.7799
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+        type: 2}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835472855499160, guid: edc1a0c04d13da74e8cff8a4d7bacc9d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: edc1a0c04d13da74e8cff8a4d7bacc9d, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!224 &206550148 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224807544055049954, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
+    type: 2}
+  m_PrefabInternal: {fileID: 206550147}
 --- !u!1 &207579019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,6 +2522,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 186055895}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &236466452
 GameObject:
@@ -3159,6 +3277,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1576942729}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &305049090
 Prefab:
@@ -4082,6 +4203,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 718905466}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &358025972
 GameObject:
@@ -4712,6 +4836,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 820770701}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &388536008
 GameObject:
@@ -5678,6 +5805,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1656452541}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &489034666
 Prefab:
@@ -6208,6 +6338,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1536021539}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &542344129
 Prefab:
@@ -6855,6 +6988,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 937024755}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &574193988
 GameObject:
@@ -7575,6 +7711,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1783379647}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &629980296
 GameObject:
@@ -7794,6 +7933,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 983000964}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &684406265
 Prefab:
@@ -8035,7 +8177,8 @@ RectTransform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.31250003, y: 0.31250003, z: 0.33333334}
-  m_Children: []
+  m_Children:
+  - {fileID: 206550148}
   m_Father: {fileID: 609458437}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8497,6 +8640,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 806630881}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &746549769
 GameObject:
@@ -8817,6 +8963,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1194445467}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &786168888
 GameObject:
@@ -9246,6 +9395,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 2050264039}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &816703753
 GameObject:
@@ -9376,6 +9528,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 880634101}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &820770699
 Prefab:
@@ -9944,6 +10099,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1257817491}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &876098819
 GameObject:
@@ -10074,6 +10232,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1766935791}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &876485286
 GameObject:
@@ -10413,6 +10574,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 262460974}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &889059253
 GameObject:
@@ -10523,6 +10687,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1927507459}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &914502908
 Prefab:
@@ -10790,6 +10957,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1717929101}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &921619098
 GameObject:
@@ -11228,6 +11398,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1493602666}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &952437844
 GameObject:
@@ -11494,6 +11667,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 379020651}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &975891673
 GameObject:
@@ -12343,6 +12519,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 499494982}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1027405665
 GameObject:
@@ -12841,6 +13020,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1515590068}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1037784613
 GameObject:
@@ -12971,6 +13153,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1415926855}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1043390406
 Prefab:
@@ -13238,6 +13423,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1797243013}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1054190882
 Prefab:
@@ -13489,6 +13677,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1177916596}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1066078178
 GameObject:
@@ -13829,6 +14020,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1132918386}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1083688944
 GameObject:
@@ -14129,6 +14323,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1590444753}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1122519979
 GameObject:
@@ -14601,6 +14798,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1640075963}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1147957118
 GameObject:
@@ -14800,6 +15000,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 25948517}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1155601602
 GameObject:
@@ -14998,6 +15201,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1075114986}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1162100365
 GameObject:
@@ -15128,6 +15334,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 559089700}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1177916594
 Prefab:
@@ -15395,6 +15604,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1030294927}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1193234561
 GameObject:
@@ -15525,6 +15737,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1562362539}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1194445465
 Prefab:
@@ -16196,6 +16411,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 2032079797}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1257817489
 Prefab:
@@ -16463,6 +16681,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 489034668}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1262993854
 GameObject:
@@ -16593,6 +16814,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1308382973}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1266689449
 GameObject:
@@ -16785,6 +17009,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1212024153}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1280094772
 GameObject:
@@ -17053,6 +17280,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 2083611730}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1300081033
 GameObject:
@@ -17806,6 +18036,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1684921595}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1413476809
 GameObject:
@@ -17936,6 +18169,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1735385773}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1415926853
 Prefab:
@@ -18197,6 +18433,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 282289274}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1430035092
 GameObject:
@@ -18327,6 +18566,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 684406267}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1431992946
 GameObject:
@@ -18457,6 +18699,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1934846060}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1436111466
 GameObject:
@@ -18685,6 +18930,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1769857308}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1451748435
 GameObject:
@@ -18850,6 +19098,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 305049092}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1472894872
 GameObject:
@@ -19469,6 +19720,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 2125567893}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1534788100
 GameObject:
@@ -19599,6 +19853,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 2059440448}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1536021537
 Prefab:
@@ -20142,6 +20399,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1903649840}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1576942727
 Prefab:
@@ -20409,6 +20669,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 585395366}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1587432520
 GameObject:
@@ -21003,6 +21266,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1028468026}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1656452539
 Prefab:
@@ -21926,6 +22192,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 914502910}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1732330702
 GameObject:
@@ -23092,6 +23361,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 1043390408}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1847963314
 GameObject:
@@ -23290,6 +23562,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1887273495}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1885052969
 GameObject:
@@ -23420,6 +23695,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 542344131}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1886165778
 GameObject:
@@ -23812,6 +24090,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1021935139}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1899233406
 GameObject:
@@ -23942,6 +24223,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 1054190884}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &1903649838
 Prefab:
@@ -24473,6 +24757,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 1
   image: {fileID: 308496198}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1929975905
 GameObject:
@@ -24905,6 +25192,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 441527004}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1944460060
 GameObject:
@@ -25103,6 +25393,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 394307496}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1 &1964181920
 GameObject:
@@ -25635,6 +25928,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 347767415}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &2050264037
 Prefab:
@@ -26133,6 +26429,9 @@ MonoBehaviour:
   stickers: {fileID: 576751201}
   restrictMovement: 0
   image: {fileID: 190206460}
+  robot: {fileID: 0}
+  brujula: {fileID: 0}
+  metro: {fileID: 0}
   restrictions: {x: 0, y: 0}
 --- !u!1001 &2083611728
 Prefab:
