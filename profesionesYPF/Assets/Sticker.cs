@@ -14,6 +14,8 @@ public class Sticker : MonoBehaviour {
 	public GameObject robot;
 	public GameObject brujula;
 	public GameObject metro;
+	public GameObject lupa;
+	public GameObject tubogrande;
 
 	public Vector2 restrictions;
 
@@ -22,10 +24,21 @@ public class Sticker : MonoBehaviour {
 		robot.SetActive (false);
 		brujula.SetActive (false);
 		metro.SetActive (false);
+		lupa.SetActive (false);
+		tubogrande.SetActive (false);
+
 		image.enabled = true;
 		switch (sprite.name) {
 		case "Sticker_robot":
 			robot.SetActive (true);
+			image.enabled = false;
+			break;
+		case "Sticker_tubogrande":
+			tubogrande.SetActive (true);
+			image.enabled = false;
+			break;
+		case "Sticker_lupa":
+			lupa.SetActive (true);
 			image.enabled = false;
 			break;
 		case "Sticker_brujula":
