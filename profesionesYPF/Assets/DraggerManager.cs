@@ -6,20 +6,37 @@ using UnityEngine.UI;
 public class DraggerManager : MonoBehaviour {
 
 	public GameObject dragger;
-
 	Sprite sprite;
 
 	public Image image;
-
 	public bool dragging;
+
+	public float initalDistance;
+	public float scaleValue;
+	public bool doubleTouchOn;
+
 	Stickers stickers;
 	Vector2 restrictions;
 	float offset = 20;
+
 	void Start()
 	{
 		stickers = GetComponent<Stickers> ();
 	}
-	void Update () {
+	void Update () {		
+		if (Input.touchCount > 1) {
+			Vector2 pos1 = Input.touches [0].position;
+			Vector2 pos2 = Input.touches [1].position;
+
+			if (!doubleTouchOn) {
+				doubleTouchOn = true;
+				initalDistance = Vector2.Distance (pos1, pos2);
+			} else {
+				scaleValue = initalDistance - Vector2.Distance (pos1, pos2);
+			}
+		} else {
+			doubleTouchOn = false;
+		}
 		if (Input.GetMouseButtonDown (0)) {
 			dragging = true;
 		} else if (dragging && Input.GetMouseButtonUp (0)) {
