@@ -60,33 +60,27 @@
 			"mapSlots":
 			[
 				{
-					"_x":181,
-					"_y":-263,
+					"id":0,
 					"desc":"C.A.B.A.\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central"
 				},
 				{
-					"_x":138,
-					"_y":-286,
+					"id":1,
 					"desc":"BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad de Ingeniería y Agronomía"
 				},
 				{
-					"_x":10,
-					"_y":-246,
+					"id":2,
 					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":-5,
-					"_y":-323,
+					"id":3,
 					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":44,
-					"_y":-354,
+					"id":4,
 					"desc":"RIO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":18,
-					"_y":-425,
+					"id":5,
 					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
 				}
 			],
@@ -111,13 +105,11 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":100,
-					"_y":-92,
+					"id":1,
 					"desc":"description icon 2"
 				}
 			],
@@ -141,18 +133,11 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":20,
-					"_y":-110,
-					"desc":"description icon 1"
-				},
-				{
-					"_x":100,
-					"_y":-92,
+					"id":1,
 					"desc":"description icon 2"
 				}
 			],
@@ -176,24 +161,12 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":20,
-					"_y":-110,
+					"id":1,
 					"desc":"description icon 2"
-				},
-				{
-					"_x":100,
-					"_y":-92,
-					"desc":"description icon 3"
-				},
-				{
-					"_x":900,
-					"_y":-62,
-					"desc":"description icon 4"
 				}
 			],
 			"stickers_icons":
@@ -216,8 +189,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -241,8 +213,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -266,8 +237,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -291,8 +261,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -316,8 +285,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -341,8 +309,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -366,8 +333,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -391,8 +357,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -416,8 +381,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -441,8 +405,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -466,8 +429,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -491,8 +453,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -516,8 +477,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -541,8 +501,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -566,8 +525,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],
@@ -591,8 +549,7 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
 			],

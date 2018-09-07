@@ -30,26 +30,45 @@ public class MapScreen : MonoBehaviour {
 		Sprite s = Resources.Load("summary/" +  Data.Instance.carrera.id, typeof(Sprite)) as Sprite;
 		summaryImage.sprite = s;
 
-		AddSlots ();
-
-		MapSlotClicked (Random.Range(0,slots.Count));
 
 		help1.SetActive (true);
 		help2.SetActive (false);
-	}
-	void AddSlots()
-	{
+
 		int id = 0;
-		foreach (MapSlots mapSlots in Data.Instance.carrera.mapSlots) {
-			MapSlot newMapSlot = Instantiate (mapSlot);
-			newMapSlot.transform.SetParent (map_container);
-			newMapSlot.transform.localPosition = new Vector2 (mapSlots._x, mapSlots._y);
-			newMapSlot.transform.localScale = Vector2.one;
-			newMapSlot.Init(this, id);
+		foreach (MapSlot mapSlot in map_container.GetComponentsInChildren<MapSlot>())
+		{
+			bool isOn = false;
+			foreach (MapSlots mapSlots in Data.Instance.carrera.mapSlots) {
+				if (mapSlots.id == id) {
+					slots.Add (mapSlot);
+					mapSlot.Init (this, id);
+					isOn = true;
+				}
+
+			}
+			if(!isOn)
+				mapSlot.gameObject.SetActive (false);
+
 			id++;
-			slots.Add (newMapSlot);
 		}
+
+		//AddSlots ();
+
+		MapSlotClicked (Random.Range(0,slots.Count));
 	}
+//	void AddSlots()
+//	{
+//		int id = 0;
+//		foreach (MapSlots mapSlots in Data.Instance.carrera.mapSlots) {
+//			MapSlot newMapSlot = Instantiate (mapSlot);
+//			newMapSlot.transform.SetParent (map_container);
+//			newMapSlot.transform.localPosition = new Vector2 (mapSlots._x, mapSlots._y);
+//			newMapSlot.transform.localScale = Vector2.one;
+//			newMapSlot.Init(this, id);
+//			id++;
+//			slots.Add (newMapSlot);
+//		}
+//	}
 	public void MapSlotClicked(int id)
 	{
 		help1.SetActive (false);
