@@ -77,13 +77,18 @@ public class Stickers : MonoBehaviour {
 		print ("OnItemSelected " + asset);
 		draggerManager.OnItemSelected (asset, Vector2.zero);
 	}
-	public void AddSticker (Sprite sprite, Vector3 pos, Vector2 restrictMovement)
+	public void AddSticker (Sprite sprite, Vector3 pos, Vector3 rot, Vector2 restrictMovement)
 	{
 		print ("AddSticker " + sprite);
 
 		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
 		all.Add (newSticker);
 		newSticker.Init (this, sprite, restrictMovement);
+
+		if (restrictMovement == Vector2.zero)
+			newSticker.transform.localEulerAngles = rot;
+		else
+			newSticker.transform.localEulerAngles = new Vector3 (0, -90, 0);
 	}
 
 	bool done;

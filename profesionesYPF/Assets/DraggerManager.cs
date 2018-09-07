@@ -14,16 +14,23 @@ public class DraggerManager : MonoBehaviour {
 	public float initalDistance;
 	public float scaleValue;
 	public bool doubleTouchOn;
+	public float angleValue;
 
 	Stickers stickers;
 	Vector2 restrictions;
 	float offset = 20;
 
+	public GameObject lookAtObject;
+
 	void Start()
 	{
 		stickers = GetComponent<Stickers> ();
 	}
-	void Update () {		
+	void Update () {	
+		
+		lookAtObject.transform.LookAt (Input.mousePosition);
+		angleValue = lookAtObject.transform.localEulerAngles.x;
+
 		if (Input.touchCount > 1) {
 			Vector2 pos1 = Input.touches [0].position;
 			Vector2 pos2 = Input.touches [1].position;
@@ -34,6 +41,8 @@ public class DraggerManager : MonoBehaviour {
 			} else {
 				scaleValue = initalDistance - Vector2.Distance (pos1, pos2);
 			}
+
+
 		} else {
 			doubleTouchOn = false;
 		}
@@ -86,7 +95,7 @@ public class DraggerManager : MonoBehaviour {
 		if (sprite == null) {
 			print ("StopDragging NO hay sprite");
 		} else {
-			stickers.AddSticker (sprite, dragger.transform.position, restrictions);
+			stickers.AddSticker (sprite, dragger.transform.position, new Vector3(angleValue,-90,0), restrictions);
 		}
 		dragging = false;
 		sprite = null;
