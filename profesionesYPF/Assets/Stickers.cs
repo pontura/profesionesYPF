@@ -67,7 +67,7 @@ public class Stickers : MonoBehaviour {
 	{		
 		print ("__OnStickerSelected " + sticker);
 
-		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions);
+		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions, sticker.transform);
 
 		all.Remove (sticker);
 		Destroy (sticker.gameObject);
@@ -75,15 +75,19 @@ public class Stickers : MonoBehaviour {
 	public void OnItemSelected(Sprite asset)
 	{
 		print ("OnItemSelected " + asset);
-		draggerManager.OnItemSelected (asset, Vector2.zero);
+		Transform t = transform;
+		t.localEulerAngles = Vector3.zero;
+		t.localScale = Vector3.one;
+		draggerManager.OnItemSelected (asset, Vector2.zero, t);
 	}
-	public void AddSticker (Sprite sprite, Vector3 pos, Vector3 rot, Vector2 restrictMovement)
+	public void AddSticker (Sprite sprite, Vector3 pos, Vector3 rot, Vector3 _scale, Vector2 restrictMovement)
 	{
 		print ("AddSticker " + sprite);
 
 		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
 		all.Add (newSticker);
 		newSticker.Init (this, sprite, restrictMovement);
+		newSticker.transform.localScale = _scale;
 
 		if (restrictMovement == Vector2.zero)
 			newSticker.transform.localEulerAngles = rot;

@@ -12,6 +12,7 @@ public class DraggerManager : MonoBehaviour {
 	public bool dragging;
 
 	public float initalDistance;
+	float initialAngle;
 	public float scaleValue;
 	public bool doubleTouchOn;
 	public float angleValue;
@@ -20,28 +21,54 @@ public class DraggerManager : MonoBehaviour {
 	Vector2 restrictions;
 	float offset = 20;
 
-	public GameObject lookAtObject;
+	public int totalTouches;
+	int allTouchesPosible = 2;
+	float minScale = 0.5f;
+	float maxScale = 2f;
+	//public GameObject lookAtObject;
 
 	void Start()
 	{
 		stickers = GetComponent<Stickers> ();
+		Input.ResetInputAxes ();
+	}
+	void ResetDragger()
+	{
+		dragger.transform.localScale = Vector3.one;
+		dragger.transform.localEulerAngles = new Vector3 (0, 90, 0);
+		angleValue = 0;
+		scaleValue = 1;
+		initialAngle = 0;
 	}
 	void Update () {	
-		
-		lookAtObject.transform.LookAt (Input.mousePosition);
-		angleValue = lookAtObject.transform.localEulerAngles.x;
+			totalTouches = Input.touchCount;
+			Vector2 pos = Input.mousePosition;
 
-		if (Input.touchCount > 1) {
-			Vector2 pos1 = Input.touches [0].position;
-			Vector2 pos2 = Input.touches [1].position;
+
+		if (Input.touchCount > allTouchesPosible-1 && restrictions == Vector2.zero) {
+	
+
+			Vector2 pos1 = Input.touches [allTouchesPosible-2].position;
+			Vector2 pos2 = Input.touches [allTouchesPosible-1].position;
+
+			pos = (pos1+pos2)/2;
 
 			if (!doubleTouchOn) {
 				doubleTouchOn = true;
 				initalDistance = Vector2.Distance (pos1, pos2);
+				initialAngle = angleValue;
 			} else {
-				scaleValue = initalDistance - Vector2.Distance (pos1, pos2);
-			}
+				//lookAtObject.transform.LookAt (Input.touches [allTouchesPosible - 2].position);
+				//angleValue = lookAtObject.transform.localEulerAngles.x - initialAngle;
 
+				scaleValue = 1+(((initalDistance - Vector2.Distance (pos1, pos2)) *-1)/150);
+				if (scaleValue < minScale)
+					scaleValue = minScale;
+				else if (scaleValue > maxScale)
+					scaleValue = maxScale;
+				dragger.transform.localScale = new Vector3(scaleValue, scaleValue, scaleValue);
+			}
+			dragger.transform.localEulerAngles = new Vector3 (-angleValue, 90, 0);
 
 		} else {
 			doubleTouchOn = false;
@@ -57,7 +84,7 @@ public class DraggerManager : MonoBehaviour {
 			else
 				image.enabled = true;
 			
-			Vector2 pos = Input.mousePosition;
+
 			if (restrictions != Vector2.zero) {
 				if(pos.x>restrictions.x+offset)
 					pos.x = restrictions.x+offset;
@@ -68,11 +95,11 @@ public class DraggerManager : MonoBehaviour {
 				else if(pos.y<restrictions.y-offset)
 					pos.y = restrictions.y-offset;
 			}
-
+			//lookAtObject.transform.position = pos;
 			dragger.transform.position = pos;
 		} 
 	}
-	public void OnItemSelected(Sprite sprite, Vector2 restrictions)
+	public void OnItemSelected(Sprite sprite, Vector2 restrictions, Transform t)
 	{
 		if (sprite == null) {
 			print ("no hay sprite");
@@ -84,6 +111,12 @@ public class DraggerManager : MonoBehaviour {
 		image.sprite = sprite;
 		image.SetNativeSize ();
 
+		print (t.localScale);
+
+		dragger.transform.localScale = t.localScale;
+		//dragger.transform.localEulerAngles = t.localEulerAngles;
+		//}
+
 //		asset = Instantiate (newAsset);
 //		Utils.RemoveAllChildsIn (dragger.transform);
 //		asset.transform.SetParent (dragger.transform);
@@ -92,14 +125,25 @@ public class DraggerManager : MonoBehaviour {
 	}
 	public void StopDragging()
 	{
+		//angleValue = 0;
+		Vector3 rot = new Vector3 (angleValue, -90, 0);
+		Vector3 sc = new Vector3 (scaleValue, scaleValue, scaleValue);
+
+		if(restrictions != Vector2.zero)
+		{
+			rot = new Vector3 (0, 90, 0);
+			sc = Vector3.one;
+		}
+		
 		if (sprite == null) {
 			print ("StopDragging NO hay sprite");
 		} else {
-			stickers.AddSticker (sprite, dragger.transform.position, new Vector3(angleValue,-90,0), restrictions);
+			stickers.AddSticker (sprite, dragger.transform.position, rot,sc , restrictions);
 		}
 		dragging = false;
 		sprite = null;
 		image.sprite = null;
 		dragger.transform.position = new Vector2 (2000, -2000);
+		ResetDragger ();
 	}
 }

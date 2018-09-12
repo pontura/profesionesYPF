@@ -3473,13 +3473,13 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 285151024}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1334095727}
+  m_Father: {fileID: 612118320}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -8431,7 +8431,7 @@ MonoBehaviour:
   scaleValue: 0
   doubleTouchOn: 0
   angleValue: 0
-  lookAtObject: {fileID: 1274595102}
+  totalTouches: 0
 --- !u!114 &576751201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8768,6 +8768,40 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 609458436}
   m_CullTransparentMesh: 0
+--- !u!1 &612118319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 612118320}
+  m_Layer: 5
+  m_Name: all
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &612118320
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 612118319}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 285151025}
+  m_Father: {fileID: 1334095727}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &615270542
 GameObject:
   m_ObjectHideFlags: 0
@@ -18852,11 +18886,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1274595102 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1835472855499160, guid: edc1a0c04d13da74e8cff8a4d7bacc9d,
-    type: 2}
-  m_PrefabInternal: {fileID: 2049498784}
 --- !u!1 &1278459279
 GameObject:
   m_ObjectHideFlags: 0
@@ -19506,14 +19535,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1334095726}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 285151025}
+  - {fileID: 612118320}
   m_Father: {fileID: 576751196}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 620.5, y: -134.92004}
@@ -28701,26 +28730,20 @@ MonoBehaviour:
         esta actividad. "
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 181
-        _y: -263
+      - id: 0
         desc: "C.A.B.A.\n\nInstituto Tecnol\xF3gico de Buenos Aires (ITBA)\nSede Central"
-      - _x: 138
-        _y: -286
+      - id: 0
         desc: "BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad
           de Ingenier\xEDa y Agronom\xEDa"
-      - _x: 10
-        _y: -246
+      - id: 0
         desc: "MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingenier\xEDa"
-      - _x: -5
-        _y: -323
+      - id: 0
         desc: "NEUQU\xC9N\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de
           Ingenier\xEDa"
-      - _x: 44
-        _y: -354
+      - id: 0
         desc: "RIO NEGRO\n\nUniversidad Nacional de R\xEDo Negro (UNRN)\nFacultad
           de Ingenier\xEDa"
-      - _x: 18
-        _y: -425
+      - id: 0
         desc: "CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad
           de Ingenier\xEDa"
       stickers_icons:
@@ -28745,11 +28768,9 @@ MonoBehaviour:
         herramientas especiales con tecnolog\xEDa de punta."
       duration: "4 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
-      - _x: 100
-        _y: -92
+      - id: 0
         desc: description icon 2
       stickers_icons:
       - Sticker_anteojonerd
@@ -28770,14 +28791,11 @@ MonoBehaviour:
         papelera y alimentaria."
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
-      - _x: 20
-        _y: -110
+      - id: 0
         desc: description icon 1
-      - _x: 100
-        _y: -92
+      - id: 0
         desc: description icon 2
       stickers_icons:
       - Sticker_anteojonerd
@@ -28802,17 +28820,13 @@ MonoBehaviour:
         niveles de contaminaci\xF3n."
       duration: "5/6 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
-      - _x: 20
-        _y: -110
+      - id: 0
         desc: description icon 2
-      - _x: 100
-        _y: -92
+      - id: 0
         desc: description icon 3
-      - _x: 900
-        _y: -62
+      - id: 0
         desc: description icon 4
       stickers_icons:
       - Sticker_anteojonerd
@@ -28836,8 +28850,7 @@ MonoBehaviour:
         la seguridad de los asentamientos humanos y de grandes obras de infraestructura."
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28862,8 +28875,7 @@ MonoBehaviour:
         investigaci\xF3n y docencia"
       duration: "5/6 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28887,8 +28899,7 @@ MonoBehaviour:
         tambi\xE9n vas a poder ser un investigador y docente a nivel universitario."
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28913,8 +28924,7 @@ MonoBehaviour:
         y control."
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28939,8 +28949,7 @@ MonoBehaviour:
         aire y la gesti\xF3n de residuos."
       duration: "5 a\xF1os"
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28956,8 +28965,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28973,8 +28981,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28990,8 +28997,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29007,8 +29013,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29024,8 +29029,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29041,8 +29045,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29058,8 +29061,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29075,8 +29077,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29092,8 +29093,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29109,8 +29109,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29126,8 +29125,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - _x: 120
-        _y: -150
+      - id: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29153,26 +29151,20 @@ MonoBehaviour:
       del medio ambiente asociados a esta actividad. "
     duration: "5 a\xF1os"
     mapSlots:
-    - _x: 181
-      _y: -263
+    - id: 0
       desc: "C.A.B.A.\n\nInstituto Tecnol\xF3gico de Buenos Aires (ITBA)\nSede Central"
-    - _x: 138
-      _y: -286
+    - id: 0
       desc: "BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad
         de Ingenier\xEDa y Agronom\xEDa"
-    - _x: 10
-      _y: -246
+    - id: 0
       desc: "MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingenier\xEDa"
-    - _x: -5
-      _y: -323
+    - id: 0
       desc: "NEUQU\xC9N\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de
         Ingenier\xEDa"
-    - _x: 44
-      _y: -354
+    - id: 0
       desc: "RIO NEGRO\n\nUniversidad Nacional de R\xEDo Negro (UNRN)\nFacultad de
         Ingenier\xEDa"
-    - _x: 18
-      _y: -425
+    - id: 0
       desc: "CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad
         de Ingenier\xEDa"
     stickers_icons:
@@ -30041,6 +30033,10 @@ Prefab:
         type: 2}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1835472855499160, guid: edc1a0c04d13da74e8cff8a4d7bacc9d, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edc1a0c04d13da74e8cff8a4d7bacc9d, type: 2}

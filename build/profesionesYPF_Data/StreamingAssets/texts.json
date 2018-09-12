@@ -60,35 +60,39 @@
 			"mapSlots":
 			[
 				{
-					"_x":181,
-					"_y":-263,
+					"id":0,
 					"desc":"C.A.B.A.\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central"
 				},
 				{
-					"_x":138,
-					"_y":-286,
+					"id":1,
 					"desc":"BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad de Ingeniería y Agronomía"
 				},
 				{
-					"_x":10,
-					"_y":-246,
+					"id":2,
 					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":-5,
-					"_y":-323,
+					"id":3,
 					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":44,
-					"_y":-354,
+					"id":4,
 					"desc":"RIO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nFacultad de Ingeniería"
 				},
 				{
-					"_x":18,
-					"_y":-425,
+					"id":5,
 					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_brujula",
+				"Sticker_robot",
+				"Sticker_metro",
+				"Sticker_ciguena"
 			]
 		}
 		,
@@ -101,15 +105,23 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":100,
-					"_y":-92,
+					"id":1,
 					"desc":"description icon 2"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -121,20 +133,23 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":20,
-					"_y":-110,
-					"desc":"description icon 1"
-				},
-				{
-					"_x":100,
-					"_y":-92,
+					"id":1,
 					"desc":"description icon 2"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -146,25 +161,23 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				},
 				{
-					"_x":20,
-					"_y":-110,
+					"id":1,
 					"desc":"description icon 2"
-				},
-				{
-					"_x":100,
-					"_y":-92,
-					"desc":"description icon 3"
-				},
-				{
-					"_x":900,
-					"_y":-62,
-					"desc":"description icon 4"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -176,10 +189,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -191,10 +213,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -206,10 +237,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -221,10 +261,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -236,10 +285,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -251,10 +309,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -266,10 +333,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -281,10 +357,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -296,10 +381,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -311,10 +405,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -326,10 +429,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -341,10 +453,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -356,10 +477,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -371,10 +501,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -386,10 +525,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		},
 		{ 
@@ -401,10 +549,19 @@
 			"mapSlots":
 			[
 				{
-					"_x":120,
-					"_y":-150,
+					"id":0,
 					"desc":"description icon 1"
 				}
+			],
+			"stickers_icons":
+			[
+				"Sticker_anteojonerd",
+				"Sticker_anteojosol",
+				"Sticker_arbol",
+				"Sticker_binoculares",
+				"Sticker_calibre",
+				"Sticker_jarras",
+				"Sticker_pincel"
 			]
 		}
 	],
@@ -432,46 +589,6 @@
 		"Stickers-general7",
 		"Stickers-general8"
 	],
-	"iconos_cat_1":
-	[
-		"Stickers-natura1",
-		"Stickers-natura2",
-		"Stickers-natura3",
-		"Stickers-natura4",
-		"Stickers-natura5",
-		"Stickers-natura6",
-		"Stickers-natura7"
-	],
-	"iconos_cat_2":
-	[
-		"Stickers-fisica1",
-		"Stickers-fisica2",
-		"Stickers-fisica3",
-		"Stickers-fisica4",
-		"Stickers-fisica5",
-		"Stickers-fisica6",
-		"Stickers-fisica7"
-	],
-	"iconos_cat_3":
-	[
-		"Stickers-quimica1",
-		"Stickers-quimica2",
-		"Stickers-quimica3",
-		"Stickers-quimica4",
-		"Stickers-quimica5",
-		"Stickers-quimica6",
-		"Stickers-quimica7"
-	],
-	"iconos_cat_4":
-	[
-		"Stickers-fisica1",
-		"Stickers-fisica2",
-		"Stickers-fisica3",
-		"Stickers-fisica4",
-		"Stickers-fisica5",
-		"Stickers-fisica6",
-		"Stickers-fisica7"
-	],
 	
 	"id 1 ":"Ingeniería en Petróleo",
 	"id 2 ":"Ingeniería en Perforaciones",
@@ -496,39 +613,39 @@
 			
 	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",
 	
-	"r_1_0_0_0":3,
-	"r_1_0_0_1":3,
-	"r_1_0_1_0":3,
-	"r_1_0_1_1":2,
-	"r_1_1_0_0":3,
-	"r_1_1_0_1":1,
-	"r_1_1_1_0":1,
-	"r_1_1_1_1":2,
+	"r_1_0_0_0":{"resaltada":3, "mostrar":[1,2,3]},
+	"r_1_0_0_1":{"resaltada":3, "mostrar":[1,2,3]},
+	"r_1_0_1_0":{"resaltada":3, "mostrar":[1,2,3]},
+	"r_1_0_1_1":{"resaltada":2, "mostrar":[1,2,3]},
+	"r_1_1_0_0":{"resaltada":3, "mostrar":[1,2,3]},
+	"r_1_1_0_1":{"resaltada":1, "mostrar":[1,2,3]},
+	"r_1_1_1_0":{"resaltada":1, "mostrar":[1,2,3]},
+	"r_1_1_1_1":{"resaltada":2, "mostrar":[1,2,3]},
 	
-	"r_2_0_0_0":10,
-	"r_2_0_0_1":8,
-	"r_2_0_1_0":11,
-	"r_2_0_1_1":9,
-	"r_2_1_0_0":6,
-	"r_2_1_0_1":7,
-	"r_2_1_1_0":5,
-	"r_2_1_1_1":5,
+	"r_2_0_0_0":{"resaltada":10, "mostrar":[1,2,3]},
+	"r_2_0_0_1":{"resaltada":8, "mostrar":[1,2,3]},
+	"r_2_0_1_0":{"resaltada":11, "mostrar":[1,2,3]},
+	"r_2_0_1_1":{"resaltada":9, "mostrar":[1,2,3]},
+	"r_2_1_0_0":{"resaltada":6, "mostrar":[1,2,3]},
+	"r_2_1_0_1":{"resaltada":7, "mostrar":[1,2,3]},
+	"r_2_1_1_0":{"resaltada":5, "mostrar":[1,2,3]},
+	"r_2_1_1_1":{"resaltada":5, "mostrar":[1,2,3]},
 	
-	"r_3_0_0_0":16,
-	"r_3_0_0_1":15,
-	"r_3_0_1_0":15,
-	"r_3_0_1_1":16,
-	"r_3_1_0_0":12,
-	"r_3_1_0_1":14,
-	"r_3_1_1_0":12,
-	"r_3_1_1_1":13,
+	"r_3_0_0_0":{"resaltada":16, "mostrar":[1,2,3]},
+	"r_3_0_0_1":{"resaltada":15, "mostrar":[1,2,3]},
+	"r_3_0_1_0":{"resaltada":15, "mostrar":[1,2,3]},
+	"r_3_0_1_1":{"resaltada":16, "mostrar":[1,2,3]},
+	"r_3_1_0_0":{"resaltada":12, "mostrar":[1,2,3]},
+	"r_3_1_0_1":{"resaltada":14, "mostrar":[1,2,3]},
+	"r_3_1_1_0":{"resaltada":12, "mostrar":[1,2,3]},
+	"r_3_1_1_1":{"resaltada":13, "mostrar":[1,2,3]},
 	
-	"r_4_0_0_0":20,
-	"r_4_0_0_1":18,
-	"r_4_0_1_0":19,
-	"r_4_0_1_1":18,
-	"r_4_1_0_0":17,
-	"r_4_1_0_1":18,
-	"r_4_1_1_0":19,
-	"r_4_1_1_1":17
+	"r_4_0_0_0":{"resaltada":20, "mostrar":[1,2,3]},
+	"r_4_0_0_1":{"resaltada":18, "mostrar":[1,2,3]},
+	"r_4_0_1_0":{"resaltada":19, "mostrar":[1,2,3]},
+	"r_4_0_1_1":{"resaltada":18, "mostrar":[1,2,3]},
+	"r_4_1_0_0":{"resaltada":17, "mostrar":[1,2,3]},
+	"r_4_1_0_1":{"resaltada":18, "mostrar":[1,2,3]},
+	"r_4_1_1_0":{"resaltada":19, "mostrar":[1,2,3]},
+	"r_4_1_1_1":{"resaltada":17, "mostrar":[1,2,3]}
 }

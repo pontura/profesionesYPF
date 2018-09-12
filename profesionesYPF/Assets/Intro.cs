@@ -16,9 +16,9 @@ public class Intro : SceneBase {
 
 		Events.OnInput += OnInput;
 
-		title1.text = Data.Instance.texts.intro_title1;
-		title2.text = Data.Instance.texts.intro_title2;
-		Loop ();
+		//title1.text = Data.Instance.texts.intro_title1;
+		//title2.text = Data.Instance.texts.intro_title2;
+		//Loop ();
 	}
 	void OnDestroy () {
 		Events.OnInput -= OnInput;
