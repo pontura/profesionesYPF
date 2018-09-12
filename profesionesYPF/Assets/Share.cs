@@ -120,6 +120,7 @@ public class Share : MonoBehaviour {
 	}
 	public void Done()
 	{
+		Data.Instance.SendData ();
 		Data.Instance.scenesManager.Next ();
 	}
 	void ResetWhatsapp()

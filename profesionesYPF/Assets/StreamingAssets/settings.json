@@ -1,4 +1,7 @@
 {
+	"ip_server": "",
+	"url_photo_folder": "",
+
 	"timer":
 	{
 		"chooseCategory": 40,				

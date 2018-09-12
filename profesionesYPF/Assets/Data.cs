@@ -80,4 +80,8 @@ public class Data : MonoBehaviour
 	{
 		questionID = 0;
 	}
+	public void SendData()
+	{
+		
+	}
 }

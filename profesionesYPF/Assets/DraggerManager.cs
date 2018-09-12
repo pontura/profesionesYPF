@@ -13,7 +13,7 @@ public class DraggerManager : MonoBehaviour {
 
 	public float initalDistance;
 	float initialAngle;
-	public float scaleValue;
+	float scaleValue = 1;
 	public bool doubleTouchOn;
 	public float angleValue;
 
@@ -112,7 +112,7 @@ public class DraggerManager : MonoBehaviour {
 		image.SetNativeSize ();
 
 		print (t.localScale);
-
+		scaleValue = t.localScale.x;
 		dragger.transform.localScale = t.localScale;
 		//dragger.transform.localEulerAngles = t.localEulerAngles;
 		//}

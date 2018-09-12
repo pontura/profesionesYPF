@@ -10,6 +10,7 @@ public class Stickers : MonoBehaviour {
 	public RawImage rawImage;
 	public DraggerManager draggerManager;
 	public Transform stickersContainer;
+	public Transform stickersContainerWithRestrictions;
 	public Transform container_icons_generics;
 
 	public Sticker sticker;
@@ -65,8 +66,6 @@ public class Stickers : MonoBehaviour {
 	}
 	public void OnStickerSelected(Sticker sticker)
 	{		
-		print ("__OnStickerSelected " + sticker);
-
 		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions, sticker.transform);
 
 		all.Remove (sticker);
@@ -74,7 +73,6 @@ public class Stickers : MonoBehaviour {
 	}
 	public void OnItemSelected(Sprite asset)
 	{
-		print ("OnItemSelected " + asset);
 		Transform t = transform;
 		t.localEulerAngles = Vector3.zero;
 		t.localScale = Vector3.one;
@@ -82,9 +80,14 @@ public class Stickers : MonoBehaviour {
 	}
 	public void AddSticker (Sprite sprite, Vector3 pos, Vector3 rot, Vector3 _scale, Vector2 restrictMovement)
 	{
-		print ("AddSticker " + sprite);
+		print ("AddSticker " + sprite + " " + pos + " " + rot + " " + _scale + " " + restrictMovement);
 
-		Sticker newSticker = Instantiate(sticker, pos, Quaternion.identity, stickersContainer);
+		Sticker newSticker;
+		if (restrictMovement == Vector2.zero)
+			newSticker = Instantiate (sticker, pos, Quaternion.identity, stickersContainer);
+		else
+			newSticker = Instantiate (sticker, pos, Quaternion.identity, stickersContainerWithRestrictions);
+		
 		all.Add (newSticker);
 		newSticker.Init (this, sprite, restrictMovement);
 		newSticker.transform.localScale = _scale;
