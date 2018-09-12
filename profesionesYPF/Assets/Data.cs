@@ -23,6 +23,7 @@ public class Data : MonoBehaviour
 	public CountDown countDown;
 	public ScreenshotManager screenshotManager;
 	public RenderTexture rt;
+	public string imageName;
 
 	public enum characterTypes
 	{
@@ -59,6 +60,7 @@ public class Data : MonoBehaviour
    
     void Awake()
     {
+		//GetImageName ();
 		QualitySettings.vSyncCount = 1;
 		//Cursor.visible = false;
 
@@ -83,5 +85,18 @@ public class Data : MonoBehaviour
 	public void SendData()
 	{
 		
+	}
+	public string GetImageName()
+	{
+		imageName = 
+			System.DateTime.Now.Year.ToString () + 
+			System.DateTime.Now.Month.ToString () + 
+			System.DateTime.Now.Day.ToString () + 
+			System.DateTime.Now.Hour.ToString () + 
+			System.DateTime.Now.Minute.ToString () + 
+			System.DateTime.Now.Second.ToString () + 
+			System.DateTime.Now.Millisecond.ToString () + ".png";
+		
+		return imageName;
 	}
 }

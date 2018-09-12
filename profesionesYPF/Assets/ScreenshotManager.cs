@@ -53,13 +53,13 @@ public class ScreenshotManager : MonoBehaviour {
 
 		tex.ReadPixels(new Rect(0, offset_Y, _w, _h), 0, 0);
 		tex.Apply();
-		Debug.Log ("GRABAR");
-		//Data.Instance.texture2d = tex;
+
+		Data.Instance.texture2d = tex;
 
 		byte[] bytes = tex.EncodeToPNG();
 		//Object.Destroy(tex);
 
-		 File.WriteAllBytes(Application.dataPath + "/../SavedScreen.png", bytes);
+		File.WriteAllBytes(Application.streamingAssetsPath + "/photos/" + Data.Instance.GetImageName(), bytes);
 
 	}
 
