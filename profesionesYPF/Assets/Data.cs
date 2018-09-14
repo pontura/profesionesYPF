@@ -23,7 +23,11 @@ public class Data : MonoBehaviour
 	public CountDown countDown;
 	public ScreenshotManager screenshotManager;
 	public RenderTexture rt;
+
+	public string email;
+	public string whatsapp;
 	public string imageName;
+	public int vote;
 
 	public enum characterTypes
 	{
@@ -81,10 +85,14 @@ public class Data : MonoBehaviour
 	public void Reset()
 	{
 		questionID = 0;
+		whatsapp = "";
+		email = "";
+		vote = 0;
+		imageName = "";
 	}
 	public void SendData()
 	{
-		
+		GetComponent<DataSender> ().Send ();
 	}
 	public string GetImageName()
 	{

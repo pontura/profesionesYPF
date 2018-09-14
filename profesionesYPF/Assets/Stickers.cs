@@ -95,7 +95,7 @@ public class Stickers : MonoBehaviour {
 		if (restrictMovement == Vector2.zero)
 			newSticker.transform.localEulerAngles = rot;
 		else
-			newSticker.transform.localEulerAngles = new Vector3 (0, -90, 0);
+			newSticker.transform.localEulerAngles =  Vector3.zero;
 	}
 
 	bool done;

@@ -16,13 +16,19 @@ public class Questions : MonoBehaviour {
 	public QuestionButtons buttons;
 	public int totalQuestions = 3;
 	public GameObject help;
+	public GameObject help2;
 
 	void Start () {	
+		
+		help.SetActive (false);
 
-		if(Data.Instance.questionID == 0)
+		if(help2!=null)
+			help2.SetActive (false);
+
+		if (Data.Instance.questionID == 0) {
 			help.SetActive (true);
-		else
-			help.SetActive (false);
+			Invoke ("Delayed", 2);
+		} 
 
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.trivia);
 		Events.QuestionDone += QuestionDone;
@@ -39,6 +45,10 @@ public class Questions : MonoBehaviour {
 		title.color = colors [Data.Instance.questionID];
 		background.sprite = bgs [Data.Instance.questionID];
 		buttons.Init (Data.Instance.questionID);
+	}
+	void Delayed()
+	{
+		help2.SetActive (true);
 	}
 	void OnDestroy () {
 		Events.QuestionDone -= QuestionDone;

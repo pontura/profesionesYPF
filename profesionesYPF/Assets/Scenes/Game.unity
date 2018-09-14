@@ -1576,6 +1576,7 @@ GameObject:
   - component: {fileID: 1849622896}
   - component: {fileID: 1849622895}
   - component: {fileID: 1849622894}
+  - component: {fileID: 1849622903}
   m_Layer: 0
   m_Name: Data
   m_TagString: Untagged
@@ -1637,6 +1638,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settings:
+    vote: []
+    ip_server: 
+    url_photo_folder: 
     timer:
       chooseCharacter: 0
       chooseCategory: 0
@@ -1760,38 +1764,102 @@ MonoBehaviour:
     pregunta_4_101: 
     pregunta_4_110: 
     pregunta_4_111: 
-    r_1_0_0_0: 0
-    r_1_0_0_1: 0
-    r_1_0_1_1: 0
-    r_1_1_1_1: 0
-    r_1_1_1_0: 0
-    r_1_1_0_0: 0
-    r_1_0_1_0: 0
-    r_1_1_0_1: 0
-    r_2_0_0_0: 0
-    r_2_0_0_1: 0
-    r_2_0_1_1: 0
-    r_2_1_1_1: 0
-    r_2_1_1_0: 0
-    r_2_1_0_0: 0
-    r_2_0_1_0: 0
-    r_2_1_0_1: 0
-    r_3_0_0_0: 0
-    r_3_0_0_1: 0
-    r_3_0_1_1: 0
-    r_3_1_1_1: 0
-    r_3_1_1_0: 0
-    r_3_1_0_0: 0
-    r_3_0_1_0: 0
-    r_3_1_0_1: 0
-    r_4_0_0_0: 0
-    r_4_0_0_1: 0
-    r_4_0_1_1: 0
-    r_4_1_1_1: 0
-    r_4_1_1_0: 0
-    r_4_1_0_0: 0
-    r_4_0_1_0: 0
-    r_4_1_0_1: 0
+    r_1_0_0_0:
+      resaltada: 0
+      mostrar: 
+    r_1_0_0_1:
+      resaltada: 0
+      mostrar: 
+    r_1_0_1_1:
+      resaltada: 0
+      mostrar: 
+    r_1_1_1_1:
+      resaltada: 0
+      mostrar: 
+    r_1_1_1_0:
+      resaltada: 0
+      mostrar: 
+    r_1_1_0_0:
+      resaltada: 0
+      mostrar: 
+    r_1_0_1_0:
+      resaltada: 0
+      mostrar: 
+    r_1_1_0_1:
+      resaltada: 0
+      mostrar: 
+    r_2_0_0_0:
+      resaltada: 0
+      mostrar: 
+    r_2_0_0_1:
+      resaltada: 0
+      mostrar: 
+    r_2_0_1_1:
+      resaltada: 0
+      mostrar: 
+    r_2_1_1_1:
+      resaltada: 0
+      mostrar: 
+    r_2_1_1_0:
+      resaltada: 0
+      mostrar: 
+    r_2_1_0_0:
+      resaltada: 0
+      mostrar: 
+    r_2_0_1_0:
+      resaltada: 0
+      mostrar: 
+    r_2_1_0_1:
+      resaltada: 0
+      mostrar: 
+    r_3_0_0_0:
+      resaltada: 0
+      mostrar: 
+    r_3_0_0_1:
+      resaltada: 0
+      mostrar: 
+    r_3_0_1_1:
+      resaltada: 0
+      mostrar: 
+    r_3_1_1_1:
+      resaltada: 0
+      mostrar: 
+    r_3_1_1_0:
+      resaltada: 0
+      mostrar: 
+    r_3_1_0_0:
+      resaltada: 0
+      mostrar: 
+    r_3_0_1_0:
+      resaltada: 0
+      mostrar: 
+    r_3_1_0_1:
+      resaltada: 0
+      mostrar: 
+    r_4_0_0_0:
+      resaltada: 0
+      mostrar: 
+    r_4_0_0_1:
+      resaltada: 0
+      mostrar: 
+    r_4_0_1_1:
+      resaltada: 0
+      mostrar: 
+    r_4_1_1_1:
+      resaltada: 0
+      mostrar: 
+    r_4_1_1_0:
+      resaltada: 0
+      mostrar: 
+    r_4_1_0_0:
+      resaltada: 0
+      mostrar: 
+    r_4_0_1_0:
+      resaltada: 0
+      mostrar: 
+    r_4_1_0_1:
+      resaltada: 0
+      mostrar: 
     iconos_tags: []
     iconos_generics: []
     iconos_cat_1: []
@@ -1807,12 +1875,15 @@ MonoBehaviour:
     desc: 
     duration: 
     mapSlots: []
-    sctickers_tags: []
-    sctickers_icons: []
+    stickers_icons: []
   texture2d: {fileID: 0}
   countDown: {fileID: 1849622896}
   screenshotManager: {fileID: 1849622895}
   rt: {fileID: 0}
+  email: 
+  whatsapp: 
+  imageName: 
+  vote: 0
   categoryType: 0
   questionID: 0
   currentLevel: 
@@ -1831,6 +1902,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1849622903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1849622893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3809b05aa0df02d4588c23af12e3a024, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2119784173
 GameObject:
   m_ObjectHideFlags: 0

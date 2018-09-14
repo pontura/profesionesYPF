@@ -28,6 +28,7 @@ public class DataConfig : MonoBehaviour {
 	[System.Serializable]
 	public class DataSettings
 	{
+		public string[] vote;
 		public string ip_server;
 		public string url_photo_folder;
 		public Duration timer;

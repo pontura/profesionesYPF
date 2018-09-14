@@ -72,7 +72,6 @@ public class Share : MonoBehaviour {
 			else
 				email_field.text = text;
 		}
-
 		hideOnKeyboard.SetActive (true);
 		panel_done.SetActive (true);
 		doneIcon.SetActive (false);
@@ -120,6 +119,9 @@ public class Share : MonoBehaviour {
 	}
 	public void Done()
 	{
+		Data.Instance.email = email_field.text;
+		Data.Instance.whatsapp = whatsapp_field.text;
+
 		Data.Instance.SendData ();
 		Data.Instance.scenesManager.Next ();
 	}

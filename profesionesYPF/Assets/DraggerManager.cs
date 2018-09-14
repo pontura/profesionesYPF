@@ -12,10 +12,8 @@ public class DraggerManager : MonoBehaviour {
 	public bool dragging;
 
 	public float initalDistance;
-	float initialAngle;
 	float scaleValue = 1;
 	public bool doubleTouchOn;
-	public float angleValue;
 
 	Stickers stickers;
 	Vector2 restrictions;
@@ -35,10 +33,8 @@ public class DraggerManager : MonoBehaviour {
 	void ResetDragger()
 	{
 		dragger.transform.localScale = Vector3.one;
-		dragger.transform.localEulerAngles = new Vector3 (0, 90, 0);
-		angleValue = 0;
+		dragger.transform.localEulerAngles = Vector3.zero;
 		scaleValue = 1;
-		initialAngle = 0;
 	}
 	void Update () {	
 			totalTouches = Input.touchCount;
@@ -56,7 +52,6 @@ public class DraggerManager : MonoBehaviour {
 			if (!doubleTouchOn) {
 				doubleTouchOn = true;
 				initalDistance = Vector2.Distance (pos1, pos2);
-				initialAngle = angleValue;
 			} else {
 				//lookAtObject.transform.LookAt (Input.touches [allTouchesPosible - 2].position);
 				//angleValue = lookAtObject.transform.localEulerAngles.x - initialAngle;
@@ -68,14 +63,13 @@ public class DraggerManager : MonoBehaviour {
 					scaleValue = maxScale;
 				dragger.transform.localScale = new Vector3(scaleValue, scaleValue, scaleValue);
 			}
-			dragger.transform.localEulerAngles = new Vector3 (-angleValue, 90, 0);
 
 		} else {
 			doubleTouchOn = false;
 		}
 		if (Input.GetMouseButtonDown (0)) {
 			dragging = true;
-		} else if (dragging && Input.GetMouseButtonUp (0)) {
+		} else if (dragging && Input.GetMouseButtonUp (0) && Input.touchCount == 0) {
 			StopDragging ();
 		}
 		if (dragging) {
@@ -83,7 +77,6 @@ public class DraggerManager : MonoBehaviour {
 				image.enabled = false;
 			else
 				image.enabled = true;
-			
 
 			if (restrictions != Vector2.zero) {
 				if(pos.x>restrictions.x+offset)
@@ -113,33 +106,27 @@ public class DraggerManager : MonoBehaviour {
 
 		print (t.localScale);
 		scaleValue = t.localScale.x;
+		dragger.transform.localEulerAngles = new Vector3(0,Random.Range(0,300),0);
 		dragger.transform.localScale = t.localScale;
-		//dragger.transform.localEulerAngles = t.localEulerAngles;
-		//}
-
-//		asset = Instantiate (newAsset);
-//		Utils.RemoveAllChildsIn (dragger.transform);
-//		asset.transform.SetParent (dragger.transform);
-//		asset.transform.localScale = Vector3.one;
-//		asset.transform.localPosition = Vector3.zero;
+		dragger.transform.localEulerAngles = t.localEulerAngles;
 	}
 	public void StopDragging()
 	{
-		//angleValue = 0;
-		Vector3 rot = new Vector3 (angleValue, -90, 0);
 		Vector3 sc = new Vector3 (scaleValue, scaleValue, scaleValue);
 
 		if(restrictions != Vector2.zero)
 		{
-			rot = new Vector3 (0, 90, 0);
+			dragger.transform.localEulerAngles = Vector3.zero;
 			sc = Vector3.one;
 		}
 		
 		if (sprite == null) {
 			print ("StopDragging NO hay sprite");
 		} else {
-			stickers.AddSticker (sprite, dragger.transform.position, rot,sc , restrictions);
+			stickers.AddSticker (sprite, dragger.transform.position, dragger.transform.localEulerAngles, sc , restrictions);
 		}
+
+		dragger.transform.localEulerAngles = Vector3.zero;
 		dragging = false;
 		sprite = null;
 		image.sprite = null;
