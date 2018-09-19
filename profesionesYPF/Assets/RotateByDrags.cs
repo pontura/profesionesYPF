@@ -11,8 +11,13 @@ public class RotateByDrags : MonoBehaviour {
 	float initAngle;
 	bool calculateAngle;
 	public GameObject toRotate;
+	public DraggerManager dragger;
 
 	void Update () {
+		
+		if (dragger.restrictions != Vector2.zero)
+			return;
+		
 		if (Input.touchCount > 1) {
 			drag1.transform.localPosition = Input.touches [0].position;
 			drag2.transform.localPosition = Input.touches [1].position;

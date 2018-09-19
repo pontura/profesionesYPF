@@ -1,4 +1,13 @@
 {
+	"ip_server": "",
+	"url_photo_folder": "",
+	"vote":
+	[
+		"MALO",
+		"REGULAR",
+		"BUENO",
+		"MUY BUENO"
+	],
 	"timer":
 	{
 		"chooseCategory": 40,				

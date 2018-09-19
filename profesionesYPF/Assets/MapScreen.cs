@@ -39,10 +39,11 @@ public class MapScreen : MonoBehaviour {
 		{
 			bool isOn = false;
 			foreach (MapSlots mapSlots in Data.Instance.carrera.mapSlots) {
-				if (mapSlots.id == id) {
+				if (mapSlots.provincia == id) {
 					slots.Add (mapSlot);
 					mapSlot.Init (this, id);
 					isOn = true;
+					MapSlotClicked (id);
 				}
 
 			}
@@ -54,7 +55,7 @@ public class MapScreen : MonoBehaviour {
 
 		//AddSlots ();
 
-		MapSlotClicked (Random.Range(0,slots.Count));
+
 	}
 //	void AddSlots()
 //	{
@@ -80,11 +81,24 @@ public class MapScreen : MonoBehaviour {
 			c.a = 0.5f;
 			mapSlot.GetComponentInChildren<Image> ().color = c;
 		}
-
-		c = slots[id].GetComponentInChildren<Image> ().color;
+		MapSlot myMapSlot = GetMapSlotByID(id);
+		c = myMapSlot.GetComponentInChildren<Image> ().color;
 		c.a = 1;
-		slots[id].GetComponentInChildren<Image> ().color = c;
+		myMapSlot.GetComponentInChildren<Image> ().color = c;
 
-		mapDesc.text = Data.Instance.carrera.mapSlots [id].desc;
+		foreach(MapSlots ms in Data.Instance.carrera.mapSlots)
+		{
+			if(ms.provincia == id)
+				mapDesc.text =  ms.desc;
+		}
+	}
+	MapSlot GetMapSlotByID(int id)
+	{
+		print ("GetMapSlotByID " + id);
+		foreach (MapSlot ms in slots) {
+			if (ms.id == id)
+				return ms;
+		}
+		return null;
 	}
 }

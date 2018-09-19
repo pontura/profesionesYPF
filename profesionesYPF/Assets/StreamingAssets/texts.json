@@ -14,40 +14,66 @@
 	"stickers_title":"EDITÁ TU FOTO",
 	"enjoy":"¿DISFRUTASTE DE LA EXPERIENCIA?",
 	"accept":"Acepto recibir información de la Fundación YPF; asimismo autorizo\na la Fundación YPF a hacer uso de mi imagen para actividades\nde difusión de las actividades del Trailer Espacio de la Energía.",
+
+	"pregunta_1_1":"Me gustaría ser protagonista del desarrollo de la industria de gas y petróleo.",
+	"pregunta_1_10":"Me gustaría analizar la composición de los elementos que nos rodean.",
+	"pregunta_1_11":"Me gustaría mejorar los procesos de producción y extracción de hidrocarburos usando maquinarias.",
+	"pregunta_1_100":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
+	"pregunta_1_101":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
+	"pregunta_1_110":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
+	"pregunta_1_111":"Me gustaría investigar formas innovadoras para la extracción de hidrocarburos y minerales.",
+
+	"pregunta_2_1":"Me encantaría conocer más sobre el interior y la corteza del planeta.",
+	"pregunta_2_10":"Me encantaría conocer más sobre la preservación de la naturaleza.",
+	"pregunta_2_100":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
+	"pregunta_2_101":"Me imagino supervisando obras e instalaciones para disminuir el impacto ambiental",
+	"pregunta_2_11":"Me encantaría estudiar los volcanes, las montañas, la composición de minerales, seres vivos, agua y atmósfera.",
+	"pregunta_2_110":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
+	"pregunta_2_111":"Me encantaría conocer más sobre la preservación de la naturaleza.",
 	
-	"pregunta_1_1":"Me interesaría investigar sobre exploración, extracción y procesamiento de hidrocarburos.",
-	"pregunta_1_10":"Me gustaría analizar la composición de los elementos que nos rodean.",	
-	"pregunta_1_11":"Me parece importante ayudar con el autoabastecimiento energético del país.",
-	"pregunta_1_100":"Me encantaría operar instrumental, dirigir laboratorios y equipos de trabajo interdisciplinarios.",
-	"pregunta_1_101":"Qué bueno sería hacer experimentos en un laboratorio.",
-	"pregunta_1_110":"Me imagino trabajando en una refinería obteniendo derivados del petróleo.",
-	"pregunta_1_111":"Me gustaría investigar formas innovadoras para optimizar la extracción de hidrocarburos y minerales.",
+	"pregunta_3_1":"Me encantaría diseñar piezas, equipos y sistemas.",
+	"pregunta_3_10":"Me gustaría desarrollar productos innovadores.",	
+	"pregunta_3_11":"Me gustaría fabricar máquinas y robots inteligentes.",
+	"pregunta_3_100":"Me gustaría diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
+	"pregunta_3_101":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción y el control de calidad.",
+	"pregunta_3_110":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción y el control de calidad.",
+	"pregunta_3_111":"Me gustaría diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
 	
-	"pregunta_2_1":"Me entusiasma saber sobre el origen, formación y evolución de la Tierra.",
-	"pregunta_2_10":"Me gustaria diseñar y controlar proyectos que fomenten la preservacion de la naturaleza.",	
-	"pregunta_2_11":"Me encantaria conocer más sobre el interior y la corteza del planeta.",
-	"pregunta_2_100":"Me imagino elaborando leyes, reglamentos y políticas de conservación del medio ambiente.",
-	"pregunta_2_101":"Me imagino supervisando obras e instalaciones para evitar contaminación.",
-	"pregunta_2_110":"Me gustaría investigar la composición de minerales, seres vivos, agua y atmósfera.",
-	"pregunta_2_111":"Estaria bueno estudiar los volcanes,, las montanas y la seguridad de las construcciones del hombre.",
+	"pregunta_4_1":"Me imagino proyectando obras y maquinarias.",
+	"pregunta_4_10":"Me imagino buscando nuevos métodos de generación eléctrica sustentable.",
+	"pregunta_4_11":"Me gustaría proyectar y supervisar la construcción, operación y mantenimiento de obras e instalaciones destinadas a generar, almacenar, transportar y distribuir energía o recursos energéticos.",
+	"pregunta_4_100":"Me gustaría ser experto en energía solar, geotérmica, eólica y de biomasa, y optimizar el uso de los recursos naturales.",
+	"pregunta_4_101":"Me gustaría generar soluciones y promover un consumo responsable y eficiente de la energía.",
+	"pregunta_4_110":"Me gustaría desarrollar software y hardware para la implementación de sistemas de control para plantas de generación de energía eléctrica.",
+	"pregunta_4_111":"Me gustaría generar soluciones y promover un consumo responsable y eficiente de la energía y los recursos naturales.",
 	
-	"pregunta_3_1":"Me desvela cómo podemos hacer para usar la energía más eficientemente y utilizar más las fuentes renovables",
-	"pregunta_3_10":"Me encantaria diseñar maquinas y equipos innovadores",	
-	"pregunta_3_11":"Me imagino proyectando obras para la generación y distribución de la energía",
-	"pregunta_3_100":"Me imagino trabajando en una planta industrial o en empresas de telecomunicaciones",
-	"pregunta_3_101":"Me gustan los circuitos y ver cómo funcionan los dispositivos electrónicos.",
-	"pregunta_3_110":"Me gustaría ser experto en energía solar, geotérmica, eólica y de biomasa",
-	"pregunta_3_111":"Me encantaria poder estudiar la factibilidad de realizar proyectos de inversión en energía.",
-	
-	"pregunta_4_1":"Siempre me gustó desarmar todo, ver cómo funcionaba, tratar de arreglar cualquier cosa.",
-	"pregunta_4_10":"Me gustaría investigar sobre el comportamiento de nuevos materiales.",	
-	"pregunta_4_11":"Me encantaría diseñar y desarrollar piezas, equipos y sistemas.",
-	"pregunta_4_100":"Las fabricas son un ámbito de trabajo fascinante.",
-	"pregunta_4_101":"Me gustaría trabajar en un laboratorio.",
-	"pregunta_4_110":"Me gustaría diseñar soluciones creativas para la operación de máquinas industriales.",
-	"pregunta_4_111":"Me imagino fabricando robots inteligentes.",
-	
-	
+	"provincias":
+	[
+		{"id":0, "name":"C.A.B.A.", "_x":181, "_y":-263},
+		{"id":1, "name":"Buenos Aires", "_x":138, "_y":-286},
+		{"id":2, "name":"Catamarca", "_x":24, "_y":-136},
+		{"id":3, "name":"Chaco", "_x":142, "_y":-125},
+		{"id":4, "name":"Chubut", "_x":18, "_y":-425},
+		{"id":5, "name":"Córdoba", "_x":89, "_y":-215},
+		{"id":6, "name":"Corrientes", "_x":191, "_y":-165},
+		{"id":7, "name":"Entre Ríos", "_x":164, "_y":-219},
+		{"id":8, "name":"Formosa", "_x":161, "_y":-91},
+		{"id":9, "name":"Jujuy", "_x":42, "_y":-64},
+		{"id":10, "name":"La Pampa", "_x":61, "_y":-310},
+		{"id":11, "name":"La Rioja", "_x":29, "_y":-177},
+		{"id":12, "name":"Mendoza", "_x":10, "_y":-246},
+		{"id":13, "name":"Misiones", "_x":255, "_y":-127},
+		{"id":14, "name":"Neuquén", "_x":-5, "_y":-323},
+		{"id":15, "name":"Río Negro", "_x":44, "_y":-354},
+		{"id":16, "name":"Salta", "_x":95, "_y":-82},
+		{"id":17, "name":"San Juan", "_x":2, "_y":-205},
+		{"id":18, "name":"San Luis", "_x":53, "_y":-249},
+		{"id":19, "name":"Santa Cruz", "_x":12, "_y":-503},
+		{"id":20, "name":"Santa Fe", "_x":137, "_y":-190},
+		{"id":21, "name":"Santiago del Estero", "_x":96, "_y":-146},
+		{"id":22, "name":"Tierra del Fuego", "_x":51, "_y":-600},
+		{"id":23, "name":"Tucumán", "_x":61, "_y":-125}
+	],
 	
 	"carreras":
 	[
@@ -56,43 +82,45 @@
 			"categoria": 1,
 			"name":"Ingeniería en Petróleo", 
 			"duration":"5 años", 
-			"desc":"Es una carrera de gran demanda laboral, actualmente una de las más buscadas en todo el mundo. \nVas a poder desenvolverte en diversas actividades vinculadas con la industria del petróleo, el gas y sus derivados en todas sus etapas: exploración, perforación, producción, refinación, tratamiento, transporte y almacenamiento. Podrás a ser parte de los distintos procesos de producción y refinación de hidrocarburos. Vas a poder estar en la planificación, pero si te gusta, también en las tareas de campo. \nPero si tu mayor interés, son las leyes, vas a poder manejar los aspectos legales, la seguridad y la conservación del medio ambiente asociados a esta actividad. ",
+			"desc":"Tu rol será clave para aprovechar los recursos de gas\ny petróleo de manera racional, económica\ny cuidando el ambiente.\nVas a ser un experto en diseñar, implementar y optimizar\nproyectos de las etapas productivas de los hidrocarburos.",
+			"tip1":"DESARROLLARÁS RECURSOS\nNO CONVENCIONALES",
+			"tip2":"TRABAJARÁS\nEN COMPAÑÍAS\nPETROLERAS",
 			"mapSlots":
 			[
 				{
-					"id":0,
+					"provincia":0,
 					"desc":"C.A.B.A.\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central"
 				},
 				{
-					"id":1,
+					"provincia":1,
 					"desc":"BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad de Ingeniería y Agronomía"
 				},
 				{
-					"id":2,
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":12,
 					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingeniería"
 				},
 				{
-					"id":3,
+					"provincia":14,
 					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
 				},
 				{
-					"id":4,
-					"desc":"RIO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nFacultad de Ingeniería"
-				},
-				{
-					"id":5,
-					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
+					"provincia":15,
+					"desc":"RÍO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nFacultad de Ingeniería"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_brujula",
-				"Sticker_robot",
-				"Sticker_metro",
-				"Sticker_ciguena"
+				"Stickers_engranaje",
+				"Sticker_binoculares",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_plano",
+				"Sticker_ciguena",
+				"Stickers_calculadora"
 			]
 		}
 		,
@@ -101,27 +129,25 @@
 			"categoria": 1,
 			"name":"Ingeniería en Perforaciones",
 			"duration":"4 años", 
-			"desc":"Es una carrera que te va a preparar para diseñar métodos de perforación innovadores. \nOptimizar procesos y reducir el impacto medioambiental de la extracción será parte de la actividad para la que estarás capacitado.\nVas a poder programar, dirigir, ejecutar y controlar las excavaciones para obtener pozos para la producción de hidrocarburos. Tu rol va a ser clave tanto en los pozos de exploración minera como en los de agua. \nVas a poder estar en la boca de los pozos desarrollando tareas de interpretación y control de lodos; y también vas a poder realizar ensayos de materiales y utilizar herramientas especiales con tecnología de punta.",
+			"desc":"Tu rol será clave para diseñar métodos innovadores\nde perforación.  Vas a ser experto en programar, dirigir,\nejecutar y controlar perforaciones, terminaciones\ny reparaciones de pozos petrolíferos,\nde exploración minera y de agua.",
+			"tip1":"OPTIMIZARÁS\nPROCESOS\nEN PERFORACIONES",
+			"tip2":"CUIDARÁS\nEL AMBIENTE\nEN LAS PERFORACIONES",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
-				},
-				{
-					"id":1,
-					"desc":"description icon 2"
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ciencias Naturales"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
+				"Stickers_engranaje",
 				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_plano",
+				"Sticker_ciguena",
+				"Stickers_calculadora"
 			]
 		},
 		{ 
@@ -129,27 +155,81 @@
 			"categoria": 1,
 			"name":"Ingeniería Química",
 			"duration":"5 años", 
-			"desc":"Es una carrera que te permitirá conocer en detalle los procesos de transformación químicos y físicos de la materia a escala industrial. \nVas a estar capacitado para resolver problemas y gestionar proyectos en distintas ramas de la industria. \nVas a poder ser parte del sector productivo de importantes industrias como la petroquímica, energética, metalúrgica, papelera y alimentaria.",
+			"desc":"Tu rol será clave para el diseño, optimización,\nevaluación y construcción de industrias que involucren\nprocesos químicos, fisicoquímicos o de bioingeniería.\nVas a tener un amplio campo laboral\ny podrás desempeñarte en distintas tareas\nen la industria energética.",
+			"tip1":"INVESTIGARÁS\nSOBRE PROBLEMAS\nDE LA INDUSTRIA",
+			"tip2":"TRANSFORMARÁS\nLA MATERIA\nMEDIANTE PROCESOS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nEscuela Superior Técnica (EST)\nFacultad de Ingeniería del Ejército\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires"
 				},
 				{
-					"id":1,
-					"desc":"description icon 2"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de General Sarmiento (UNGS)Universidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Ingeniería\n\nUniversidad Nacional de Tres de Febrero (UNTREF)\nSecretaría Académica\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Plata"
+				},
+				{
+					"provincia":3,
+					"desc":"CHACO\n\nUniversidad Nacional del Nordeste (UNNE)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Resistencia"
+				},
+				{
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Ciencias Exactas, Físicas y Naturales\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Córdoba"
+				},
+				{
+					"provincia":9,
+					"desc":"JUJUY\n\nUniversidad Nacional de Jujuy (UNJU)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":12,
+					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ciencias Aplicadas a la Industria\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Mendoza"
+				},
+				{
+					"provincia":13,
+					"desc":"MISIONES\n\nUniversidad Nacional de Misiones (UNAM)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":14,
+					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional del Neuquén"
+				},
+				{
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Ingeniería y Ciencias Agropecuarias"
+				},
+				{
+					"provincia":19,
+					"desc":"SANTA CRUZ\n\nUniversidad Nacional de la Patagonia Austral (UNPA)\nUnidad Académica Río Gallegos"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional del Litoral (UNL)\nFacultad de Ingeniería Química"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Exactas y Tecnología"
 				}
 			],
 			"stickers_icons":
 			[
+				"Sticker_molecula1",
+				"Sticker_tubogrande",
+				"Sticker_gotero",
 				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_microscopio",
+				"Sticker_molecula2",
+				"Sticker_medidor1"
 			]
 		},
 		{ 
@@ -157,27 +237,65 @@
 			"categoria": 1,
 			"name":"Licenciatura en Química",
 			"duration":"5/6 años", 
-			"desc":"Es una carrera que te permitirá conocer en detalle la materia y sus transformaciones. \nTus conocimientos serán fundamentales para el desarrollo de nuevos materiales, nuevos productos industriales y farmacéuticos, y para entender las bases moleculares de procesos biológicos en la generación de nuevas formas de energía. \nVas a poder operar instrumental, dirigir laboratorios y equipos de trabajo interdisciplinarios. Pero además vas a poder desempeñarte en la docencia, o colaborar en la preservación del medio ambiente, por ejemplo, estudiando la velocidad de reacción de un determinado fenómeno químico para retardarlo o acelerarlo o determinar niveles de contaminación.",
+			"desc":"Vas a tener un amplio campo laboral\nen la investigación, la docencia\ny en distintas tareas de la industria energética.",
+			"tip1":"ESTUDIARÁS\nLA\nMATERIA",
+			"tip2":"DESARROLLARÁS\nNUEVOS MATERIALES\nY FORMAS DE ENERGÍA",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ciencias Exactas y Naturales"
 				},
 				{
-					"id":1,
-					"desc":"description icon 2"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ciencias Exactas\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ciencias Exactas y Naturales\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Química"
+				},
+				{
+					"provincia":2,
+					"desc":"CATAMARCA\n\nUniversidad Nacional de Catamarca (UNCA)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ciencias Naturales - Sede Comodoro Rivadavia"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Ciencias Químicas\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ciencias Exactas, Fisicoquímicas y Naturales"
+				},
+				{
+					"provincia":10,
+					"desc":"LA PAMPA\n\nUniversidad Nacional de La Pampa (UNLPAM)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ciencias Exactas"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Química, Bioquímica y Farmacia"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional del Litoral (UNL)\nFacultad de Ingeniería Química\n\nUniversidad Nacional de Rosario (UNR)\nFacultad de Ciencias Bioquímicas y Farmacéuticas"
+				},
+				{
+					"provincia":21,
+					"desc":"SANTIAGO DEL ESTERO\n\nUniversidad Nacional de Santiago del Estero (UNSE)\nFacultad de Agronomía y Agroindustrias"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Bioquímica, Química y Farmacia"
 				}
 			],
 			"stickers_icons":
 			[
+				"Sticker_molecula1",
+				"Sticker_tubos2",
+				"Sticker_gotero",
 				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_microscopio",
+				"Sticker_molecula2",
+				"Sticker_tubo3"
 			]
 		},
 		{ 
@@ -185,23 +303,25 @@
 			"categoria": 2,
 			"name":"Ingeniería en Geodésica y Geofísica",
 			"duration":"5 años", 
-			"desc":"Es una carrera que te va a dar sólidos conocimientos en física y matemática para que puedas diseñar nuevas herramientas y procedimientos de medición de la topografía y geometría de la Tierra utilizando los últimos avances tecnológicos.\nLa información que obtengas va a permitir profundizar el conocimiento sobre nuestro planeta, y profesionales de diversas ramas de la geografía, como la cartografía van a poder utilizar los resultados de tu investigación para complementar sus proyectos.\nLas investigaciones que realices van a ser clave para determinar, por ejemplo, la seguridad de los asentamientos humanos y de grandes obras de infraestructura.",
+			"desc":"Tu rol será clave para desarrollar\nherramientas tecnológicas que permitan describir\ny representar la superficie de la tierra\nempleando la más alta tecnología.",
+			"tip1":"PROFUNDIZARÁS\nEL CONOCIMIENTO\nDE NUESTRO PLANETA",
+			"tip2":"DISEÑARÁS\nNUEVAS HERRAMIENTAS\nDE MEDICIÓN TERRESTRE",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Exactas y Tecnología"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_mapa",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_picogrande",
+				"Sticker_binoculares"
 			]
 		},
 		{ 
@@ -209,23 +329,81 @@
 			"categoria": 2,
 			"name":"Licenciatura en Geología",
 			"duration":"5/6 años", 
-			"desc":"En esta carrera te convertirás en experto en la Tierra, su formación, composición, historia de su evolución y sus procesos actuales. \nSerás clave en muchas áreas: vas a poder detectar la presencia de recursos naturales y energéticos (agua, petróleo, gas, rocas, minerales) y desarrollar técnicas para su extracción sostenible. Vas a poder planificar, hacer y evaluar estudios de fenómenos internos y externos de la Tierra. \nVas a poder participar en la construcción de grandes obras y realizar mediciones de impacto ambiental de la acción del hombre sobre el planeta.  Vas a poder determinar zonas de riesgo (vulcanismo, sismos). Y también podrás hacer investigación y docencia",
+			"desc":"Tu rol será clave para detectar la presencia\nde recursos naturales y energéticos\ncomo agua, petróleo, gas, rocas, y minerales\ny desarrollar técnicas para su extracción sostenible.",
+			"tip1":"ESTUDIARÁS\nLOS FENÓMENOS INTERNOS\nY EXTERNOS DE LA TIERRA",
+			"tip2":"SERÁS UN\n'EXPERTO\nEN LA TIERRA'",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ciencias Naturales y Museo\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Geología"
+				},
+				{
+					"provincia":2,
+					"desc":"CATAMARCA\n\nUniversidad Nacional de Catamarca (UNCA)\nFacultad de Tecnología y Ciencias Aplicadas"
+				},
+				{
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ciencias Naturales"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Ciencias Exactas, Físicas y Naturales\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ciencias Exactas, Fisicoquímicas y Naturales"
+				},
+				{
+					"provincia":9,
+					"desc":"JUJUY\n\nUniversidad Nacional de Jujuy (UNJU)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":10,
+					"desc":"LA PAMPA\n\nUniversidad Nacional de La Pampa (UNLPAM)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":11,
+					"desc":"LA RIOJA\n\nUniversidad Nacional de La Rioja\nFacultad de Ciencias Naturales"
+				},
+				{
+					"provincia":14,
+					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":15,
+					"desc":"RÍO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nSede Alto Valle y Valle Medio"
+				},
+				{
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ciencias Naturales"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Ciencias Físico Matemáticas y Naturales"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ciencias Exactas, Físicas y Naturales"
+				},
+				{
+					"provincia":22,
+					"desc":"TIERRA DEL FUEGO\n\nUniversidad Nacional de Tierra del Fuego (UNTDF)\nInstituto de Ciencias Polares, Recursos Naturales y Ambiente"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Naturales e Instituto Miguel Lillo"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_mapa",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_picogrande",
+				"Sticker_binoculares"
 			]
 		},
 		{ 
@@ -233,23 +411,25 @@
 			"categoria": 2,
 			"name":"Licenciatura en Geoquímica",
 			"duration":"5 años", 
-			"desc":"En esta carrera vas a adquirir sólidos conocimientos del comportamiento de los componentes químicos en los medios naturales. Vas a poder encontrar estos elementos en los minerales, los seres vivos, el agua y la atmósfera, para mejorar el conocimiento actual de la estructura de nuestro planeta y del universo, así como también para la búsqueda de materiales naturales de interés económico.\nVas a poder desarrollar e implementar técnicas de análisis químico para evaluar aguas, rocas, sedimento, petróleo y materiales naturales, y determinar su posible explotación.\nY si te gusta también vas a poder ser un investigador y docente a nivel universitario.",
+			"desc":"Tu rol será clave para profundizar\ny explicar el comportamiento de los componentes\nquímicos en los medios naturales.\nVas a poder desarrollar e implementar\ntécnicas de análisis químico para evaluar aguas, rocas,\nsedimento, petróleo y materiales naturales.",
+			"tip1":"INVESTIGARÁS LA\nEXPLOTACIÓN RACIONAL\nDE LOS RECURSOS",
+			"tip2":"CONOCERÁS\nEL PLANETA\nY EL UNIVERSO",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ciencias Naturales y Museo"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_mapa",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_pincel",
+				"Sticker_martillito",
+				"Sticker_jarras"
 			]
 		},
 		{ 
@@ -257,23 +437,29 @@
 			"categoria": 2,
 			"name":"Licenciatura en Ciencias del Ambiente",
 			"duration":"5 años", 
-			"desc":"Es una carrera que te convertirá en un experto en cumplimiento de leyes ambientales. Vas a poder evaluar el desempeño ambiental de empresas y participar en la elaboración de leyes, reglamentos y políticas de conservación. \nVas a poder colaborar con empresas, organizaciones o instituciones relacionadas con la problemática ambiental. Podrás hacer estudios de factibilidad y evaluar impacto ambiental de grandes obras.\nAl 3er año de carrera tendrás un título intermedio de Técnico Universitario Guarda Ambiental, con el que podrás desempeñarte en áreas naturales protegidas, ser auxiliar en actividades de ecoturismo, educación, investigación y control.",
+			"desc":"Tu rol será clave para elaborar leyes, reglamentos,\npolíticas y programas que involucren objetivos de conservación.\nVas a evaluar el desempeño ambiental de empresas\ny podrás participar de proyectos de factibilidad\nde grandes obras.",
+			"tip1":"CONOCERÁS\nLAS LEYES\nAMBIENTALES",
+			"tip2":"APORTARÁS ALTERNATIVAS\nSUSTENTABLES PARA\nPRESERVAR EL ENTORNO",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Agronomía"
+				},
+				{
+					"provincia":15,
+					"desc":"RÍO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nUnidad Académica Sede Atlántica"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_papeles",
+				"Sticker_enchufe",
+				"Sticker_binoculares"
 			]
 		},
 		{ 
@@ -281,287 +467,535 @@
 			"categoria": 2,
 			"name":"Ingeniería Ambiental",
 			"duration":"5 años", 
-			"desc":"Es una carrera que te dará los conocimientos requeridos para evaluar de qué forma las transformaciones que se realicen debido a actividades productivas afectan al medio ambiente y a los recursos naturales. \nTu rol será clave en la prevención y resolución de problemas ambientales derivados de procesos productivos.\nVas a poder planificar y gestionar el uso responsable de los recursos naturales tanto para preservarlos como para recuperar áreas afectadas por la actividad industrial o urbana. \nSerás asesor en proyectos de desarrollo de obras o procesos que apliquen tecnologías limpias, y en temáticas de contaminación de cursos de agua, suelo y aire y la gestión de residuos.",
+			"desc":"Tu rol será clave para cuidar el ambiente\ny los recursos naturales en las actividades productivas.",
+			"tip1":"GESTIONARÁS\nLOS RECURSOS NATURALES\nRESPONSABLEMENTE",
+			"tip2":"TRABAJARÁS\nEN EL CUIDADO\nDEL AMBIENTE",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de Tres de Febrero (UNTREF)\nSede Caseros"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Ciencias Exactas, Físicas y Naturales"
+				},
+				{
+					"provincia":15,
+					"desc":"RÍO NEGRO\n\nUniversidad Nacional de Río Negro (UNRN)\nSede Atlántica Ciudad Viedma"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional del Litoral (UNL)\nFacultad de Ingeniería y Ciencias Hídricas"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_enchufe",
+				"Sticker_medidor1"
 			]
 		},
 		{ 
 			"id": 10, 
 			"categoria": 2,
 			"name":"Ingeniería en Recursos Naturales Renovables",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"4 años",
+			"desc":"Tu rol será clave para colaborar\nen la conservación de los recursos naturales renovables.",
+			"tip1":"APROVECHARÁS\nSUSTENTABLEMENTE LOS\nRECURSOS NATURALES",
+			"tip2":"DISEÑARÁS\nPOLÍTICAS DE\nCONSERVACIÓN",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":11,
+					"desc":"LA RIOJA\n\nUniversidad Nacional de La Rioja (UNLAR)\nSede Chamical"
+				},
+				{
+					"provincia":12,
+					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ciencias Agrarias"
+				},
+				{
+					"provincia":19,
+					"desc":"SANTA CRUZ\n\nUniversidad Nacional de la Patagonia Austral (UNPA)\nUnidad Académica Río Gallegos"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_lapizyllave",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_enchufe",
+				"Sticker_papeles"
 			]
 		},
 		{ 
 			"id": 11, 
 			"categoria": 2,
 			"name":"Tecnicatura Gestión Ambiental",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"3 años",
+			"desc":"Tu rol será clave para\nevaluar el efecto ambiental de actividades productivas\nVas a poder estudiar los fenómenos ambientales\ny sus consecuencias en diferentes ámbitos.",
+			"tip1":"DIAGNOSTICARÁS\nY MONITOREARÁS\nFENÓMENOS AMBIENTALES",
+			"tip2":"EVALUARÁS\nEL EFECTO AMBIENTAL\nDE ACTIVIDADES PRODUCTIVAS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Geología"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de Villa Mercedes (UNVIME)\nEscuela de Ciencias Ambientales y Biotecnológicas"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_brujula",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_enchufe",
+				"Sticker_medidor2"
 			]
 		},
 		{ 
 			"id": 12, 
 			"categoria": 3,
 			"name":"Ingeniería en Energía",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años y medio", 
+			"desc":"Tu rol será clave para enfrentar los desafíos en materia\nde energía que se presentarán en un futuro cercano.\nVas a asesorar sobre el uso eficiente de la energía\ny elaborar políticas para su mejor aprovechamiento.",
+			"tip1":"INVESTIGARÁS\nY EXPLORARÁS LAS\nFUENTES DE ENERGÍA",
+			"tip2":"DESARROLLARÁS\nINNOVACIONES\nENERGÉTICAS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de General San Martín (UNSAM)\nEscuela de Ciencia y Tecnología"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
+				"Sticker_panelsolar",
+				"Sticker_lapizyllave",
+				"Sticker_notebook",
 				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_plano",
+				"Sticker_enchufe",
+				"Sticker_medidor1"
 			]
 		},
 		{ 
 			"id": 13, 
 			"categoria": 3,
 			"name":"Licenciatura en Energética",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"4 años", 
+			"desc":"Tu rol será clave para identificar alternativas energéticas\ny satisfacer necesidades sociales.\nPodrás planificar estrategias de uso y aprovechamiento\nde sistemas energéticos e incorporar variables tecnológicas.",
+			"tip1":"MEJORARÁS EL\nRENDIMIENTO\nENERGÉTICO",
+			"tip2":"ASESORARÁS\nEN PROYECTOS\nENERGÉTICOS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de Tres de Febrero (UNTREF)\nSecretaría Académica"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_papeles",
+				"Sticker_anteojosol",
+				"Sticker_plano",
+				"Sticker_enchufe",
+				"Sticker_ciguena"
 			]
 		},
 		{ 
 			"id": 14, 
 			"categoria": 3,
 			"name":"Licenciatura en Energías Renovables",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"4 años", 
+			"desc":"Tu rol será clave para contribuir al desarrollo\nde sistemas energéticos sustentables.\nVas a tener un amplio campo laboral y podrás desempeñarte\nen distintas tareas en la industria energética.",
+			"tip1":"CONOCERÁS\nSISTEMAS ENERGÉTICOS\nSUSTENTABLES",
+			"tip2":"DESARROLLARÁS\nENERGÍAS\nRENOVABLES",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ciencias Exactas"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
+				"Sticker_panelsolar",
 				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_lapizyllave",
+				"Sticker_anteojosol",
+				"Sticker_tablas",
+				"Sticker_enchufe",
+				"Sticker_papeles"
 			]
 		},
 		{ 
 			"id": 15, 
 			"categoria": 3,
 			"name":"Ingeniería Electricista",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"6 años", 
+			"desc":"Tu rol será clave para resolver problemáticas\ntecnológicas referidas a la temática eléctrica.\nVas a ser un experto en la generación, transporte,\ndistribución, almacenamiento y control de la energía\neléctrica en sistemas de gran potencia.",
+			"tip1":"TENDRÁS UNA MIRADA\nINTEGRAL DE LA\nINDUSTRIA ELÉCTRICA",
+			"tip2":"CONOCERÁS\nDE ENERGÍAS\nRENOVABLES",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ingeniería\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires"
+				},
+				{
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Ingeniería Eléctrica y Computadoras\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Bahía Blanca\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Plata"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Córdoba"
+				},
+				{
+					"provincia":6,
+					"desc":"CORRIENTES\n\nUniversidad Nacional del Nordeste (UNNE)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":7,
+					"desc":"ENTRE RÍOS\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Concepción del Uruguay"
+				},
+				{
+					"provincia":14,
+					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional de Rosario (UNR)\nFacultad de Ciencias Exactas, Ingeniería y Agrimensura\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Santa Fe"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Exactas y Tecnología\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Tucumán"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Stickers_engranaje",
+				"Stickers_chip",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_robot",
+				"Stickers_amperimetro",
+				"Stickers_calculadora"
 			]
 		},
 		{ 
 			"id": 16, 
 			"categoria": 3,
 			"name":"Ingeniería Electrónica",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años", 
+			"desc":"Tu rol será clave para mejorar el nivel tecnológico\nde una sociedad, industria o sector.\nVas a ser un experto en sistemas, circuitos\ne instrumentos electrónicos y sus aplicaciones.",
+			"tip1":"DISEÑARÁS Y FABRICARÁS\nSISTEMAS\nELECTRÓNICOS",
+			"tip2":"CREARÁS\nNUEVAS\nMAQUINARIAS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nEscuela Superior Técnica (EST)\nFacultad de Ingeniería del Ejército\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires"
+				},
+				{
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Matanza (UNLAM)\nDepartamento de Ingeniería e Investigaciones Tecnológicas\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Ingeniería Eléctrica y Computadoras\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Bahía Blanca"
+				},
+				{
+					"provincia":2,
+					"desc":"CATAMARCA\n\nUniversidad Nacional de Catamarca (UNCA)\nFacultad de Tecnología y Ciencias Aplicadas"
+				},
+				{
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nInstituto Universitario Aeronáutico (IUA)\nFacultad de Ingeniería\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Ciencias Exactas, Físicas y Naturales\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Córdoba"
+				},
+				{
+					"provincia":6,
+					"desc":"CORRIENTES\n\nUniversidad Nacional del Nordeste (UNNE)\nFacultad de Ciencias Exactas y Naturales y Agrimensura"
+				},
+				{
+					"provincia":7,
+					"desc":"ENTRE RÍOS\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Paraná"
+				},
+				{
+					"provincia":11,
+					"desc":"LA RIOJA\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Rioja"
+				},
+				{
+					"provincia":13,
+					"desc":"MISIONES\n\nUniversidad Nacional de Misiones (UNAM)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":14,
+					"desc":"NEUQUÉN\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional del Neuquén"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Ingeniería y Ciencias Agropecuarias"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional de Rosario (UNR)\nFacultad de Ciencias Exactas, Ingeniería y Agrimensura"
+				},
+				{
+					"provincia":21,
+					"desc":"SANTIAGO DEL ESTERO\n\nUniversidad Nacional de Santiago del Estero (UNSE)\nFacultad de Ciencias Exactas y Tecnología"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Tucumán"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Stickers_engranaje",
+				"Stickers_chip",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_robot",
+				"Stickers_amperimetro",
+				"Stickers_soldador"
 			]
 		},
 		{ 
 			"id": 17, 
 			"categoria": 4,
 			"name":"Licenciatura en Física",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años", 
+			"desc":"Vas a ser un experto en resolver problemas\ny crear conocimientos originales\nvinculados a las propiedades de la materia,\nel movimiento y la energía.",
+			"tip1":"RESOLVERÁS\nPROBLEMAS MEDIANTE\nEXPERIMENTOS",
+			"tip2":"REPRESENTARÁS\nMATEMÁTICAMENTE\nLA NATURALEZA",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nUniversidad de Buenos Aires (UBA)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN)\nFacultad de Ciencias Exactas\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ciencias Exactas\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ciencias Naturales y Museo\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ciencias Exactas y Naturales\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Física"
+				},
+				{
+					"provincia":2,
+					"desc":"CATAMARCA\n\nUniversidad Nacional de Catamarca (UNCA)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Córdoba (UNC)\nFacultad de Matemáticas, Astronomía y Física\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ciencias Exactas, Fisicoquímicas y Naturales"
+				},
+				{
+					"provincia":6,
+					"desc":"CORRIENTES\n\nUniversidad Nacional del Nordeste (UNNE)\nFacultad de Ciencias Exactas y Naturales y Agrimensura"
+				},
+				{
+					"provincia":10,
+					"desc":"LA PAMPA\n\nUniversidad Nacional de La Pampa (UNLPAM)\nFacultad de Ciencias Exactas y Naturales"
+				},
+				{
+					"provincia":15,
+					"desc":"RÍO NEGRO\n\nUniversidad Nacional de Cuyo (UNCUYO)\nInstituto Balseiro"
+				},
+				{
+					"provincia":16,
+					"desc":"SALTA\n\nUniversidad Nacional de Salta (UNSA)\nFacultad de Ciencias Exactas"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Ciencias Físico Matemáticas y Naturales"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional de Rosario (UNR)\nFacultad de Ciencias Exactas, Ingeniería y Agrimensura"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Exactas y Tecnología"
 				}
-			],
+ 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Stickers_engranaje",
+				"Sticker_tablet",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Stickers_calculadora",
+				"Sticker_microscopio",
+				"Sticker_robot"
 			]
 		},
 		{ 
 			"id": 18, 
 			"categoria": 4,
 			"name":"Ingeniería Mecánica",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años", 
+			"desc":"Tu rol será clave en el proceso\nde transformación mecánica y térmica de la materia\npara la generación de equipos y artefactos\ntanto para la industria como para la comunidad.",
+			"tip1":"PARTICIPARÁS EN\nPROYECTOS DE INNOVACIÓN\nEN MAQUINARIA",
+			"tip2":"DESARROLLARÁS\nPIEZAS, EQUIPOS\nY SISTEMAS",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":0,
+					"desc":"C.A.B.A.\n\nEscuela Superior Técnica (EST)\nFacultad de Ingeniería del Ejército\n\nInstituto Tecnológico de Buenos Aires (ITBA)\nSede Central\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires"
+				},
+				{
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Lomas de Zamora (UNLZ)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Noroeste de la Provincia de Buenos Aires (UNNOBA)\nEscuela de Tecnología\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Avellaneda\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Bahía Blanca\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Haedo\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Plata"
+				},
+				{
+					"provincia":4,
+					"desc":"CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":5,
+					"desc":"CÓRDOBA\n\nUniversidad Nacional de Río Cuarto (UNRC)\nFacultad de Ingeniería\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Córdoba"
+				},
+				{
+					"provincia":12,
+					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":14,
+					"desc":"NEUQUÉN\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":20,
+					"desc":"SANTA FE\n\nUniversidad Nacional de Rosario (UNR)\nFacultad de Ciencias Exactas, Ingeniería y Agrimensura\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Santa Fe"
+				},
+				{
+					"provincia":23,
+					"desc":"TUCUMÁN\n\nUniversidad Nacional de Tucumán (UNT)\nFacultad de Ciencias Exactas y Tecnología\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Tucumán"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
+				"Stickers_engranaje",
 				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_robot",
+				"Stickers_escuadra",
+				"Sticker_metro"
 			]
 		},
 		{ 
 			"id": 19, 
 			"categoria": 4,
 			"name":"Ingeniería Electromecánica",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años", 
+			"desc":"Vas a ser un experto en proyectar, dirigir,\nejecutar y mantener sistemas que impliquen la mecánica,\nla electricidad, la electrónica o la combinación de ellas.",
+			"tip1":"DISEÑARÁS Y\nCONSTRUIRÁS SISTEMAS\nELECTROMECÁNICOS",
+			"tip2":"OPTIMIZARÁS\nLA OPERACIÓN\nDE MAQUINARIA",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":1,
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Centro de la Provincia de Buenos Aires (UNICEN)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":3,
+					"desc":"CHACO\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Resistencia"
+				},
+				{
+					"provincia":6,
+					"desc":"CORRIENTES\n\nUniversidad Nacional del Nordeste (UNNE)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":7,
+					"desc":"ENTRE RÍOS\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Concepción del Uruguay\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Paraná"
+				},
+				{
+					"provincia":10,
+					"desc":"LA PAMPA\n\nUniversidad Nacional de La Pampa (UNLPAM)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":11,
+					"desc":"LA RIOJA\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Rioja"
+				},
+				{
+					"provincia":12,
+					"desc":"MENDOZA\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Mendoza"
+				},
+				{
+					"provincia":17,
+					"desc":"SAN JUAN\n\nUniversidad Nacional de San Juan (UNSJ)\nFacultad de Ingeniería"
+				},
+				{
+					"provincia":18,
+					"desc":"SAN LUIS\n\nUniversidad Nacional de San Luis (UNSL)\nFacultad de Ingeniería y Ciencias Agropecuarias"
+				},
+				{
+					"provincia":19,
+					"desc":"SANTA CRUZ\n\nUniversidad Nacional de la Patagonia Austral (UNPA)\nUnidad Académica Río Gallegos\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Santa Cruz"
+				},
+				{
+					"provincia":21,
+					"desc":"SANTIAGO DEL ESTERO\n\nUniversidad Nacional de Santiago del Estero (UNSE)\nFacultad de Ciencias Exactas y Tecnología"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Stickers_engranaje",
+				"Stickers_chip",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_robot",
+				"Stickers_escuadra",
+				"Stickers_amperimetro"
 			]
 		},
 		{ 
 			"id": 20, 
 			"categoria": 4,
 			"name":"Ingeniería Mecatrónica",
-			"duration":"...", 
-			"desc":"...",
+			"duration":"5 años", 
+			"desc":"Tu rol será clave para que las tareas industriales\nsean más eficaces y precisas.",
+			"tip1":"AUTOMATIZARÁS\nEQUIPOS\nINDUSTRIALES",
+			"tip2":"CONSTRUIRAS\nROBOTS Y ALGORITMOS\nINTELIGENTES",
 			"mapSlots":
 			[
 				{
-					"id":0,
-					"desc":"description icon 1"
+					"provincia":12,
+					"desc":"MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingeniería"
 				}
 			],
 			"stickers_icons":
 			[
-				"Sticker_anteojonerd",
-				"Sticker_anteojosol",
-				"Sticker_arbol",
-				"Sticker_binoculares",
-				"Sticker_calibre",
-				"Sticker_jarras",
-				"Sticker_pincel"
+				"Stickers_engranaje",
+				"Stickers_chip",
+				"Sticker_lapizyllave",
+				"Sticker_antiparra",
+				"Sticker_robot",
+				"Sticker_destornillador",
+				"Stickers_soldador"
 			]
 		}
 	],
@@ -594,6 +1028,7 @@
 	"id 2 ":"Ingeniería en Perforaciones",
 	"id 3 ":"Ingeniería Química",
 	"id 4 ":"Licenciatura en Química",
+
 	"id 5 ":"Ingeniería en Geodésica y Geofísica",
 	"id 6 ":"Licenciatura en Geología",
 	"id 7 ":"Licenciatura en Geoquímica",
@@ -601,11 +1036,13 @@
 	"id 9 ":"Ingeniería Ambiental",
 	"id 10":"Ingeniería en Recursos Naturales Renovables",
 	"id 11":"Tecnicatura Gestión Ambiental",
+
 	"id 12":"Ingeniería en Energía",
 	"id 13":"Licenciatura en Energética",
 	"id 14":"Licenciatura en Energías Renovables",
 	"id 15":"Ingeniería Electricista",
 	"id 16":"Ingeniería Electrónica",
+
 	"id 17":"Licenciatura en Física",
 	"id 18":"Ingeniería Mecánica",
 	"id 19":"Ingeniería Electromecánica",
@@ -613,39 +1050,39 @@
 			
 	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",
 	
-	"r_1_0_0_0":{"resaltada":3, "mostrar":[1,2,3]},
-	"r_1_0_0_1":{"resaltada":3, "mostrar":[1,2,3]},
-	"r_1_0_1_0":{"resaltada":3, "mostrar":[1,2,3]},
-	"r_1_0_1_1":{"resaltada":2, "mostrar":[1,2,3]},
-	"r_1_1_0_0":{"resaltada":3, "mostrar":[1,2,3]},
-	"r_1_1_0_1":{"resaltada":1, "mostrar":[1,2,3]},
-	"r_1_1_1_0":{"resaltada":1, "mostrar":[1,2,3]},
-	"r_1_1_1_1":{"resaltada":2, "mostrar":[1,2,3]},
+	"r_1_0_0_0":{"resaltada":3, "mostrar":[3,4]},
+	"r_1_0_0_1":{"resaltada":4, "mostrar":[3,4]},
+	"r_1_0_1_0":{"resaltada":3, "mostrar":[3,4]},
+	"r_1_0_1_1":{"resaltada":4, "mostrar":[3,4]},
+	"r_1_1_0_0":{"resaltada":3, "mostrar":[3,4]},
+	"r_1_1_0_1":{"resaltada":4, "mostrar":[3,4]},
+	"r_1_1_1_0":{"resaltada":1, "mostrar":[1,2]},
+	"r_1_1_1_1":{"resaltada":2, "mostrar":[1,2]},
 	
-	"r_2_0_0_0":{"resaltada":10, "mostrar":[1,2,3]},
-	"r_2_0_0_1":{"resaltada":8, "mostrar":[1,2,3]},
-	"r_2_0_1_0":{"resaltada":11, "mostrar":[1,2,3]},
-	"r_2_0_1_1":{"resaltada":9, "mostrar":[1,2,3]},
-	"r_2_1_0_0":{"resaltada":6, "mostrar":[1,2,3]},
-	"r_2_1_0_1":{"resaltada":7, "mostrar":[1,2,3]},
-	"r_2_1_1_0":{"resaltada":5, "mostrar":[1,2,3]},
-	"r_2_1_1_1":{"resaltada":5, "mostrar":[1,2,3]},
+	"r_2_0_0_0":{"resaltada":11, "mostrar":[8,9,10,11]},
+	"r_2_0_0_1":{"resaltada":8, "mostrar":[8,9,10,11]},
+	"r_2_0_1_0":{"resaltada":10, "mostrar":[8,9,10,11]},
+	"r_2_0_1_1":{"resaltada":9, "mostrar":[8,9,10,11]},
+	"r_2_1_0_0":{"resaltada":6, "mostrar":[5,6,7]},
+	"r_2_1_0_1":{"resaltada":7, "mostrar":[5,6,7]},
+	"r_2_1_1_0":{"resaltada":5, "mostrar":[5,6,7]},
+	"r_2_1_1_1":{"resaltada":10, "mostrar":[8,9,10,11]},
 	
-	"r_3_0_0_0":{"resaltada":16, "mostrar":[1,2,3]},
-	"r_3_0_0_1":{"resaltada":15, "mostrar":[1,2,3]},
-	"r_3_0_1_0":{"resaltada":15, "mostrar":[1,2,3]},
-	"r_3_0_1_1":{"resaltada":16, "mostrar":[1,2,3]},
-	"r_3_1_0_0":{"resaltada":12, "mostrar":[1,2,3]},
-	"r_3_1_0_1":{"resaltada":14, "mostrar":[1,2,3]},
-	"r_3_1_1_0":{"resaltada":12, "mostrar":[1,2,3]},
-	"r_3_1_1_1":{"resaltada":13, "mostrar":[1,2,3]},
+	"r_3_0_0_0":{"resaltada":18, "mostrar":[18,19,20]},
+	"r_3_0_0_1":{"resaltada":19, "mostrar":[18,19,20]},
+	"r_3_0_1_0":{"resaltada":19, "mostrar":[18,19,20]},
+	"r_3_0_1_1":{"resaltada":17, "mostrar":[17,18,19,20]},
+	"r_3_1_0_0":{"resaltada":18, "mostrar":[18,19,20]},
+	"r_3_1_0_1":{"resaltada":17, "mostrar":[17,18,19,20]},
+	"r_3_1_1_0":{"resaltada":20, "mostrar":[18,19,20]},
+	"r_3_1_1_1":{"resaltada":19, "mostrar":[18,19,20]},
 	
-	"r_4_0_0_0":{"resaltada":20, "mostrar":[1,2,3]},
-	"r_4_0_0_1":{"resaltada":18, "mostrar":[1,2,3]},
-	"r_4_0_1_0":{"resaltada":19, "mostrar":[1,2,3]},
-	"r_4_0_1_1":{"resaltada":18, "mostrar":[1,2,3]},
-	"r_4_1_0_0":{"resaltada":17, "mostrar":[1,2,3]},
-	"r_4_1_0_1":{"resaltada":18, "mostrar":[1,2,3]},
-	"r_4_1_1_0":{"resaltada":19, "mostrar":[1,2,3]},
-	"r_4_1_1_1":{"resaltada":17, "mostrar":[1,2,3]}
+	"r_4_0_0_0":{"resaltada":16, "mostrar":[15,16]},
+	"r_4_0_0_1":{"resaltada":14, "mostrar":[12,13,14]},
+	"r_4_0_1_0":{"resaltada":12, "mostrar":[12,13,14]},
+	"r_4_0_1_1":{"resaltada":14, "mostrar":[12,13,14]},
+	"r_4_1_0_0":{"resaltada":15, "mostrar":[15,16]},
+	"r_4_1_0_1":{"resaltada":16, "mostrar":[15,16]},
+	"r_4_1_1_0":{"resaltada":13, "mostrar":[12,13,14]},
+	"r_4_1_1_1":{"resaltada":14, "mostrar":[12,13,14]}
 }

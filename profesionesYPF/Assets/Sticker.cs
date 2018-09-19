@@ -50,7 +50,6 @@ public class Sticker : MonoBehaviour {
 			image.enabled = false;
 			break;
 		}
-		print ("sprite::::::   " + sprite.name);
 
 		this.sprite = sprite;
 		this.restrictions = restrictions;

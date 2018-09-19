@@ -64,8 +64,12 @@ public class Stickers : MonoBehaviour {
 	void OnDestroy(){
 		//Events.BackClicked -= BackClicked;
 	}
+	bool adding;
 	public void OnStickerSelected(Sticker sticker)
 	{		
+		if (adding)
+			return;
+		adding = true;
 		draggerManager.OnItemSelected (sticker.sprite, sticker.restrictions, sticker.transform);
 
 		all.Remove (sticker);
@@ -73,6 +77,7 @@ public class Stickers : MonoBehaviour {
 	}
 	public void OnItemSelected(Sprite asset)
 	{
+		adding = true;
 		Transform t = transform;
 		t.localEulerAngles = Vector3.zero;
 		t.localScale = Vector3.one;
@@ -80,7 +85,8 @@ public class Stickers : MonoBehaviour {
 	}
 	public void AddSticker (Sprite sprite, Vector3 pos, Vector3 rot, Vector3 _scale, Vector2 restrictMovement)
 	{
-		print ("AddSticker " + sprite + " " + pos + " " + rot + " " + _scale + " " + restrictMovement);
+		adding = false;
+	//	print ("AddSticker " + sprite + " " + pos + " " + rot + " " + _scale + " " + restrictMovement);
 
 		Sticker newSticker;
 		if (restrictMovement == Vector2.zero)

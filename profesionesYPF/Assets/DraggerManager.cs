@@ -16,7 +16,7 @@ public class DraggerManager : MonoBehaviour {
 	public bool doubleTouchOn;
 
 	Stickers stickers;
-	Vector2 restrictions;
+	public Vector2 restrictions;
 	float offset = 20;
 
 	public int totalTouches;
@@ -35,13 +35,14 @@ public class DraggerManager : MonoBehaviour {
 		dragger.transform.localScale = Vector3.one;
 		dragger.transform.localEulerAngles = Vector3.zero;
 		scaleValue = 1;
+		restrictions = Vector2.zero;
 	}
 	void Update () {	
 			totalTouches = Input.touchCount;
 			Vector2 pos = Input.mousePosition;
 
 
-		if (Input.touchCount > allTouchesPosible-1 && restrictions == Vector2.zero) {
+		if (Input.touchCount > 1 && restrictions == Vector2.zero) {
 	
 
 			Vector2 pos1 = Input.touches [allTouchesPosible-2].position;
@@ -69,7 +70,7 @@ public class DraggerManager : MonoBehaviour {
 		}
 		if (Input.GetMouseButtonDown (0)) {
 			dragging = true;
-		} else if (dragging && Input.GetMouseButtonUp (0) && Input.touchCount == 0) {
+		} else if (dragging && Input.GetMouseButtonUp (0)) {
 			StopDragging ();
 		}
 		if (dragging) {
@@ -104,7 +105,7 @@ public class DraggerManager : MonoBehaviour {
 		image.sprite = sprite;
 		image.SetNativeSize ();
 
-		print (t.localScale);
+		//print (t.localScale);
 		scaleValue = t.localScale.x;
 		dragger.transform.localEulerAngles = new Vector3(0,Random.Range(0,300),0);
 		dragger.transform.localScale = t.localScale;
@@ -132,5 +133,6 @@ public class DraggerManager : MonoBehaviour {
 		image.sprite = null;
 		dragger.transform.position = new Vector2 (2000, -2000);
 		ResetDragger ();
+
 	}
 }

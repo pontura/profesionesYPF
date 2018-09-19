@@ -114,7 +114,7 @@ public class Carrera
 [System.Serializable]
 public class MapSlots
 {
-	public int id;
+	public int provincia;
 	public string desc;
 }
 [System.Serializable]

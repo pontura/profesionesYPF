@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MapSlot : MonoBehaviour {
 
-	int id;
+	public int id;
 	MapScreen mapScreen;
 
 	public void Init(MapScreen mapScreen, int id)

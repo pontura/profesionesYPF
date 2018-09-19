@@ -8432,6 +8432,7 @@ MonoBehaviour:
   dragging: 0
   initalDistance: 0
   doubleTouchOn: 0
+  restrictions: {x: 0, y: 0}
   totalTouches: 0
 --- !u!114 &576751201
 MonoBehaviour:
@@ -8496,6 +8497,7 @@ MonoBehaviour:
   drag1: {fileID: 691142283}
   drag2: {fileID: 2031880579}
   toRotate: {fileID: 1334095726}
+  dragger: {fileID: 576751200}
 --- !u!1001 &585395364
 Prefab:
   m_ObjectHideFlags: 0
@@ -28053,6 +28055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   settings:
+    vote: []
     ip_server: 
     url_photo_folder: 
     timer:
@@ -28818,20 +28821,20 @@ MonoBehaviour:
         esta actividad. "
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: "C.A.B.A.\n\nInstituto Tecnol\xF3gico de Buenos Aires (ITBA)\nSede Central"
-      - id: 0
+      - provincia: 0
         desc: "BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad
           de Ingenier\xEDa y Agronom\xEDa"
-      - id: 0
+      - provincia: 0
         desc: "MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingenier\xEDa"
-      - id: 0
+      - provincia: 0
         desc: "NEUQU\xC9N\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de
           Ingenier\xEDa"
-      - id: 0
+      - provincia: 0
         desc: "RIO NEGRO\n\nUniversidad Nacional de R\xEDo Negro (UNRN)\nFacultad
           de Ingenier\xEDa"
-      - id: 0
+      - provincia: 0
         desc: "CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad
           de Ingenier\xEDa"
       stickers_icons:
@@ -28856,9 +28859,9 @@ MonoBehaviour:
         herramientas especiales con tecnolog\xEDa de punta."
       duration: "4 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
-      - id: 0
+      - provincia: 0
         desc: description icon 2
       stickers_icons:
       - Sticker_anteojonerd
@@ -28879,11 +28882,11 @@ MonoBehaviour:
         papelera y alimentaria."
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
-      - id: 0
+      - provincia: 0
         desc: description icon 1
-      - id: 0
+      - provincia: 0
         desc: description icon 2
       stickers_icons:
       - Sticker_anteojonerd
@@ -28908,13 +28911,13 @@ MonoBehaviour:
         niveles de contaminaci\xF3n."
       duration: "5/6 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
-      - id: 0
+      - provincia: 0
         desc: description icon 2
-      - id: 0
+      - provincia: 0
         desc: description icon 3
-      - id: 0
+      - provincia: 0
         desc: description icon 4
       stickers_icons:
       - Sticker_anteojonerd
@@ -28938,7 +28941,7 @@ MonoBehaviour:
         la seguridad de los asentamientos humanos y de grandes obras de infraestructura."
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28963,7 +28966,7 @@ MonoBehaviour:
         investigaci\xF3n y docencia"
       duration: "5/6 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -28987,7 +28990,7 @@ MonoBehaviour:
         tambi\xE9n vas a poder ser un investigador y docente a nivel universitario."
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29012,7 +29015,7 @@ MonoBehaviour:
         y control."
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29037,7 +29040,7 @@ MonoBehaviour:
         aire y la gesti\xF3n de residuos."
       duration: "5 a\xF1os"
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29053,7 +29056,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29069,7 +29072,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29085,7 +29088,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29101,7 +29104,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29117,7 +29120,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29133,7 +29136,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29149,7 +29152,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29165,7 +29168,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29181,7 +29184,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29197,7 +29200,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29213,7 +29216,7 @@ MonoBehaviour:
       desc: '...'
       duration: '...'
       mapSlots:
-      - id: 0
+      - provincia: 0
         desc: description icon 1
       stickers_icons:
       - Sticker_anteojonerd
@@ -29239,20 +29242,20 @@ MonoBehaviour:
       del medio ambiente asociados a esta actividad. "
     duration: "5 a\xF1os"
     mapSlots:
-    - id: 0
+    - provincia: 0
       desc: "C.A.B.A.\n\nInstituto Tecnol\xF3gico de Buenos Aires (ITBA)\nSede Central"
-    - id: 0
+    - provincia: 0
       desc: "BUENOS AIRES\n\nUniversidad Nacional Arturo Jauretche (UNAJ)\nFacultad
         de Ingenier\xEDa y Agronom\xEDa"
-    - id: 0
+    - provincia: 0
       desc: "MENDOZA\n\nUniversidad Nacional de Cuyo (UNCUYO)\nFacultad de Ingenier\xEDa"
-    - id: 0
+    - provincia: 0
       desc: "NEUQU\xC9N\n\nUniversidad Nacional del Comahue (UNCOMA)\nFacultad de
         Ingenier\xEDa"
-    - id: 0
+    - provincia: 0
       desc: "RIO NEGRO\n\nUniversidad Nacional de R\xEDo Negro (UNRN)\nFacultad de
         Ingenier\xEDa"
-    - id: 0
+    - provincia: 0
       desc: "CHUBUT\n\nUniversidad Nacional de la Patagonia San Juan Bosco (UNPSJB)\nFacultad
         de Ingenier\xEDa"
     stickers_icons:
@@ -29267,7 +29270,10 @@ MonoBehaviour:
   countDown: {fileID: 1950257468}
   screenshotManager: {fileID: 1950257467}
   rt: {fileID: 0}
+  email: 
+  whatsapp: 
   imageName: 
+  vote: 0
   categoryType: 1
   questionID: 3
   currentLevel: 
