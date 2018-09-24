@@ -15,37 +15,41 @@
 	"enjoy":"¿DISFRUTASTE DE LA EXPERIENCIA?",
 	"accept":"Acepto recibir información de la Fundación YPF; asimismo autorizo\na la Fundación YPF a hacer uso de mi imagen para actividades\nde difusión de las actividades del Trailer Espacio de la Energía.",
 
-	"pregunta_1_1":"Me gustaría ser protagonista del desarrollo de la industria de gas y petróleo.",
-	"pregunta_1_10":"Me gustaría analizar la composición de los elementos que nos rodean.",
-	"pregunta_1_11":"Me gustaría mejorar los procesos de producción y extracción de hidrocarburos usando maquinarias.",
-	"pregunta_1_100":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
+	"pregunta_1_1":"Me interesaría conocer sobre exploración, extracción y procesamiento de hidrocarburos, y desde la Ciencia contribuir con su desarrollo.",
+	"pregunta_1_10":"Me gustaría ser protagonista del desarrollo de la industria de gas y petróleo.",
+	
+	"pregunta_1_100":"Me gustaría mejorar los procesos de producción y extracción de hidrocarburos usando maquinarias.",
 	"pregunta_1_101":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
-	"pregunta_1_110":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
-	"pregunta_1_111":"Me gustaría investigar formas innovadoras para la extracción de hidrocarburos y minerales.",
 
-	"pregunta_2_1":"Me encantaría conocer más sobre el interior y la corteza del planeta.",
-	"pregunta_2_10":"Me encantaría conocer más sobre la preservación de la naturaleza.",
-	"pregunta_2_100":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
-	"pregunta_2_101":"Me imagino supervisando obras e instalaciones para disminuir el impacto ambiental",
-	"pregunta_2_11":"Me encantaría estudiar los volcanes, las montañas, la composición de minerales, seres vivos, agua y atmósfera.",
-	"pregunta_2_110":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
-	"pregunta_2_111":"Me encantaría conocer más sobre la preservación de la naturaleza.",
 	
-	"pregunta_3_1":"Me encantaría diseñar piezas, equipos y sistemas.",
-	"pregunta_3_10":"Me gustaría desarrollar productos innovadores.",	
-	"pregunta_3_11":"Me gustaría fabricar máquinas y robots inteligentes.",
-	"pregunta_3_100":"Me gustaría diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
-	"pregunta_3_101":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción y el control de calidad.",
-	"pregunta_3_110":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción y el control de calidad.",
-	"pregunta_3_111":"Me gustaría diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
 	
-	"pregunta_4_1":"Me imagino proyectando obras y maquinarias.",
-	"pregunta_4_10":"Me imagino buscando nuevos métodos de generación eléctrica sustentable.",
-	"pregunta_4_11":"Me gustaría proyectar y supervisar la construcción, operación y mantenimiento de obras e instalaciones destinadas a generar, almacenar, transportar y distribuir energía o recursos energéticos.",
-	"pregunta_4_100":"Me gustaría ser experto en energía solar, geotérmica, eólica y de biomasa, y optimizar el uso de los recursos naturales.",
-	"pregunta_4_101":"Me gustaría generar soluciones y promover un consumo responsable y eficiente de la energía.",
-	"pregunta_4_110":"Me gustaría desarrollar software y hardware para la implementación de sistemas de control para plantas de generación de energía eléctrica.",
-	"pregunta_4_111":"Me gustaría generar soluciones y promover un consumo responsable y eficiente de la energía y los recursos naturales.",
+	
+	"pregunta_2_1":"Me entusiasma saber sobre el origen, formación, evolución y cuidado de la Tierra.",
+	"pregunta_2_10":"Me encantaría conocer más sobre el interior y la corteza del planeta, y la preservación de la naturaleza.",	
+	
+	"pregunta_2_100":"Me encantaría estudiar los volcanes, las montanas, la composición de minerales, seres vivos, agua y atmósfera.",
+	"pregunta_2_101":"Me imagino supervisando obras e instalaciones para disminuir el impacto ambiental.",
+	"pregunta_2_102":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
+	
+	
+	
+	
+	"pregunta_3_1":"Me interesa comprender los fenómenos de la naturaleza tanto como comprender el funcionamiento de las cosas y tratar de generar nuevas respuestas y soluciones.",
+	"pregunta_3_10":"Me encantaría diseñar piezas, equipos y sistemas, asi como tambien crear nuevos materiales.",
+	
+	"pregunta_3_100":"Me gustaría fabricar máquinas y robots inteligentes y diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
+	"pregunta_3_101":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción, control de calidad o desarrollar productos innovadores.",
+	
+	
+	
+	
+	
+	"pregunta_4_1":"Me interesa aprender sobre los sistemas energéticos, a utilizar eficientemente la energía y aumentar el potencial de las energías renovables.",
+	"pregunta_4_10":"Me imagino proyectando obras y maquinarias, y buscando nuevos métodos de generación eléctrica sustentable.",	
+	
+	"pregunta_4_100":"Me gustaria proyectar y supervisar la construcción, operación y mantenimiento de obras e instalaciones destinadas a generar, almacenar, transportar y distribuir energía o recursos energéticos. Asimismo, generar soluciones y promover un consumo responsable y eficiente.",
+	"pregunta_4_101":"Me gustaría ser experto en energía solar, geotérmica, eólica y de biomasa, y optimizar el uso de los recursos naturales.",
+	"pregunta_4_102":"Me gustaria desarrollar software y hardware para la implementación de sistemas de control para plantas de generación de energía eléctrica.",
 	
 	"provincias":
 	[
@@ -1048,41 +1052,19 @@
 	"id 19":"Ingeniería Electromecánica",
 	"id 20":"Ingeniería Mecatrónica",	
 			
-	"comment": "A_B_C_D_E    A=categoria   B,C,D = pregunta 1,2 y 3",
+	"comment": "r_A_B_C_D    A=categoria   B,C,D = pregunta 1,2 y 3",
 	
-	"r_1_0_0_0":{"resaltada":3, "mostrar":[3,4]},
-	"r_1_0_0_1":{"resaltada":4, "mostrar":[3,4]},
-	"r_1_0_1_0":{"resaltada":3, "mostrar":[3,4]},
-	"r_1_0_1_1":{"resaltada":4, "mostrar":[3,4]},
-	"r_1_1_0_0":{"resaltada":3, "mostrar":[3,4]},
-	"r_1_1_0_1":{"resaltada":4, "mostrar":[3,4]},
-	"r_1_1_1_0":{"resaltada":1, "mostrar":[1,2]},
-	"r_1_1_1_1":{"resaltada":2, "mostrar":[1,2]},
+	"r_1_1_1_0":{"resaltada":0, "mostrar":[1,2]},
+	"r_1_1_1_1":{"resaltada":0, "mostrar":[3,4]},
 	
-	"r_2_0_0_0":{"resaltada":11, "mostrar":[8,9,10,11]},
-	"r_2_0_0_1":{"resaltada":8, "mostrar":[8,9,10,11]},
-	"r_2_0_1_0":{"resaltada":10, "mostrar":[8,9,10,11]},
-	"r_2_0_1_1":{"resaltada":9, "mostrar":[8,9,10,11]},
-	"r_2_1_0_0":{"resaltada":6, "mostrar":[5,6,7]},
-	"r_2_1_0_1":{"resaltada":7, "mostrar":[5,6,7]},
-	"r_2_1_1_0":{"resaltada":5, "mostrar":[5,6,7]},
-	"r_2_1_1_1":{"resaltada":10, "mostrar":[8,9,10,11]},
+	"r_2_1_1_0":{"resaltada":0, "mostrar":[5,6,7]},
+	"r_2_1_1_1":{"resaltada":0, "mostrar":[7,9,11]},
+	"r_2_1_1_2":{"resaltada":0, "mostrar":[8,10]},
 	
-	"r_3_0_0_0":{"resaltada":18, "mostrar":[18,19,20]},
-	"r_3_0_0_1":{"resaltada":19, "mostrar":[18,19,20]},
-	"r_3_0_1_0":{"resaltada":19, "mostrar":[18,19,20]},
-	"r_3_0_1_1":{"resaltada":17, "mostrar":[17,18,19,20]},
-	"r_3_1_0_0":{"resaltada":18, "mostrar":[18,19,20]},
-	"r_3_1_0_1":{"resaltada":17, "mostrar":[17,18,19,20]},
-	"r_3_1_1_0":{"resaltada":20, "mostrar":[18,19,20]},
-	"r_3_1_1_1":{"resaltada":19, "mostrar":[18,19,20]},
+	"r_3_1_1_0":{"resaltada":0, "mostrar":[18,19,20]},
+	"r_3_1_1_1":{"resaltada":0, "mostrar":[17]},
 	
-	"r_4_0_0_0":{"resaltada":16, "mostrar":[15,16]},
-	"r_4_0_0_1":{"resaltada":14, "mostrar":[12,13,14]},
-	"r_4_0_1_0":{"resaltada":12, "mostrar":[12,13,14]},
-	"r_4_0_1_1":{"resaltada":14, "mostrar":[12,13,14]},
-	"r_4_1_0_0":{"resaltada":15, "mostrar":[15,16]},
-	"r_4_1_0_1":{"resaltada":16, "mostrar":[15,16]},
-	"r_4_1_1_0":{"resaltada":13, "mostrar":[12,13,14]},
-	"r_4_1_1_1":{"resaltada":14, "mostrar":[12,13,14]}
+	"r_4_1_1_0":{"resaltada":0, "mostrar":[12,13,15]},
+	"r_4_1_1_1":{"resaltada":0, "mostrar":[14]},
+	"r_4_1_1_2":{"resaltada":0, "mostrar":[15,16]}
 }

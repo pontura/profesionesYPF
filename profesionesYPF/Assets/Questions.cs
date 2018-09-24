@@ -62,6 +62,25 @@ public class Questions : MonoBehaviour {
 	}
 	void PressedReady()
 	{		
+		if (selectedID == 1) {
+			Data.Instance.results.y = 0;
+			Data.Instance.questionID = 0;
+			Data.Instance.results.x++;
+			if (Data.Instance.results.x == 5)
+				Data.Instance.results.x = 1;
+
+			if (Data.Instance.results.x == 1)
+				Data.Instance.categoryType = Data.categoriesTypes.TIERRA;
+			else if (Data.Instance.results.x == 2)
+				Data.Instance.categoryType = Data.categoriesTypes.FISICA;
+			else if (Data.Instance.results.x == 3)
+				Data.Instance.categoryType = Data.categoriesTypes.PETROLEO;
+			else
+				Data.Instance.categoryType = Data.categoriesTypes.ELECTRICA;
+			
+			Data.Instance.scenesManager.JumpToFirstQuestion ();
+			return;
+		}
 		Data.Instance.questionID++;
 
 		if(Data.Instance.questionID == 1)
@@ -95,73 +114,49 @@ public class Questions : MonoBehaviour {
 		if (Data.Instance.categoryType == Data.categoriesTypes.TIERRA) {
 
 			if (Data.Instance.results.y == 0) 
-				result = Data.Instance.texts.pregunta_1_10;	
-			else 
-				result = Data.Instance.texts.pregunta_1_11;		
+				result = Data.Instance.texts.pregunta_1_10;		
 			
 			if (Data.Instance.questionID == 2) {
 				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
 					result = Data.Instance.texts.pregunta_1_100;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
-					result = Data.Instance.texts.pregunta_1_110;
 				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
 					result = Data.Instance.texts.pregunta_1_101;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
-					result = Data.Instance.texts.pregunta_1_111;
 			}
 			
 		} else if (Data.Instance.categoryType == Data.categoriesTypes.FISICA) {
 
 			if (Data.Instance.results.y == 0) 
-				result = Data.Instance.texts.pregunta_2_10;	
-			else 
-				result = Data.Instance.texts.pregunta_2_11;		
+				result = Data.Instance.texts.pregunta_2_10;		
 
 			if (Data.Instance.questionID == 2) {
 				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
 					result = Data.Instance.texts.pregunta_2_100;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
-					result = Data.Instance.texts.pregunta_2_110;
 				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
 					result = Data.Instance.texts.pregunta_2_101;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
-					result = Data.Instance.texts.pregunta_2_111;
 			}
 
 		} else if (Data.Instance.categoryType == Data.categoriesTypes.PETROLEO) {
 
 			if (Data.Instance.results.y == 0) 
-				result = Data.Instance.texts.pregunta_3_10;	
-			else 
-				result = Data.Instance.texts.pregunta_3_11;		
+				result = Data.Instance.texts.pregunta_3_10;		
 
 			if (Data.Instance.questionID == 2) {
 				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
 					result = Data.Instance.texts.pregunta_3_100;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
-					result = Data.Instance.texts.pregunta_3_110;
 				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
 					result = Data.Instance.texts.pregunta_3_101;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
-					result = Data.Instance.texts.pregunta_3_111;
 			}
 
 		} else {
 
 			if (Data.Instance.results.y == 0) 
-				result = Data.Instance.texts.pregunta_4_10;	
-			else 
-				result = Data.Instance.texts.pregunta_4_11;		
+				result = Data.Instance.texts.pregunta_4_10;		
 
 			if (Data.Instance.questionID == 2) {
 				if (Data.Instance.results.y == 0 && Data.Instance.results.z == 0) 
 					result = Data.Instance.texts.pregunta_4_100;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 0) 
-					result = Data.Instance.texts.pregunta_4_110;
 				else if (Data.Instance.results.y == 0 && Data.Instance.results.z == 1) 
 					result = Data.Instance.texts.pregunta_4_101;
-				else if (Data.Instance.results.y == 1 && Data.Instance.results.z == 1) 
-					result = Data.Instance.texts.pregunta_4_111;
 			}
 
 		}

@@ -18,6 +18,14 @@ public class ScenesManager : MonoBehaviour {
 		SceneManager.LoadScene(aLevelName);
 
 	}
+	public void JumpToFirstQuestion()
+	{	
+		print ("JumpToFirstQuestion");
+		id = 3;	
+		SceneManager.LoadScene("Trivia1");
+		Data.Instance.progressIcons.SetStateBySceneID(id);
+		Data.Instance.countDown.SetStateBySceneID(id);
+	}
 	public void Next()
 	{	
 		if (isBack || UnityEngine.SceneManagement.SceneManager.GetActiveScene ().name == "Stickers") {
