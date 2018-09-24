@@ -7,7 +7,7 @@ public class ScreenshotManager : MonoBehaviour {
 
 	public int _w = 1080;
 	public int _h = 1080;
-	float offsetY = 380;
+	float offsetY = 402;
 	float offset_Y;
 	bool saveItToDisk;
 
@@ -59,7 +59,7 @@ public class ScreenshotManager : MonoBehaviour {
 		byte[] bytes = tex.EncodeToPNG();
 		//Object.Destroy(tex);
 
-		File.WriteAllBytes(Application.streamingAssetsPath + "/photos/" + Data.Instance.GetImageName(), bytes);
+		File.WriteAllBytes(Data.Instance.dataConfig.settings.url_photo_folder + Data.Instance.GetImageName(), bytes);
 
 	}
 

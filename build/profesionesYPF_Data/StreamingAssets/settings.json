@@ -1,6 +1,10 @@
 {
-	"ip_server": "",
-	"url_photo_folder": "",
+	"___TESTING____ip_server"			: "http://ypf.reweb.com.ar:8080/store-and-forward-0.0.1/",
+	"___TESTING____url_photo_folder"	: "/",
+	
+	"ip_server": "http://ypf.reweb.com.ar:8080/store-and-forward-0.0.1/",
+	"url_photo_folder": "c:/photos/",
+	
 	"vote":
 	[
 		"MALO",

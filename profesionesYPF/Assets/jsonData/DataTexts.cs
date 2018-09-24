@@ -46,41 +46,19 @@ public class DataTexts  {
 	public string pregunta_4_101;
 	public string pregunta_4_102;
 
-	public TriviaResults r_1_0_0_0;
-	public TriviaResults r_1_0_0_1;
-	public TriviaResults r_1_0_1_1;
-	public TriviaResults r_1_1_1_1;
 	public TriviaResults r_1_1_1_0;
-	public TriviaResults r_1_1_0_0;
-	public TriviaResults r_1_0_1_0;
-	public TriviaResults r_1_1_0_1;
+	public TriviaResults r_1_1_1_1;
 
-	public TriviaResults r_2_0_0_0;
-	public TriviaResults r_2_0_0_1;
-	public TriviaResults r_2_0_1_1;
-	public TriviaResults r_2_1_1_1;
 	public TriviaResults r_2_1_1_0;
-	public TriviaResults r_2_1_0_0;
-	public TriviaResults r_2_0_1_0;
-	public TriviaResults r_2_1_0_1;
+	public TriviaResults r_2_1_1_1;
+	public TriviaResults r_2_1_1_2;
 
-	public TriviaResults r_3_0_0_0;
-	public TriviaResults r_3_0_0_1;
-	public TriviaResults r_3_0_1_1;
-	public TriviaResults r_3_1_1_1;
 	public TriviaResults r_3_1_1_0;
-	public TriviaResults r_3_1_0_0;
-	public TriviaResults r_3_0_1_0;
-	public TriviaResults r_3_1_0_1;
+	public TriviaResults r_3_1_1_1;
 
-	public TriviaResults r_4_0_0_0;
-	public TriviaResults r_4_0_0_1;
-	public TriviaResults r_4_0_1_1;
-	public TriviaResults r_4_1_1_1;
 	public TriviaResults r_4_1_1_0;
-	public TriviaResults r_4_1_0_0;
-	public TriviaResults r_4_0_1_0;
-	public TriviaResults r_4_1_0_1;
+	public TriviaResults r_4_1_1_1;
+	public TriviaResults r_4_1_1_2;
 
 	public string[] iconos_tags;
 	public string[] iconos_generics;

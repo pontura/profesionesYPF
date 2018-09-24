@@ -42,9 +42,11 @@ public class Questions : MonoBehaviour {
 			q = GetOhters ();
 		
 		title.text = q;
-		title.color = colors [Data.Instance.questionID];
-		background.sprite = bgs [Data.Instance.questionID];
-		buttons.Init (Data.Instance.questionID);
+
+		//0: fuerza para que ahora los colores sean siempre azules. Antes: Data.Instance.questionID
+		title.color = colors [0];
+		background.sprite = bgs [0];
+		buttons.Init (0);
 	}
 	void Delayed()
 	{

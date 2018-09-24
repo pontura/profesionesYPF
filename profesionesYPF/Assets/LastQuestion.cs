@@ -15,13 +15,9 @@ public class LastQuestion : MonoBehaviour {
 	void Start () {	
 
 		help.SetActive (false);
-
-		if (Data.Instance.questionID == 0) {
-			Invoke ("Delayed", 2);
-		} 
+		Invoke ("Delayed", 2);
 
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.trivia);
-		Events.QuestionDone += QuestionDone;
 
 		AddData ();
 		if (field3.text == "")
@@ -32,26 +28,15 @@ public class LastQuestion : MonoBehaviour {
 	{
 		help.SetActive (true);
 	}
-	void OnDestroy () {
-		Events.QuestionDone -= QuestionDone;
-	}
 	int selectedID;
-	void QuestionDone(int selectedID)
+	public void QuestionDone(int selectedID)
 	{
 		help.SetActive (false);
 		this.selectedID = selectedID;
-		Invoke ("PressedReady", 0.5f);
-	}
-	void PressedReady()
-	{		
-		Data.Instance.questionID++;
 
-		if(Data.Instance.questionID == 1)
-			Data.Instance.results.y = selectedID;
-		if(Data.Instance.questionID == 2)
-			Data.Instance.results.z = selectedID;
-		if(Data.Instance.questionID == 3)
-			Data.Instance.results.w = selectedID;
+		Data.Instance.results.y = 1;
+		Data.Instance.results.z = 1;
+		Data.Instance.results.w = selectedID;
 
 		Data.Instance.scenesManager.Next ();
 	}

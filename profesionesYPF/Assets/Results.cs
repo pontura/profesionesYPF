@@ -30,7 +30,9 @@ public class Results : MonoBehaviour {
 		Data.Instance.countDown.Init (Data.Instance.dataConfig.settings.timer.results);
 
 		Vector4 r = Data.Instance.results;
-		TriviaResults triviaResults = (TriviaResults)Data.Instance.texts.GetType().GetField("r_" + r.x + "_" + r.y + "_" + r.z + "_" + r.w ).GetValue(Data.Instance.texts);
+		string resultField = "r_" + r.x + "_" + r.y + "_" + r.z + "_" + r.w;
+		print ("_____" + resultField);
+		TriviaResults triviaResults = (TriviaResults)Data.Instance.texts.GetType().GetField( resultField ).GetValue(Data.Instance.texts);
 
 		int carrera_destacada_id = triviaResults.resaltada;
 
@@ -67,6 +69,8 @@ public class Results : MonoBehaviour {
 
 		foreach (ResultButton rb in container.GetComponentsInChildren<ResultButton>()) {
 			bool isSelected = false;
+			if (id >= all.Count)
+				return;
 			if (all[id].id == carrera_destacada_id)
 				isSelected = true;
 			rb.Init (this, all[id], isSelected);
