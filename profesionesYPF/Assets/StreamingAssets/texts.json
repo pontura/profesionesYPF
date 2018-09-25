@@ -17,39 +17,25 @@
 
 	"pregunta_1_1":"Me interesaría conocer sobre exploración, extracción y procesamiento de hidrocarburos, y desde la Ciencia contribuir con su desarrollo.",
 	"pregunta_1_10":"Me gustaría ser protagonista del desarrollo de la industria de gas y petróleo.",
-	
 	"pregunta_1_100":"Me gustaría mejorar los procesos de producción y extracción de hidrocarburos usando maquinarias.",
 	"pregunta_1_101":"Me gustaría hacer experimentos en un laboratorio para elaborar y analizar nuevas sustancias y productos, y adaptarlas a las necesidades de la industria.",
 
-	
-	
-	
 	"pregunta_2_1":"Me entusiasma saber sobre el origen, formación, evolución y cuidado de la Tierra.",
-	"pregunta_2_10":"Me encantaría conocer más sobre el interior y la corteza del planeta, y la preservación de la naturaleza.",	
-	
-	"pregunta_2_100":"Me encantaría estudiar los volcanes, las montanas, la composición de minerales, seres vivos, agua y atmósfera.",
+	"pregunta_2_10":"Me encantaría conocer más sobre el interior y la corteza del planeta, y la preservación de la naturaleza.",
+	"pregunta_2_100":"Me encantaría estudiar los volcanes, las montañas, la composición de minerales, seres vivos, agua y atmósfera.",
 	"pregunta_2_101":"Me imagino supervisando obras e instalaciones para disminuir el impacto ambiental.",
 	"pregunta_2_102":"Me imagino elaborando programas y políticas de conservación del ambiente y los recursos naturales.",
 	
-	
-	
-	
 	"pregunta_3_1":"Me interesa comprender los fenómenos de la naturaleza tanto como comprender el funcionamiento de las cosas y tratar de generar nuevas respuestas y soluciones.",
-	"pregunta_3_10":"Me encantaría diseñar piezas, equipos y sistemas, asi como tambien crear nuevos materiales.",
-	
+	"pregunta_3_10":"Me encantaría diseñar piezas, equipos y sistemas, así como también crear nuevos materiales.",
 	"pregunta_3_100":"Me gustaría fabricar máquinas y robots inteligentes y diseñar soluciones creativas para la operación de maquinarias industriales para mejorar su productividad.",
 	"pregunta_3_101":"Me gustaría trabajar en un laboratorio realizando investigación básica y cálculos para realizar mejoras en la producción, control de calidad o desarrollar productos innovadores.",
 	
-	
-	
-	
-	
 	"pregunta_4_1":"Me interesa aprender sobre los sistemas energéticos, a utilizar eficientemente la energía y aumentar el potencial de las energías renovables.",
 	"pregunta_4_10":"Me imagino proyectando obras y maquinarias, y buscando nuevos métodos de generación eléctrica sustentable.",	
-	
-	"pregunta_4_100":"Me gustaria proyectar y supervisar la construcción, operación y mantenimiento de obras e instalaciones destinadas a generar, almacenar, transportar y distribuir energía o recursos energéticos. Asimismo, generar soluciones y promover un consumo responsable y eficiente.",
+	"pregunta_4_100":"Me gustaría proyectar y supervisar la construcción, operación y mantenimiento de obras e instalaciones destinadas a generar, almacenar, transportar y distribuir energía o recursos energéticos. Asimismo, generar soluciones y promover un consumo responsable y eficiente.",
 	"pregunta_4_101":"Me gustaría ser experto en energía solar, geotérmica, eólica y de biomasa, y optimizar el uso de los recursos naturales.",
-	"pregunta_4_102":"Me gustaria desarrollar software y hardware para la implementación de sistemas de control para plantas de generación de energía eléctrica.",
+	"pregunta_4_102":"Me gustaría desarrollar software y hardware para la implementación de sistemas de control para plantas de generación de energía eléctrica.",
 	
 	"provincias":
 	[
@@ -170,7 +156,7 @@
 				},
 				{
 					"provincia":1,
-					"desc":"BUENOS AIRES\n\nUniversidad Nacional de General Sarmiento (UNGS)Universidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Ingeniería\n\nUniversidad Nacional de Tres de Febrero (UNTREF)\nSecretaría Académica\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Plata"
+					"desc":"BUENOS AIRES\n\nUniversidad Nacional de General Sarmiento (UNGS)\nUniversidad Nacional de La Plata (UNLP)\nFacultad de Ingeniería\n\nUniversidad Nacional de Mar del Plata (UNMDP)\nFacultad de Ingeniería\n\nUniversidad Nacional del Sur (UNS)\nDepartamento de Ingeniería\n\nUniversidad Nacional de Tres de Febrero (UNTREF)\nSecretaría Académica\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional Buenos Aires\n\nUniversidad Tecnológica Nacional (UTN)\nFacultad Regional La Plata"
 				},
 				{
 					"provincia":3,

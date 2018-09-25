@@ -13,6 +13,7 @@ public class Results : MonoBehaviour {
 
 	public List<Carrera> all;
 
+	public GameObject buttons1;
 	public GameObject buttons2;
 	public GameObject buttons3;
 	public GameObject buttons4;
@@ -23,6 +24,7 @@ public class Results : MonoBehaviour {
 	{		
 		
 		GameObject container;
+		buttons1.SetActive (false);
 		buttons2.SetActive (false);
 		buttons3.SetActive (false);
 		buttons4.SetActive (false);
@@ -34,7 +36,7 @@ public class Results : MonoBehaviour {
 		print ("_____" + resultField);
 		TriviaResults triviaResults = (TriviaResults)Data.Instance.texts.GetType().GetField( resultField ).GetValue(Data.Instance.texts);
 
-		int carrera_destacada_id = triviaResults.resaltada;
+		//int carrera_destacada_id = triviaResults.resaltada;
 
 
 		int categoria = 0;
@@ -52,8 +54,9 @@ public class Results : MonoBehaviour {
 				if(carrera.id == carreraID)
 					all.Add (carrera);
 		}
-
-		if (all.Count == 2)
+		if (all.Count == 1)
+			container = buttons1;
+		else if (all.Count == 2)
 			container = buttons2;
 		else if (all.Count == 3)
 			container = buttons3;
@@ -62,18 +65,23 @@ public class Results : MonoBehaviour {
 
 		container.SetActive (true);
 
-		results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
+		if (all.Count == 1)
+			results_1.text = "¡FELICITACIONES!\nENCONTRAMOS 1 CARRERA QUE TE PUEDE INTERESAR.";
+		else
+			results_1.text = Data.Instance.texts.results_1 + (all.Count).ToString() + " " + Data.Instance.texts.results_2;
 
 
 		int id = 0;
 
 		foreach (ResultButton rb in container.GetComponentsInChildren<ResultButton>()) {
 			bool isSelected = false;
-			if (id >= all.Count)
+			if (id >= all.Count) {
 				return;
-			if (all[id].id == carrera_destacada_id)
-				isSelected = true;
-			rb.Init (this, all[id], isSelected);
+			} else {
+				//if (all[id].id == carrera_destacada_id)
+				//isSelected = true;
+				rb.Init (this, all [id], isSelected);
+			}
 			id++;
 		}
 

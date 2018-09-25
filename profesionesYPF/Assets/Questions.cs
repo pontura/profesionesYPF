@@ -44,9 +44,9 @@ public class Questions : MonoBehaviour {
 		title.text = q;
 
 		//0: fuerza para que ahora los colores sean siempre azules. Antes: Data.Instance.questionID
-		title.color = colors [0];
-		background.sprite = bgs [0];
-		buttons.Init (0);
+		title.color = colors [Data.Instance.questionID];
+		background.sprite = bgs [Data.Instance.questionID];
+		buttons.Init (Data.Instance.questionID);
 	}
 	void Delayed()
 	{
