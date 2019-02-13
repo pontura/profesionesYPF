@@ -17,7 +17,11 @@ public class StickerButton : MonoBehaviour {
 		image.sprite = asset;
 		image.SetNativeSize ();
 		float scaler = 0.3f;
-		image.transform.localScale = new Vector3 (scaler, scaler, scaler);
+
+		if(asset.name == "Sticker_tubogrande" || asset.name == "Sticker_picogrande")
+			image.transform.localScale = new Vector3 (scaler/2, scaler/2, scaler/2);
+		else
+			image.transform.localScale = new Vector3 (scaler, scaler, scaler);
 		this.stickers = stickers;
 	}
 	public void OnClicked()

@@ -1738,126 +1738,52 @@ MonoBehaviour:
     accept: 
     pregunta_1_1: 
     pregunta_1_10: 
-    pregunta_1_11: 
     pregunta_1_100: 
     pregunta_1_101: 
-    pregunta_1_110: 
-    pregunta_1_111: 
+    pregunta_1_102: 
     pregunta_2_1: 
     pregunta_2_10: 
-    pregunta_2_11: 
     pregunta_2_100: 
     pregunta_2_101: 
-    pregunta_2_110: 
-    pregunta_2_111: 
+    pregunta_2_102: 
     pregunta_3_1: 
     pregunta_3_10: 
-    pregunta_3_11: 
     pregunta_3_100: 
     pregunta_3_101: 
-    pregunta_3_110: 
-    pregunta_3_111: 
+    pregunta_3_102: 
     pregunta_4_1: 
     pregunta_4_10: 
-    pregunta_4_11: 
     pregunta_4_100: 
     pregunta_4_101: 
-    pregunta_4_110: 
-    pregunta_4_111: 
-    r_1_0_0_0:
-      resaltada: 0
-      mostrar: 
-    r_1_0_0_1:
-      resaltada: 0
-      mostrar: 
-    r_1_0_1_1:
+    pregunta_4_102: 
+    r_1_1_1_0:
       resaltada: 0
       mostrar: 
     r_1_1_1_1:
       resaltada: 0
       mostrar: 
-    r_1_1_1_0:
-      resaltada: 0
-      mostrar: 
-    r_1_1_0_0:
-      resaltada: 0
-      mostrar: 
-    r_1_0_1_0:
-      resaltada: 0
-      mostrar: 
-    r_1_1_0_1:
-      resaltada: 0
-      mostrar: 
-    r_2_0_0_0:
-      resaltada: 0
-      mostrar: 
-    r_2_0_0_1:
-      resaltada: 0
-      mostrar: 
-    r_2_0_1_1:
+    r_2_1_1_0:
       resaltada: 0
       mostrar: 
     r_2_1_1_1:
       resaltada: 0
       mostrar: 
-    r_2_1_1_0:
-      resaltada: 0
-      mostrar: 
-    r_2_1_0_0:
-      resaltada: 0
-      mostrar: 
-    r_2_0_1_0:
-      resaltada: 0
-      mostrar: 
-    r_2_1_0_1:
-      resaltada: 0
-      mostrar: 
-    r_3_0_0_0:
-      resaltada: 0
-      mostrar: 
-    r_3_0_0_1:
-      resaltada: 0
-      mostrar: 
-    r_3_0_1_1:
-      resaltada: 0
-      mostrar: 
-    r_3_1_1_1:
+    r_2_1_1_2:
       resaltada: 0
       mostrar: 
     r_3_1_1_0:
       resaltada: 0
       mostrar: 
-    r_3_1_0_0:
-      resaltada: 0
-      mostrar: 
-    r_3_0_1_0:
-      resaltada: 0
-      mostrar: 
-    r_3_1_0_1:
-      resaltada: 0
-      mostrar: 
-    r_4_0_0_0:
-      resaltada: 0
-      mostrar: 
-    r_4_0_0_1:
-      resaltada: 0
-      mostrar: 
-    r_4_0_1_1:
-      resaltada: 0
-      mostrar: 
-    r_4_1_1_1:
+    r_3_1_1_1:
       resaltada: 0
       mostrar: 
     r_4_1_1_0:
       resaltada: 0
       mostrar: 
-    r_4_1_0_0:
+    r_4_1_1_1:
       resaltada: 0
       mostrar: 
-    r_4_0_1_0:
-      resaltada: 0
-      mostrar: 
-    r_4_1_0_1:
+    r_4_1_1_2:
       resaltada: 0
       mostrar: 
     iconos_tags: []

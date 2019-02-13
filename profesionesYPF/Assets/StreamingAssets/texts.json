@@ -1,4 +1,4 @@
-{
+﻿{
 	"choose_category": "¿SOBRE QUÉ CATEGORÍA TE GUSTARÍA CONOCER?",
     "intro_title1": "ANIMATE A CONOCER LAS",
 	"intro_title2": "PROFESIONES DEL FUTURO",
@@ -427,7 +427,7 @@
 			"categoria": 2,
 			"name":"Licenciatura en Ciencias del Ambiente",
 			"duration":"5 años", 
-			"desc":"Tu rol será clave para elaborar leyes, reglamentos,\npolíticas y programas que involucren objetivos de conservación.\nVas a evaluar el desempeño ambiental de empresas\ny podrás participar de proyectos de factibilidad\nde grandes obras.",
+			"desc":"Tu rol será clave para elaborar leyes, reglamentos,\npolíticas y programas que involucren objetivos de conservación. Vas a evaluar el desempeño ambiental\nde empresas y podrás participar de proyectos\nde factibilidad de grandes obras.",
 			"tip1":"CONOCERÁS\nLAS LEYES\nAMBIENTALES",
 			"tip2":"APORTARÁS ALTERNATIVAS\nSUSTENTABLES PARA\nPRESERVAR EL ENTORNO",
 			"mapSlots":
@@ -611,7 +611,7 @@
 			"categoria": 3,
 			"name":"Licenciatura en Energías Renovables",
 			"duration":"4 años", 
-			"desc":"Tu rol será clave para contribuir al desarrollo\nde sistemas energéticos sustentables.\nVas a tener un amplio campo laboral y podrás desempeñarte\nen distintas tareas en la industria energética.",
+			"desc":"Tu rol será clave para contribuir al desarrollo\nde sistemas energéticos sustentables.\nVas a tener un amplio campo laboral y podrás desempeñarte en distintas tareas en\nla industria energética.",
 			"tip1":"CONOCERÁS\nSISTEMAS ENERGÉTICOS\nSUSTENTABLES",
 			"tip2":"DESARROLLARÁS\nENERGÍAS\nRENOVABLES",
 			"mapSlots":
@@ -901,7 +901,7 @@
 			"categoria": 4,
 			"name":"Ingeniería Electromecánica",
 			"duration":"5 años", 
-			"desc":"Vas a ser un experto en proyectar, dirigir,\nejecutar y mantener sistemas que impliquen la mecánica,\nla electricidad, la electrónica o la combinación de ellas.",
+			"desc":"Vas a ser un experto en proyectar, dirigir,\nejecutar y mantener sistemas que impliquen\nla mecánica, la electricidad, la electrónica o\nla combinación de ellas.",
 			"tip1":"DISEÑARÁS Y\nCONSTRUIRÁS SISTEMAS\nELECTROMECÁNICOS",
 			"tip2":"OPTIMIZARÁS\nLA OPERACIÓN\nDE MAQUINARIA",
 			"mapSlots":

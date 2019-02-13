@@ -63,7 +63,7 @@ public class Share : MonoBehaviour {
 			if (text == "")
 				ResetWhatsapp ();
 			else {
-				text = GetComponent<CountriesManager> ().data.number.ToString () + "-" + text;
+				text = GetComponent<CountriesManager> ().data.number.ToString () + text;
 				whatsapp_field.text = text;
 			}
 		} else {

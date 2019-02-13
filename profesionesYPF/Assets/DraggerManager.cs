@@ -17,7 +17,7 @@ public class DraggerManager : MonoBehaviour {
 
 	Stickers stickers;
 	public Vector2 restrictions;
-	float offset = 20;
+	float offset = 60;
 
 	public int totalTouches;
 	int allTouchesPosible = 2;
@@ -42,7 +42,9 @@ public class DraggerManager : MonoBehaviour {
 			Vector2 pos = Input.mousePosition;
 
 
-		if (Input.touchCount > 1 && restrictions == Vector2.zero) {
+		if (Input.touchCount > 1 
+			//&& restrictions == Vector2.zero
+		) {
 	
 
 			Vector2 pos1 = Input.touches [allTouchesPosible-2].position;
@@ -117,8 +119,8 @@ public class DraggerManager : MonoBehaviour {
 
 		if(restrictions != Vector2.zero)
 		{
-			dragger.transform.localEulerAngles = Vector3.zero;
-			sc = Vector3.one;
+			//dragger.transform.localEulerAngles = Vector3.zero;
+			//sc = Vector3.one;
 		}
 		
 		if (sprite == null) {

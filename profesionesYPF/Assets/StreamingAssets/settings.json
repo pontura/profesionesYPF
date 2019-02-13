@@ -1,9 +1,9 @@
 {
 	"___TESTING____ip_server"			: "http://ypf.reweb.com.ar:8080/store-and-forward-0.0.1/",
-	"___TESTING____url_photo_folder"	: "/",
+	"___TESTING____url_photo_folder"	: "c:/fotos/",
 	
-	"ip_server": "http://ypf.reweb.com.ar:8080/store-and-forward-0.0.1/",
-	"url_photo_folder": "c:/photos/",
+	"ip_server": "http://172.16.100.148:8080/store-and-forward-0.0.1/",
+	"url_photo_folder": "z:/",
 	
 	"vote":
 	[
@@ -56,7 +56,7 @@
 	[
 		{
 			"name": "Argentina",
-			"number": "54"
+			"number": "549"
 		},
 		{
 			"name": "Afganistán",

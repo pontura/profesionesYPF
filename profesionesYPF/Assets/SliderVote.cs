@@ -15,7 +15,7 @@ public class SliderVote : MonoBehaviour {
 			return;
 		lastValue = value;
 
-		Data.Instance.vote = (int)Mathf.Round (value);
-		field.text = Data.Instance.dataConfig.settings.vote [Data.Instance.vote];
+		Data.Instance.vote = (int)Mathf.Round (value)+1;
+		field.text = Data.Instance.dataConfig.settings.vote [Data.Instance.vote-1];
 	}
 }

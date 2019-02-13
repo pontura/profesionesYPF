@@ -98,10 +98,10 @@ public class Stickers : MonoBehaviour {
 		newSticker.Init (this, sprite, restrictMovement);
 		newSticker.transform.localScale = _scale;
 
-		if (restrictMovement == Vector2.zero)
+		//if (restrictMovement == Vector2.zero)
 			newSticker.transform.localEulerAngles = rot;
-		else
-			newSticker.transform.localEulerAngles =  Vector3.zero;
+		//else
+			//newSticker.transform.localEulerAngles =  Vector3.zero;
 	}
 
 	bool done;
